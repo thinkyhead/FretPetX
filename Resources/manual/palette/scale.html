@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Scale Palette</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>scale palette</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="chord.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="guitar.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li><a href="toolbar.html">Toolbar</a></li>
+						<li><a href="chord.html">Chord Palette</a></li>
+						<li class="current">Scale Palette</li>
+						<li><a href="guitar.html">Guitar Palette</a></li>
+						<li><a href="keyboard.html">Keyboard Palette</a></li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li><a href="info.html">Info Palette</a></li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img width="280" height="241" src="_img/scale.png" border="0" />
+		</div>
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr>
+		<td width="50%">
+		<ul>
+		<li><a href="#About">About the Scale Palette</a></li>
+		<li><a href="#Features">Palette Features</a></li>
+		<li><a href="#Arrows">Scale Arrows</a></li>
+		<li><a href="#Mode">Current Scale</a></li>
+		<li><a href="#Scale Heading">Scale Heading</a></li>
+		</ul>
+		</td><td>
+		<ul>
+		<li><a href="#Box">The Scale Box</a></li>
+		<li><a href="#ScaleCurs">Scale Cursor</a></li>
+		<li><a href="#Lightbulb">Illumination Button</a></li>
+		<li><a href="#modifier">Tone Modifier</a></li>
+		<li><a href="#Scales">Scales and Chords</a></li>
+		</ul>
+		</td>
+		</tr></table>
+		</div>
+
+		<h2><a name="About"></a>About the Scale Palette</h2>
+		<p>The Scale Palette serves several functions. First, it gives you a
+			complete overview of all 12 keys for any scale. You can use the
+			Scale Palette as a reference to see how tones function in different
+			modes and keys.</p>
+
+		<p>The Scale Palette also provides the means to set the context of your
+			chords. You can define the key to which a chord belongs and which
+			note in that key will serve as the <a class="gloss"
+			href="../section/glossary.html#Root">root note</a> of the chord (and
+			that determines how the chord is named).</p>
+
+		<p>Finally, you can use the Scale Palette to add tones and triads to
+			your chords by double and triple-clicking.</p>
+
+		<!--
+
+			Palette Features
+
+		-->
+
+		<h2><a name="Features"></a>Palette Features</h2>
+		<dl>
+			<dt><a name="Mode"></a>Current Mode / Scale</dt>
+			<dd>There are 10 scales available: the 7 <a class="gloss"
+				href="../section/glossary.html#Mode">modes</a> of the Major
+				Scale, Harmonic Minor, Melodic Minor, and Oriental. The color of
+				the scale's name indicates that the scale is Major, Minor, or
+				Diminished. </dd>
+
+			<dt><a name="Arrows"></a>Scale Arrows</dt>
+			<dd>Use these arrows to change scales.</dd>
+
+			<dt><a name="Scale Heading"></a>Scale Heading</dt>
+			<dd>These are the tones of the Current Mode as they relate to the <a
+				href="../section/glossary.html#Major%20Scale" class="gloss">Major Scale</a>.
+				These are color coded to indicate the type of <a
+				href="../section/glossary.html#Chord%20Harmony" class="gloss">chord harmony</a>
+				that extends from each <a href="../section/glossary.html#Scale%20Degree" class="gloss">scale degree</a>. There are four types indicated: Major,
+				Minor, Diminished, and Other (in gray).</dd>
+
+			<dt><a name="Keycol"></a>Key Column</dt>
+			<dd>The twelve keys are arranged by default in the order of the <a
+				href="../section/glossary.html#Circle%20of%205ths" class="gloss">Circle of
+				Fifths</a>. You can click and drag in the Key Column to move the
+				Scale Cursor between keys without affecting the horizontal
+				position.</dd>
+
+			<dt><a name="Box"></a>Scale Box</dt>
+			<dd><p>All the scales are laid out here for you to see and interact with.
+				You move the Scale Cursor by clicking in this box. You can also:</p>
+				<ul>
+				<li>Double-click to add a tone to the Current Chord.</li>
+				<li>⌥ Double-click to subtract a tone from the Current Chord.</li>
+				<li>Triple-click to add a <a href="../section/glossary.html#Triad" class="gloss">triad</a> to the Current Chord.</li>
+				<li>⌥ Triple-click to subtract a triad from the Current Chord.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="ScaleCurs"></a>Scale Cursor</dt>
+			<dd>
+				<p>You use the Scale Cursor to browse tones in the scale and to
+					select a root tone for the Current Chord. A yellow border
+					indicates that a tone is the root of the Current Chord.</p>
+				<ul>
+					<li>The ⌥↑ ⌥↓ ⌥← ⌥→ key combinations move the Scale
+						Cursor.</li>
+					<li>⌥ Tab adds the Scale Tone to the Current Chord and moves
+						the Scale Cursor up a third.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="Lightbulb"></a>Illumination Button</dt>
+			<dd>Click this button to toggle tone illumination. When enabled,
+				tones in the Current Chord are illuminated in the scale, and
+				only the illuminated tones ring out when you click on them. When
+				disabled all tones ring when you click on them.</dd>
+
+			<dt><a name="modifier"></a>Tone Modifier</dt>
+			<dd>
+				<p>The tone modifier gives you access to tones outside the
+					current keyscale by raising or lowering the tone at the
+					Scale Cursor. The tone modifier remains in effect until you
+					select a new chord or perform some operation that updates
+					the chord root.</p>
+			</dd>
+
+		</dl>
+
+		<!--
+
+			Chords and Scales
+
+		-->
+
+		<h2><a name="Scales"></a>Chords and Scales</h2>
+
+		<p>Chords are customarily built from three or more tones. (Two tones are
+			called a <a href="../section/glossary.html#Harmony" class="gloss">harmony</a>.) So
+			to build a complete C <a
+			href="../section/glossary.html#Triad" class="gloss">triad</a> start with the Root
+			(C), add its third (E), and the next third (G). You can add a triad
+			in a single step by triple-clicking on any note in the scale or by
+			using the <a href="toolbar.html#triad">Triad Button</a>.</p>
+
+		<p>Scales and chords are intimately related. A chord is said to
+			&quot;belong&quot; to a scale if it contains only tones that appear
+			in that scale. Any particular chord may fit into more than one key,
+			which is what makes it possible to move between keys. The more notes
+			a chord has the fewer keys it will fit.</p>
+
+		<p>Every 7-tone scale has 7 basic <a
+			href="../section/glossary.html#Chord%20Harmony" class="gloss">chord harmonies</a>
+			from which all its other chords are built. Each harmony is built
+			from three successive <a
+			href="../section/glossary.html#Third" class="gloss">thirds</a> starting from its
+			position in the scale. (A third corresponds to three steps in the
+			scale, so for example if we want to find the tone a third up from F
+			in the Ionian Scale we count F-G-A, which tells us that A is a third
+			away from F.)</p>
+
+		<p>The seven harmonies of the key of C are shown here:</p>
+
+		<div align="center">
+		<table width="200" class="clean">
+		<tr align="center"><th>Degree</th><th>Chord</th><th>Tones</th></tr>
+		<tr align="center"><td>I</td><td>C</td><td>C E G</td></tr>
+		<tr align="center"><td>II</td><td>Dm</td><td>D F A</td></tr>
+		<tr align="center"><td>III</td><td>Em</td><td>E G B</td></tr>
+		<tr align="center"><td>IV</td><td>F</td><td>F A C</td></tr>
+		<tr align="center"><td>V</td><td>G</td><td>G B D</td></tr>
+		<tr align="center"><td>VI</td><td>Am</td><td>A C E</td></tr>
+		<tr align="center"><td>VII</td><td>B<sup>o</sup></td><td>B D F</td></tr>
+		</table>
+		</div>
+
+  </div>
+</div>
+
+</div></body>
+</html>

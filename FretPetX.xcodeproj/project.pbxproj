@@ -1,0 +1,2522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		228B3F1E0E2922A7003C76F7 /* Doxygen */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 228B3F230E2922C5003C76F7 /* Build configuration list for PBXAggregateTarget "Doxygen" */;
+			buildPhases = (
+				228B3F1D0E2922A7003C76F7 /* ShellScript */,
+			);
+			comments = "This target generates Doxygen source code for all files in the target.";
+			dependencies = (
+			);
+			name = Doxygen;
+			productName = Doxygen;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		22001E380E18455600E30C14 /* TMidiOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22001E360E18455600E30C14 /* TMidiOutput.cpp */; };
+		222DAF351325D460005B5C66 /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAF341325D460005B5C66 /* IOKit.framework */; };
+		222DB180132704C9005B5C66 /* Release Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 222DB17F132704C9005B5C66 /* Release Notes.pdf */; };
+		222DB181132704C9005B5C66 /* Release Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 222DB17F132704C9005B5C66 /* Release Notes.pdf */; };
+		2241375713BEF4040036565E /* FPMidiHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2241375613BEF4040036565E /* FPMidiHelper.cpp */; };
+		2241375813BEF4040036565E /* FPMidiHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2241375613BEF4040036565E /* FPMidiHelper.cpp */; };
+		2242047C13B9372400E74428 /* TRecentItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2242047A13B9372400E74428 /* TRecentItems.cpp */; };
+		2242047D13B9372400E74428 /* TRecentItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2242047A13B9372400E74428 /* TRecentItems.cpp */; };
+		22438C9219A6C5540081B5F3 /* FPKagiSA.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22C82C9E1462011200E663F4 /* FPKagiSA.mm */; };
+		2254137912E0F3BC00BDCE01 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BDF6915306FE63C9003C537B /* images */; };
+		2254137D12E0F3BC00BDCE01 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53310508665EF700B229ED /* Localizable.strings */; };
+		2254137E12E0F3BC00BDCE01 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53312D08665FF400B229ED /* InfoPlist.strings */; };
+		2254137F12E0F3BC00BDCE01 /* English in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157009A74AE900115250 /* English */; };
+		2254138012E0F3BC00BDCE01 /* French in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157A09A74B3500115250 /* French */; };
+		2254138112E0F3BC00BDCE01 /* Italian in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157B09A74B3900115250 /* Italian */; };
+		2254138412E0F3BC00BDCE01 /* Guitars in Resources */ = {isa = PBXBuildFile; fileRef = BD6321850B73F6BC005262D0 /* Guitars */; };
+		2254138812E0F3BC00BDCE01 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20286C2BFDCF999611CA2CEA /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		2254138912E0F3BC00BDCE01 /* TWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE3759F057351B1000D6223 /* TWindow.cpp */; };
+		2254138B12E0F3BC00BDCE01 /* FPDocWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD22B14B05736C52004790D4 /* FPDocWindow.cpp */; };
+		2254138D12E0F3BC00BDCE01 /* FPScalePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD050578470300324BCE /* FPScalePalette.cpp */; };
+		2254138E12E0F3BC00BDCE01 /* FPChordPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD49057854D800324BCE /* FPChordPalette.cpp */; };
+		2254138F12E0F3BC00BDCE01 /* FPCirclePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */; };
+		2254139012E0F3BC00BDCE01 /* FPGuitarPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */; };
+		2254139112E0F3BC00BDCE01 /* FPPianoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD690578556800324BCE /* FPPianoPalette.cpp */; };
+		2254139212E0F3BC00BDCE01 /* FPToolbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD6F0578558300324BCE /* FPToolbar.cpp */; };
+		2254139312E0F3BC00BDCE01 /* TControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8C16CA057D526F00970DD1 /* TControls.cpp */; };
+		2254139412E0F3BC00BDCE01 /* FPGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */; };
+		2254139512E0F3BC00BDCE01 /* FPChord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD83560E058C176F00504128 /* FPChord.cpp */; };
+		2254139612E0F3BC00BDCE01 /* FPMusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC690880637C35C00637422 /* FPMusicPlayer.cpp */; };
+		2254139712E0F3BC00BDCE01 /* FPAboutBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */; };
+		2254139812E0F3BC00BDCE01 /* FPUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */; };
+		2254139912E0F3BC00BDCE01 /* FPDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */; };
+		2254139A12E0F3BC00BDCE01 /* FPPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1A688007443618000B672A /* FPPreferences.cpp */; };
+		2254139B12E0F3BC00BDCE01 /* FPWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC93B1A07471D1600190332 /* FPWindow.cpp */; };
+		2254139C12E0F3BC00BDCE01 /* TFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD58DAAE0759782F0096908B /* TFile.cpp */; };
+		2254139D12E0F3BC00BDCE01 /* NavServicesSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */; };
+		2254139E12E0F3BC00BDCE01 /* FPClipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB7DC810784F68900F50909 /* FPClipboard.cpp */; };
+		2254139F12E0F3BC00BDCE01 /* TTrackingRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */; };
+		225413A012E0F3BC00BDCE01 /* FPHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */; };
+		225413A112E0F3BC00BDCE01 /* FPCustomTuning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */; };
+		225413A212E0F3BC00BDCE01 /* FPDiagramPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */; };
+		225413A312E0F3BC00BDCE01 /* FPTuningInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */; };
+		225413A512E0F3BC00BDCE01 /* TDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6094CC08333DF000203BBB /* TDictionary.cpp */; };
+		225413A612E0F3BC00BDCE01 /* FPChannelsPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */; };
+		225413A712E0F3BC00BDCE01 /* FPInfoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */; };
+		225413AA12E0F3BC00BDCE01 /* FPGuitarArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */; };
+		225413AB12E0F3BC00BDCE01 /* FPGuitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320F40B73F291005262D0 /* FPGuitar.cpp */; };
+		225413AC12E0F3BC00BDCE01 /* FPPaletteGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */; };
+		225413AD12E0F3BC00BDCE01 /* FPFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */; };
+		225413AE12E0F3BC00BDCE01 /* FPContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */; };
+		225413AF12E0F3BC00BDCE01 /* FPSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */; };
+		225413B012E0F3BC00BDCE01 /* FPSpriteLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */; };
+		225413B212E0F3BC00BDCE01 /* TError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */; };
+		225413B312E0F3BC00BDCE01 /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */; };
+		225413B412E0F3BC00BDCE01 /* TMidiOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22001E360E18455600E30C14 /* TMidiOutput.cpp */; };
+		225413B512E0F3BC00BDCE01 /* TCustomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */; };
+		225413B612E0F3BC00BDCE01 /* TControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D730E273DBF00A5B7B6 /* TControl.cpp */; };
+		225413B712E0F3BC00BDCE01 /* TCustomControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */; };
+		225413B812E0F3BC00BDCE01 /* TPictureControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */; };
+		225413B912E0F3BC00BDCE01 /* TTextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */; };
+		225413BA12E0F3BC00BDCE01 /* TSpriteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */; };
+		225413BB12E0F3BC00BDCE01 /* CGHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */; };
+		225413BC12E0F3BC00BDCE01 /* TMusicOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */; };
+		225413BF12E0F3BC00BDCE01 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		225413C012E0F3BC00BDCE01 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E3057378F9004790D4 /* OpenGL.framework */; };
+		225413C112E0F3BC00BDCE01 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E505737903004790D4 /* AGL.framework */; };
+		225413C212E0F3BC00BDCE01 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E705737912004790D4 /* QuickTime.framework */; };
+		225413C312E0F3BC00BDCE01 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCD187007091CC9005108D4 /* CoreMIDI.framework */; };
+		225413C612E0F3BC00BDCE01 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B156F09A74AE900115250 /* FretPet.rsrc */; };
+		225413C712E0F3BC00BDCE01 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B15A409A74EBF00115250 /* FretPet.rsrc */; };
+		225414EA12E0FD4D00BDCE01 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262965910E623FB005F88D6 /* Sparkle.framework */; };
+		2255761813E058FC0007DC1B /* FretPet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F8C85413D32C6C003AB610 /* FretPet.xib */; };
+		2279ACBA15CA40E600592BC0 /* images in Resources */ = {isa = PBXBuildFile; fileRef = BDF6915306FE63C9003C537B /* images */; };
+		2279ACBC15CA40E600592BC0 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53310508665EF700B229ED /* Localizable.strings */; };
+		2279ACBD15CA40E600592BC0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53312D08665FF400B229ED /* InfoPlist.strings */; };
+		2279ACBE15CA40E600592BC0 /* English in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157009A74AE900115250 /* English */; };
+		2279ACBF15CA40E600592BC0 /* French in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157A09A74B3500115250 /* French */; };
+		2279ACC015CA40E600592BC0 /* Italian in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157B09A74B3900115250 /* Italian */; };
+		2279ACC215CA40E600592BC0 /* Guitars in Resources */ = {isa = PBXBuildFile; fileRef = BD6321850B73F6BC005262D0 /* Guitars */; };
+		2279ACC315CA40E600592BC0 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8090230BAFAD7A005356E3 /* about.png */; };
+		2279ACC415CA40E600592BC0 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 22BD232B10E35EDB00054B2F /* dsa_pub.pem */; };
+		2279ACC515CA40E600592BC0 /* Release Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 222DB17F132704C9005B5C66 /* Release Notes.pdf */; };
+		2279ACC615CA40E600592BC0 /* FretPet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F8C85413D32C6C003AB610 /* FretPet.xib */; };
+		2279ACC915CA40E600592BC0 /* TSynthOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB44380E648C400092FB35 /* TSynthOutput.cpp */; };
+		2279ACCA15CA40E600592BC0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20286C2BFDCF999611CA2CEA /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		2279ACCB15CA40E600592BC0 /* TWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE3759F057351B1000D6223 /* TWindow.cpp */; };
+		2279ACCC15CA40E600592BC0 /* FPDocWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD22B14B05736C52004790D4 /* FPDocWindow.cpp */; };
+		2279ACCD15CA40E600592BC0 /* FPScalePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD050578470300324BCE /* FPScalePalette.cpp */; };
+		2279ACCE15CA40E600592BC0 /* FPChordPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD49057854D800324BCE /* FPChordPalette.cpp */; };
+		2279ACCF15CA40E600592BC0 /* FPCirclePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */; };
+		2279ACD015CA40E600592BC0 /* FPGuitarPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */; };
+		2279ACD115CA40E600592BC0 /* FPPianoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD690578556800324BCE /* FPPianoPalette.cpp */; };
+		2279ACD215CA40E600592BC0 /* FPToolbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD6F0578558300324BCE /* FPToolbar.cpp */; };
+		2279ACD315CA40E600592BC0 /* TControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8C16CA057D526F00970DD1 /* TControls.cpp */; };
+		2279ACD415CA40E600592BC0 /* FPGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */; };
+		2279ACD515CA40E600592BC0 /* FPChord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD83560E058C176F00504128 /* FPChord.cpp */; };
+		2279ACD615CA40E600592BC0 /* FPMusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC690880637C35C00637422 /* FPMusicPlayer.cpp */; };
+		2279ACD715CA40E600592BC0 /* FPAboutBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */; };
+		2279ACD815CA40E600592BC0 /* FPUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */; };
+		2279ACD915CA40E600592BC0 /* FPDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */; };
+		2279ACDA15CA40E600592BC0 /* FPPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1A688007443618000B672A /* FPPreferences.cpp */; };
+		2279ACDB15CA40E600592BC0 /* FPWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC93B1A07471D1600190332 /* FPWindow.cpp */; };
+		2279ACDC15CA40E600592BC0 /* TFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD58DAAE0759782F0096908B /* TFile.cpp */; };
+		2279ACDD15CA40E600592BC0 /* NavServicesSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */; };
+		2279ACDE15CA40E600592BC0 /* FPClipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB7DC810784F68900F50909 /* FPClipboard.cpp */; };
+		2279ACDF15CA40E600592BC0 /* TTrackingRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */; };
+		2279ACE015CA40E600592BC0 /* FPHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */; };
+		2279ACE115CA40E600592BC0 /* FPCustomTuning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */; };
+		2279ACE215CA40E600592BC0 /* FPDiagramPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */; };
+		2279ACE315CA40E600592BC0 /* FPTuningInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */; };
+		2279ACE415CA40E600592BC0 /* FPAuthorizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD698B108107F12006AFF9D /* FPAuthorizer.cpp */; };
+		2279ACE515CA40E600592BC0 /* TDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6094CC08333DF000203BBB /* TDictionary.cpp */; };
+		2279ACE615CA40E600592BC0 /* FPChannelsPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */; };
+		2279ACE715CA40E600592BC0 /* FPInfoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */; };
+		2279ACE815CA40E600592BC0 /* FPGuitarArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */; };
+		2279ACE915CA40E600592BC0 /* FPGuitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320F40B73F291005262D0 /* FPGuitar.cpp */; };
+		2279ACEA15CA40E600592BC0 /* FPPaletteGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */; };
+		2279ACEB15CA40E600592BC0 /* FPFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */; };
+		2279ACEC15CA40E600592BC0 /* FPContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */; };
+		2279ACED15CA40E600592BC0 /* FPSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */; };
+		2279ACEE15CA40E600592BC0 /* FPSpriteLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */; };
+		2279ACEF15CA40E600592BC0 /* TError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */; };
+		2279ACF015CA40E600592BC0 /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */; };
+		2279ACF115CA40E600592BC0 /* TMidiOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22001E360E18455600E30C14 /* TMidiOutput.cpp */; };
+		2279ACF215CA40E600592BC0 /* TCustomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */; };
+		2279ACF315CA40E600592BC0 /* TControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D730E273DBF00A5B7B6 /* TControl.cpp */; };
+		2279ACF415CA40E600592BC0 /* TCustomControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */; };
+		2279ACF515CA40E600592BC0 /* TPictureControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */; };
+		2279ACF615CA40E600592BC0 /* TTextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */; };
+		2279ACF715CA40E600592BC0 /* TSpriteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */; };
+		2279ACF815CA40E600592BC0 /* CGHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */; };
+		2279ACF915CA40E600592BC0 /* TMusicOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */; };
+		2279ACFA15CA40E600592BC0 /* TQTOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A430613B6936300E2A13B /* TQTOutput.cpp */; };
+		2279ACFB15CA40E600592BC0 /* TRecentItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2242047A13B9372400E74428 /* TRecentItems.cpp */; };
+		2279ACFC15CA40E600592BC0 /* FPExportFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B76AAB13B9CEDD00D3D71D /* FPExportFile.cpp */; };
+		2279ACFD15CA40E600592BC0 /* FPDocControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */; };
+		2279ACFE15CA40E600592BC0 /* FPCloneSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */; };
+		2279ACFF15CA40E600592BC0 /* FPMidiHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2241375613BEF4040036565E /* FPMidiHelper.cpp */; };
+		2279AD0015CA40E600592BC0 /* FPApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75513FB6C23000B444E /* FPApplication.mm */; };
+		2279AD0115CA40E600592BC0 /* FPPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75813FC53EA000B444E /* FPPalette.cpp */; };
+		2279AD0215CA40E600592BC0 /* TString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B67C13FF506500D7BE27 /* TString.cpp */; };
+		2279AD0515CA40E600592BC0 /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		2279AD0615CA40E600592BC0 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E3057378F9004790D4 /* OpenGL.framework */; };
+		2279AD0715CA40E600592BC0 /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E505737903004790D4 /* AGL.framework */; };
+		2279AD0815CA40E600592BC0 /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCD187007091CC9005108D4 /* CoreMIDI.framework */; };
+		2279AD0915CA40E600592BC0 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262965910E623FB005F88D6 /* Sparkle.framework */; };
+		2279AD0A15CA40E600592BC0 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */; };
+		2279AD0B15CA40E600592BC0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */; };
+		2279AD0C15CA40E600592BC0 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE930C13B5D38600DAAAC4 /* QuickTime.framework */; };
+		2279AD0D15CA40E600592BC0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6D75213FB6724000B444E /* Cocoa.framework */; };
+		2279AD1015CA40E600592BC0 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B156F09A74AE900115250 /* FretPet.rsrc */; };
+		2279AD1115CA40E600592BC0 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B15A409A74EBF00115250 /* FretPet.rsrc */; };
+		2279AD1315CA40E600592BC0 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2262965910E623FB005F88D6 /* Sparkle.framework */; };
+		2279AD1C15CA410600592BC0 /* BigInt.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9C68EE099DE6EE0007509A /* BigInt.cpp */; };
+		2279AD1D15CA410900592BC0 /* GenericDecode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9C68E9099DE6DB0007509A /* GenericDecode.cpp */; };
+		2279AD1E15CA410D00592BC0 /* libZonicKRM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD9C68DB099DE5C30007509A /* libZonicKRM.a */; };
+		227A430813B6936300E2A13B /* TQTOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A430613B6936300E2A13B /* TQTOutput.cpp */; };
+		227A430913B6936300E2A13B /* TQTOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A430613B6936300E2A13B /* TQTOutput.cpp */; };
+		229CA46F1721781A00C8FF38 /* FPAuthorizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD698B108107F12006AFF9D /* FPAuthorizer.cpp */; };
+		22AAD79413B9F0730032ABD8 /* FPDocControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */; };
+		22AAD79513B9F0730032ABD8 /* FPDocControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */; };
+		22B69D750E273DBF00A5B7B6 /* TControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D730E273DBF00A5B7B6 /* TControl.cpp */; };
+		22B69D8B0E27438E00A5B7B6 /* TCustomControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */; };
+		22B69D9D0E274B4800A5B7B6 /* TPictureControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */; };
+		22B69DF10E274F0C00A5B7B6 /* TTextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */; };
+		22B69E2A0E2752B000A5B7B6 /* TSpriteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */; };
+		22B6D75313FB6724000B444E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6D75213FB6724000B444E /* Cocoa.framework */; };
+		22B6D75413FB6724000B444E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6D75213FB6724000B444E /* Cocoa.framework */; };
+		22B6D75613FB6C23000B444E /* FPApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75513FB6C23000B444E /* FPApplication.mm */; };
+		22B6D75713FB6C23000B444E /* FPApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75513FB6C23000B444E /* FPApplication.mm */; };
+		22B6D75913FC53EA000B444E /* FPPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75813FC53EA000B444E /* FPPalette.cpp */; };
+		22B6D75A13FC53EA000B444E /* FPPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75813FC53EA000B444E /* FPPalette.cpp */; };
+		22B6EF8C19A593C600D8E88F /* iTunesArtwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF8619A5926C00D8E88F /* iTunesArtwork@2x.png */; };
+		22B6EF8D19A593C600D8E88F /* FretPet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F8C85413D32C6C003AB610 /* FretPet.xib */; };
+		22B6EF8E19A593C600D8E88F /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8090230BAFAD7A005356E3 /* about.png */; };
+		22B6EF8F19A593C600D8E88F /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53310508665EF700B229ED /* Localizable.strings */; };
+		22B6EF9019A593C600D8E88F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53312D08665FF400B229ED /* InfoPlist.strings */; };
+		22B6EF9119A593C600D8E88F /* English in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157009A74AE900115250 /* English */; };
+		22B6EF9219A593C600D8E88F /* French in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157A09A74B3500115250 /* French */; };
+		22B6EF9419A593C600D8E88F /* Italian in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157B09A74B3900115250 /* Italian */; };
+		22B6EF9619A593C600D8E88F /* iTunesArtwork.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B6EF8519A5926C00D8E88F /* iTunesArtwork.png */; };
+		22B6EF9719A593C600D8E88F /* images in Resources */ = {isa = PBXBuildFile; fileRef = BDF6915306FE63C9003C537B /* images */; };
+		22B6EF9819A593C600D8E88F /* Guitars in Resources */ = {isa = PBXBuildFile; fileRef = BD6321850B73F6BC005262D0 /* Guitars */; };
+		22B6EF9919A593C600D8E88F /* Release Notes.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 222DB17F132704C9005B5C66 /* Release Notes.pdf */; };
+		22B6EF9B19A593C600D8E88F /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B156F09A74AE900115250 /* FretPet.rsrc */; };
+		22B6EF9C19A593C600D8E88F /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B15A409A74EBF00115250 /* FretPet.rsrc */; };
+		22B6EF9E19A593C600D8E88F /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20286C2BFDCF999611CA2CEA /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		22B6EF9F19A593C600D8E88F /* TWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE3759F057351B1000D6223 /* TWindow.cpp */; };
+		22B6EFA019A593C600D8E88F /* FPDocWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD22B14B05736C52004790D4 /* FPDocWindow.cpp */; };
+		22B6EFA119A593C600D8E88F /* FPScalePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD050578470300324BCE /* FPScalePalette.cpp */; };
+		22B6EFA219A593C600D8E88F /* FPChordPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD49057854D800324BCE /* FPChordPalette.cpp */; };
+		22B6EFA319A593C600D8E88F /* FPCirclePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */; };
+		22B6EFA419A593C600D8E88F /* FPGuitarPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */; };
+		22B6EFA519A593C600D8E88F /* FPPianoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD690578556800324BCE /* FPPianoPalette.cpp */; };
+		22B6EFA619A593C600D8E88F /* FPToolbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD6F0578558300324BCE /* FPToolbar.cpp */; };
+		22B6EFA719A593C600D8E88F /* TControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8C16CA057D526F00970DD1 /* TControls.cpp */; };
+		22B6EFA819A593C600D8E88F /* FPGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */; };
+		22B6EFA919A593C600D8E88F /* FPChord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD83560E058C176F00504128 /* FPChord.cpp */; };
+		22B6EFAA19A593C600D8E88F /* FPMusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC690880637C35C00637422 /* FPMusicPlayer.cpp */; };
+		22B6EFAB19A593C600D8E88F /* FPAboutBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */; };
+		22B6EFAC19A593C600D8E88F /* FPUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */; };
+		22B6EFAD19A593C600D8E88F /* FPDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */; };
+		22B6EFAE19A593C600D8E88F /* FPPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1A688007443618000B672A /* FPPreferences.cpp */; };
+		22B6EFAF19A593C600D8E88F /* FPWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC93B1A07471D1600190332 /* FPWindow.cpp */; };
+		22B6EFB019A593C600D8E88F /* TFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD58DAAE0759782F0096908B /* TFile.cpp */; };
+		22B6EFB119A593C600D8E88F /* NavServicesSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */; };
+		22B6EFB219A593C600D8E88F /* FPClipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB7DC810784F68900F50909 /* FPClipboard.cpp */; };
+		22B6EFB319A593C600D8E88F /* TTrackingRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */; };
+		22B6EFB419A593C600D8E88F /* FPHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */; };
+		22B6EFB519A593C600D8E88F /* FPCustomTuning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */; };
+		22B6EFB619A593C600D8E88F /* FPDiagramPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */; };
+		22B6EFB719A593C600D8E88F /* FPTuningInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */; };
+		22B6EFB819A593C600D8E88F /* TDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6094CC08333DF000203BBB /* TDictionary.cpp */; };
+		22B6EFB919A593C600D8E88F /* FPChannelsPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */; };
+		22B6EFBA19A593C600D8E88F /* FPInfoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */; };
+		22B6EFBB19A593C600D8E88F /* FPGuitarArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */; };
+		22B6EFBC19A593C600D8E88F /* FPGuitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320F40B73F291005262D0 /* FPGuitar.cpp */; };
+		22B6EFBD19A593C600D8E88F /* FPPaletteGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */; };
+		22B6EFBE19A593C600D8E88F /* FPFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */; };
+		22B6EFBF19A593C600D8E88F /* FPContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */; };
+		22B6EFC019A593C600D8E88F /* FPSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */; };
+		22B6EFC119A593C600D8E88F /* FPSpriteLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */; };
+		22B6EFC219A593C600D8E88F /* TError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */; };
+		22B6EFC319A593C600D8E88F /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */; };
+		22B6EFC419A593C600D8E88F /* TMidiOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22001E360E18455600E30C14 /* TMidiOutput.cpp */; };
+		22B6EFC519A593C600D8E88F /* TCustomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */; };
+		22B6EFC619A593C600D8E88F /* TControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D730E273DBF00A5B7B6 /* TControl.cpp */; };
+		22B6EFC719A593C600D8E88F /* TCustomControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */; };
+		22B6EFC819A593C600D8E88F /* TPictureControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */; };
+		22B6EFC919A593C600D8E88F /* TTextField.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */; };
+		22B6EFCA19A593C600D8E88F /* TSpriteControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */; };
+		22B6EFCB19A593C600D8E88F /* CGHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */; };
+		22B6EFCC19A593C600D8E88F /* TMusicOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */; };
+		22B6EFCD19A593C600D8E88F /* AppStoreValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA2E1328B8CB00D675AB /* AppStoreValidation.cpp */; };
+		22B6EFCE19A593C600D8E88F /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA331328C34100D675AB /* asn_codecs_prim.c */; };
+		22B6EFCF19A593C600D8E88F /* asn_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA361328C34100D675AB /* asn_SET_OF.c */; };
+		22B6EFD019A593C600D8E88F /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA391328C34100D675AB /* ber_decoder.c */; };
+		22B6EFD119A593C600D8E88F /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3B1328C34100D675AB /* ber_tlv_length.c */; };
+		22B6EFD219A593C600D8E88F /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3D1328C34100D675AB /* ber_tlv_tag.c */; };
+		22B6EFD319A593C600D8E88F /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3F1328C34100D675AB /* BIT_STRING.c */; };
+		22B6EFD419A593C600D8E88F /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA411328C34100D675AB /* constr_SEQUENCE.c */; };
+		22B6EFD519A593C600D8E88F /* constr_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA431328C34100D675AB /* constr_SET_OF.c */; };
+		22B6EFD619A593C600D8E88F /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA451328C34100D675AB /* constr_TYPE.c */; };
+		22B6EFD719A593C600D8E88F /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA471328C34100D675AB /* constraints.c */; };
+		22B6EFD819A593C600D8E88F /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA4A1328C34100D675AB /* der_encoder.c */; };
+		22B6EFD919A593C600D8E88F /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA4C1328C34100D675AB /* INTEGER.c */; };
+		22B6EFDA19A593C600D8E88F /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA501328C34100D675AB /* NativeEnumerated.c */; };
+		22B6EFDB19A593C600D8E88F /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA521328C34100D675AB /* NativeInteger.c */; };
+		22B6EFDC19A593C600D8E88F /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA541328C34100D675AB /* OCTET_STRING.c */; };
+		22B6EFDD19A593C600D8E88F /* Payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA561328C34100D675AB /* Payload.c */; };
+		22B6EFDE19A593C600D8E88F /* FPAuthorizer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD698B108107F12006AFF9D /* FPAuthorizer.cpp */; };
+		22B6EFDF19A593C600D8E88F /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA581328C34100D675AB /* per_decoder.c */; };
+		22B6EFE019A593C600D8E88F /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5A1328C34100D675AB /* per_encoder.c */; };
+		22B6EFE119A593C600D8E88F /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5C1328C34100D675AB /* per_opentype.c */; };
+		22B6EFE219A593C600D8E88F /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5E1328C34100D675AB /* per_support.c */; };
+		22B6EFE319A593C600D8E88F /* ReceiptAttribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA601328C34100D675AB /* ReceiptAttribute.c */; };
+		22B6EFE419A593C600D8E88F /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA621328C34100D675AB /* xer_decoder.c */; };
+		22B6EFE519A593C600D8E88F /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA641328C34100D675AB /* xer_encoder.c */; };
+		22B6EFE619A593C600D8E88F /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA661328C34100D675AB /* xer_support.c */; };
+		22B6EFE719A593C600D8E88F /* TSynthOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB44380E648C400092FB35 /* TSynthOutput.cpp */; };
+		22B6EFE819A593C600D8E88F /* TQTOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 227A430613B6936300E2A13B /* TQTOutput.cpp */; };
+		22B6EFE919A593C600D8E88F /* TRecentItems.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2242047A13B9372400E74428 /* TRecentItems.cpp */; };
+		22B6EFEA19A593C600D8E88F /* FPExportFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B76AAB13B9CEDD00D3D71D /* FPExportFile.cpp */; };
+		22B6EFEB19A593C600D8E88F /* FPDocControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */; };
+		22B6EFEC19A593C600D8E88F /* FPCloneSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */; };
+		22B6EFED19A593C600D8E88F /* FPMidiHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2241375613BEF4040036565E /* FPMidiHelper.cpp */; };
+		22B6EFEE19A593C600D8E88F /* FPApplication.mm in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75513FB6C23000B444E /* FPApplication.mm */; };
+		22B6EFEF19A593C600D8E88F /* FPPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B6D75813FC53EA000B444E /* FPPalette.cpp */; };
+		22B6EFF019A593C600D8E88F /* TString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B67C13FF506500D7BE27 /* TString.cpp */; };
+		22B6EFF119A593C600D8E88F /* FPBankControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D12766166B36D400DB2690 /* FPBankControl.cpp */; };
+		22B6EFF319A593C600D8E88F /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2262965910E623FB005F88D6 /* Sparkle.framework */; };
+		22B6EFF419A593C600D8E88F /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		22B6EFF519A593C600D8E88F /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E3057378F9004790D4 /* OpenGL.framework */; };
+		22B6EFF619A593C600D8E88F /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E505737903004790D4 /* AGL.framework */; };
+		22B6EFF719A593C600D8E88F /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E705737912004790D4 /* QuickTime.framework */; };
+		22B6EFF819A593C600D8E88F /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCD187007091CC9005108D4 /* CoreMIDI.framework */; };
+		22B6EFF919A593C600D8E88F /* IOKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 222DAF341325D460005B5C66 /* IOKit.framework */; };
+		22B6EFFA19A593C600D8E88F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C1D2A313276D4000D1BD02 /* Security.framework */; };
+		22B6EFFB19A593C600D8E88F /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */; };
+		22B6EFFC19A593C600D8E88F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */; };
+		22B6EFFD19A593C600D8E88F /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22B6D75213FB6724000B444E /* Cocoa.framework */; };
+		22B6F00C19A5A85F00D8E88F /* FretPet.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F00B19A5A85F00D8E88F /* FretPet.iconset */; };
+		22B6F00D19A5A85F00D8E88F /* FretPet.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F00B19A5A85F00D8E88F /* FretPet.iconset */; };
+		22B6F00E19A5A85F00D8E88F /* FretPet.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F00B19A5A85F00D8E88F /* FretPet.iconset */; };
+		22B6F00F19A5A85F00D8E88F /* FretPet.iconset in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F00B19A5A85F00D8E88F /* FretPet.iconset */; };
+		22B6F01219A5AD6E00D8E88F /* FPFile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01019A5AD6E00D8E88F /* FPFile.icns */; };
+		22B6F01319A5AD6E00D8E88F /* FPFile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01019A5AD6E00D8E88F /* FPFile.icns */; };
+		22B6F01419A5AD6E00D8E88F /* FPFile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01019A5AD6E00D8E88F /* FPFile.icns */; };
+		22B6F01519A5AD6E00D8E88F /* FPFile.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01019A5AD6E00D8E88F /* FPFile.icns */; };
+		22B6F01619A5AD6E00D8E88F /* FPGuitar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */; };
+		22B6F01719A5AD6E00D8E88F /* FPGuitar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */; };
+		22B6F01819A5AD6E00D8E88F /* FPGuitar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */; };
+		22B6F01919A5AD6E00D8E88F /* FPGuitar.icns in Resources */ = {isa = PBXBuildFile; fileRef = 22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */; };
+		22B76AAE13B9CEDD00D3D71D /* FPExportFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22B76AAB13B9CEDD00D3D71D /* FPExportFile.cpp */; };
+		22BDE09811B9811900432295 /* dsa_pub.pem in Resources */ = {isa = PBXBuildFile; fileRef = 22BD232B10E35EDB00054B2F /* dsa_pub.pem */; };
+		22C0B68013FF506500D7BE27 /* TString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B67C13FF506500D7BE27 /* TString.cpp */; };
+		22C0B68113FF506500D7BE27 /* TString.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22C0B67C13FF506500D7BE27 /* TString.cpp */; };
+		22C1D2A413276D4000D1BD02 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22C1D2A313276D4000D1BD02 /* Security.framework */; };
+		22CB44400E64ABF80092FB35 /* TMusicOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */; };
+		22CDBA2F1328B8CB00D675AB /* AppStoreValidation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA2E1328B8CB00D675AB /* AppStoreValidation.cpp */; };
+		22CDBA681328C34100D675AB /* asn_codecs_prim.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA331328C34100D675AB /* asn_codecs_prim.c */; };
+		22CDBA691328C34100D675AB /* asn_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA361328C34100D675AB /* asn_SET_OF.c */; };
+		22CDBA6A1328C34100D675AB /* ber_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA391328C34100D675AB /* ber_decoder.c */; };
+		22CDBA6B1328C34100D675AB /* ber_tlv_length.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3B1328C34100D675AB /* ber_tlv_length.c */; };
+		22CDBA6C1328C34100D675AB /* ber_tlv_tag.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3D1328C34100D675AB /* ber_tlv_tag.c */; };
+		22CDBA6D1328C34100D675AB /* BIT_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA3F1328C34100D675AB /* BIT_STRING.c */; };
+		22CDBA6E1328C34100D675AB /* constr_SEQUENCE.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA411328C34100D675AB /* constr_SEQUENCE.c */; };
+		22CDBA6F1328C34100D675AB /* constr_SET_OF.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA431328C34100D675AB /* constr_SET_OF.c */; };
+		22CDBA701328C34100D675AB /* constr_TYPE.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA451328C34100D675AB /* constr_TYPE.c */; };
+		22CDBA711328C34100D675AB /* constraints.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA471328C34100D675AB /* constraints.c */; };
+		22CDBA731328C34100D675AB /* der_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA4A1328C34100D675AB /* der_encoder.c */; };
+		22CDBA741328C34100D675AB /* INTEGER.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA4C1328C34100D675AB /* INTEGER.c */; };
+		22CDBA771328C34100D675AB /* NativeEnumerated.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA501328C34100D675AB /* NativeEnumerated.c */; };
+		22CDBA781328C34100D675AB /* NativeInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA521328C34100D675AB /* NativeInteger.c */; };
+		22CDBA791328C34100D675AB /* OCTET_STRING.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA541328C34100D675AB /* OCTET_STRING.c */; };
+		22CDBA7A1328C34100D675AB /* Payload.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA561328C34100D675AB /* Payload.c */; };
+		22CDBA7B1328C34100D675AB /* per_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA581328C34100D675AB /* per_decoder.c */; };
+		22CDBA7C1328C34100D675AB /* per_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5A1328C34100D675AB /* per_encoder.c */; };
+		22CDBA7D1328C34100D675AB /* per_opentype.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5C1328C34100D675AB /* per_opentype.c */; };
+		22CDBA7E1328C34100D675AB /* per_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA5E1328C34100D675AB /* per_support.c */; };
+		22CDBA7F1328C34100D675AB /* ReceiptAttribute.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA601328C34100D675AB /* ReceiptAttribute.c */; };
+		22CDBA801328C34100D675AB /* xer_decoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA621328C34100D675AB /* xer_decoder.c */; };
+		22CDBA811328C34100D675AB /* xer_encoder.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA641328C34100D675AB /* xer_encoder.c */; };
+		22CDBA821328C34100D675AB /* xer_support.c in Sources */ = {isa = PBXBuildFile; fileRef = 22CDBA661328C34100D675AB /* xer_support.c */; };
+		22CE92F413B530EA00DAAAC4 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */; };
+		22CE92F513B530EA00DAAAC4 /* AudioUnit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */; };
+		22CE92F713B5310300DAAAC4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */; };
+		22CE92F813B5310300DAAAC4 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */; };
+		22CE92FF13B54DE900DAAAC4 /* TSynthOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB44380E648C400092FB35 /* TSynthOutput.cpp */; };
+		22CE930D13B5D38600DAAAC4 /* QuickTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 22CE930C13B5D38600DAAAC4 /* QuickTime.framework */; };
+		22CE931513B5DE5400DAAAC4 /* TSynthOutput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22CB44380E648C400092FB35 /* TSynthOutput.cpp */; };
+		22D12768166B36D400DB2690 /* FPBankControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D12766166B36D400DB2690 /* FPBankControl.cpp */; };
+		22D12769166B36D400DB2690 /* FPBankControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D12766166B36D400DB2690 /* FPBankControl.cpp */; };
+		22D1276A166B36D400DB2690 /* FPBankControl.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D12766166B36D400DB2690 /* FPBankControl.cpp */; };
+		22D35BED0E32F9FD00D83D0E /* CGHelper.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */; };
+		22D67AA012E12EB700877739 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 2262965910E623FB005F88D6 /* Sparkle.framework */; };
+		22F5ACA80E251F0C003DD005 /* TCustomWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */; };
+		22F9DD3413B9F377007D7D19 /* FPCloneSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */; };
+		22F9DD3513B9F377007D7D19 /* FPCloneSheet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */; };
+		BD3638010BACF63F0007FCE6 /* FPFrame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */; };
+		BD3638020BACF63F0007FCE6 /* FPContext.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */; };
+		BD3638030BACF63F0007FCE6 /* FPSprite.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */; };
+		BD3638040BACF63F0007FCE6 /* FPSpriteLayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */; };
+		BD3B157109A74AE900115250 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B156F09A74AE900115250 /* FretPet.rsrc */; };
+		BD3B15A509A74EBF00115250 /* FretPet.rsrc in Rez */ = {isa = PBXBuildFile; fileRef = BD3B15A409A74EBF00115250 /* FretPet.rsrc */; };
+		BD3C0DF209A939FF002D077E /* English in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157009A74AE900115250 /* English */; };
+		BD3C0DF309A93A04002D077E /* French in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157A09A74B3500115250 /* French */; };
+		BD3C0DF409A93A07002D077E /* Italian in Resources */ = {isa = PBXBuildFile; fileRef = BD3B157B09A74B3900115250 /* Italian */; };
+		BD44BAA10B7BFAEC00F43B80 /* FPGuitarArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */; };
+		BD44BAA20B7BFAED00F43B80 /* FPGuitar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6320F40B73F291005262D0 /* FPGuitar.cpp */; };
+		BD53310608665EF700B229ED /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53310508665EF700B229ED /* Localizable.strings */; };
+		BD53312F08665FF400B229ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BD53312D08665FF400B229ED /* InfoPlist.strings */; };
+		BD6321AF0B73F6BC005262D0 /* Guitars in Resources */ = {isa = PBXBuildFile; fileRef = BD6321850B73F6BC005262D0 /* Guitars */; };
+		BD8090260BAFAD7A005356E3 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8090230BAFAD7A005356E3 /* about.png */; };
+		BDC2134908665C5C008CC62E /* images in Resources */ = {isa = PBXBuildFile; fileRef = BDF6915306FE63C9003C537B /* images */; };
+		BDC2134F08665C5C008CC62E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 20286C2BFDCF999611CA2CEA /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		BDC2135008665C5C008CC62E /* TWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE3759F057351B1000D6223 /* TWindow.cpp */; };
+		BDC2135308665C5C008CC62E /* FPDocWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD22B14B05736C52004790D4 /* FPDocWindow.cpp */; };
+		BDC2135608665C5C008CC62E /* FPScalePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD050578470300324BCE /* FPScalePalette.cpp */; };
+		BDC2135708665C5C008CC62E /* FPChordPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD49057854D800324BCE /* FPChordPalette.cpp */; };
+		BDC2135808665C5C008CC62E /* FPCirclePalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */; };
+		BDC2135908665C5C008CC62E /* FPGuitarPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */; };
+		BDC2135A08665C5C008CC62E /* FPPianoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD690578556800324BCE /* FPPianoPalette.cpp */; };
+		BDC2135B08665C5C008CC62E /* FPToolbar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD6F0578558300324BCE /* FPToolbar.cpp */; };
+		BDC2135C08665C5C008CC62E /* TControls.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD8C16CA057D526F00970DD1 /* TControls.cpp */; };
+		BDC2135D08665C5C008CC62E /* FPGlobals.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */; };
+		BDC2135E08665C5C008CC62E /* FPChord.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD83560E058C176F00504128 /* FPChord.cpp */; };
+		BDC2135F08665C5C008CC62E /* FPMusicPlayer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC690880637C35C00637422 /* FPMusicPlayer.cpp */; };
+		BDC2136E08665C5C008CC62E /* FPAboutBox.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */; };
+		BDC2136F08665C5C008CC62E /* FPUtilities.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */; };
+		BDC2137008665C5C008CC62E /* FPDocument.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */; };
+		BDC2137108665C5C008CC62E /* FPPreferences.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD1A688007443618000B672A /* FPPreferences.cpp */; };
+		BDC2137208665C5C008CC62E /* FPWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDC93B1A07471D1600190332 /* FPWindow.cpp */; };
+		BDC2137308665C5C008CC62E /* TFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD58DAAE0759782F0096908B /* TFile.cpp */; };
+		BDC2137408665C5C008CC62E /* NavServicesSupport.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */; };
+		BDC2137508665C5C008CC62E /* FPClipboard.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDB7DC810784F68900F50909 /* FPClipboard.cpp */; };
+		BDC2137608665C5C008CC62E /* TTrackingRegion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */; };
+		BDC2137808665C5C008CC62E /* FPHistory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */; };
+		BDC2137908665C5C008CC62E /* FPCustomTuning.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */; };
+		BDC2137A08665C5C008CC62E /* FPDiagramPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */; };
+		BDC2139208665C5C008CC62E /* FPTuningInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */; };
+		BDC2139608665C5C008CC62E /* TDictionary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD6094CC08333DF000203BBB /* TDictionary.cpp */; };
+		BDC2139708665C5C008CC62E /* FPChannelsPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */; };
+		BDC2139808665C5C008CC62E /* FPInfoPalette.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */; };
+		BDC2139B08665C5C008CC62E /* Carbon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20286C33FDCF999611CA2CEA /* Carbon.framework */; };
+		BDC2139C08665C5C008CC62E /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E3057378F9004790D4 /* OpenGL.framework */; };
+		BDC2139D08665C5C008CC62E /* AGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BD22B1E505737903004790D4 /* AGL.framework */; };
+		BDC2139F08665C5C008CC62E /* CoreMIDI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BDCD187007091CC9005108D4 /* CoreMIDI.framework */; };
+		BDDE3EC70B894F5400E28F99 /* FPPaletteGL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */; };
+		BDF21AD80BBA1BFD0055FCC4 /* TError.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */; };
+		BDF21B880BBA233D0055FCC4 /* TCarbonEvent.cp in Sources */ = {isa = PBXBuildFile; fileRef = BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */; };
+		D2F8C85613D32C6C003AB610 /* FretPet.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2F8C85413D32C6C003AB610 /* FretPet.xib */; };
+		D2F8C85A13D32C91003AB610 /* about.png in Resources */ = {isa = PBXBuildFile; fileRef = BD8090230BAFAD7A005356E3 /* about.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2279AD1215CA40E600592BC0 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2279AD1315CA40E600592BC0 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22BD0DC910E7649A008691DF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				22D67AA012E12EB700877739 /* Sparkle.framework in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		20286C2BFDCF999611CA2CEA /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = Sources/main.cpp; sourceTree = "<group>"; };
+		20286C33FDCF999611CA2CEA /* Carbon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Carbon.framework; path = /System/Library/Frameworks/Carbon.framework; sourceTree = "<absolute>"; };
+		22001E350E18455600E30C14 /* TMidiOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMidiOutput.h; path = Sources/TMidiOutput.h; sourceTree = "<group>"; };
+		22001E360E18455600E30C14 /* TMidiOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TMidiOutput.cpp; path = Sources/TMidiOutput.cpp; sourceTree = "<group>"; };
+		222DAF341325D460005B5C66 /* IOKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOKit.framework; path = /System/Library/Frameworks/IOKit.framework; sourceTree = "<absolute>"; };
+		222DB17A13270469005B5C66 /* Release Notes.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = "Release Notes.rtf"; sourceTree = "<group>"; };
+		222DB17F132704C9005B5C66 /* Release Notes.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Release Notes.pdf"; sourceTree = "<group>"; };
+		2241375513BEF4040036565E /* FPMidiHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPMidiHelper.h; path = Sources/FPMidiHelper.h; sourceTree = "<group>"; };
+		2241375613BEF4040036565E /* FPMidiHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPMidiHelper.cpp; path = Sources/FPMidiHelper.cpp; sourceTree = "<group>"; };
+		2242047A13B9372400E74428 /* TRecentItems.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TRecentItems.cpp; path = Sources/TRecentItems.cpp; sourceTree = "<group>"; };
+		2242047B13B9372400E74428 /* TRecentItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TRecentItems.h; path = Sources/TRecentItems.h; sourceTree = "<group>"; };
+		225413CF12E0F3BC00BDCE01 /* FretPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225413D112E0F3BC00BDCE01 /* Info (App Store).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info (App Store).plist"; sourceTree = "<group>"; };
+		2254149512E0F46A00BDCE01 /* FretPet_AppStorePrefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretPet_AppStorePrefix.pch; path = Sources/FretPet_AppStorePrefix.pch; sourceTree = "<group>"; };
+		2262965910E623FB005F88D6 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Sparkle.framework; path = "With Carbon Support/Sparkle.framework"; sourceTree = "<group>"; };
+		2264C9B40E37F9BF0012FEAA /* TObjectDeque.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TObjectDeque.h; path = Sources/TObjectDeque.h; sourceTree = "<group>"; };
+		2264CA1C0E3813A40012FEAA /* TObjectList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TObjectList.h; path = Sources/TObjectList.h; sourceTree = "<group>"; };
+		2264CA1E0E38140B0012FEAA /* TObjectVector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TObjectVector.h; path = Sources/TObjectVector.h; sourceTree = "<group>"; };
+		2279AD1915CA40E600592BC0 /* FretPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		227A430613B6936300E2A13B /* TQTOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TQTOutput.cpp; path = Sources/TQTOutput.cpp; sourceTree = "<group>"; };
+		227A430713B6936300E2A13B /* TQTOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TQTOutput.h; path = Sources/TQTOutput.h; sourceTree = "<group>"; };
+		229DBC5114006AC800B90EEF /* FretPet.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = FretPet.entitlements; sourceTree = "<group>"; };
+		22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPDocControls.cpp; path = Sources/FPDocControls.cpp; sourceTree = "<group>"; };
+		22AAD79313B9F0730032ABD8 /* FPDocControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPDocControls.h; path = Sources/FPDocControls.h; sourceTree = "<group>"; };
+		22B69D720E273DBF00A5B7B6 /* TControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TControl.h; path = Sources/TControl.h; sourceTree = "<group>"; };
+		22B69D730E273DBF00A5B7B6 /* TControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TControl.cpp; path = Sources/TControl.cpp; sourceTree = "<group>"; };
+		22B69D880E27438E00A5B7B6 /* TCustomControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCustomControl.h; path = Sources/TCustomControl.h; sourceTree = "<group>"; };
+		22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TCustomControl.cpp; path = Sources/TCustomControl.cpp; sourceTree = "<group>"; };
+		22B69D9A0E274B4800A5B7B6 /* TPictureControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPictureControl.h; path = Sources/TPictureControl.h; sourceTree = "<group>"; };
+		22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TPictureControl.cpp; path = Sources/TPictureControl.cpp; sourceTree = "<group>"; };
+		22B69DEE0E274F0C00A5B7B6 /* TTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTextField.h; path = Sources/TTextField.h; sourceTree = "<group>"; };
+		22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TTextField.cpp; path = Sources/TTextField.cpp; sourceTree = "<group>"; };
+		22B69E270E2752B000A5B7B6 /* TSpriteControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSpriteControl.h; path = Sources/TSpriteControl.h; sourceTree = "<group>"; };
+		22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TSpriteControl.cpp; path = Sources/TSpriteControl.cpp; sourceTree = "<group>"; };
+		22B6D75213FB6724000B444E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = ../../../../../../../System/Library/Frameworks/Cocoa.framework; sourceTree = "<group>"; };
+		22B6D75513FB6C23000B444E /* FPApplication.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FPApplication.mm; path = Sources/FPApplication.mm; sourceTree = "<group>"; };
+		22B6D75813FC53EA000B444E /* FPPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPPalette.cpp; path = Sources/FPPalette.cpp; sourceTree = "<group>"; };
+		22B6EF8519A5926C00D8E88F /* iTunesArtwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iTunesArtwork.png; sourceTree = "<group>"; };
+		22B6EF8619A5926C00D8E88F /* iTunesArtwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "iTunesArtwork@2x.png"; sourceTree = "<group>"; };
+		22B6F00219A593C600D8E88F /* FretPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22B6F00419A5944B00D8E88F /* FretPet_MASDemo_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretPet_MASDemo_Prefix.pch; path = Sources/FretPet_MASDemo_Prefix.pch; sourceTree = "<group>"; };
+		22B6F00519A5988500D8E88F /* Info (MASDemo).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.mxml; path = "Info (MASDemo).plist"; sourceTree = "<group>"; };
+		22B6F00B19A5A85F00D8E88F /* FretPet.iconset */ = {isa = PBXFileReference; lastKnownFileType = folder.iconset; path = FretPet.iconset; sourceTree = "<group>"; };
+		22B6F01019A5AD6E00D8E88F /* FPFile.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FPFile.icns; sourceTree = "<group>"; };
+		22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = FPGuitar.icns; sourceTree = "<group>"; };
+		22B76AAB13B9CEDD00D3D71D /* FPExportFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPExportFile.cpp; path = Sources/FPExportFile.cpp; sourceTree = "<group>"; };
+		22B76AAC13B9CEDD00D3D71D /* FPExportFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPExportFile.h; path = Sources/FPExportFile.h; sourceTree = "<group>"; };
+		22BD0DAC10E76384008691DF /* FretPet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FretPet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22BD232B10E35EDB00054B2F /* dsa_pub.pem */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dsa_pub.pem; sourceTree = "<group>"; };
+		22C0B67C13FF506500D7BE27 /* TString.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TString.cpp; path = Sources/TString.cpp; sourceTree = "<group>"; };
+		22C0B67D13FF506500D7BE27 /* TString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TString.h; path = Sources/TString.h; sourceTree = "<group>"; };
+		22C1D2A313276D4000D1BD02 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		22C82C941461F8AB00E663F4 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/KSAProductOffer.nib; sourceTree = "<group>"; };
+		22C82C951461F8AB00E663F4 /* KSAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAObject.h; sourceTree = "<group>"; };
+		22C82C961461F8AB00E663F4 /* KSAResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSAResult.h; sourceTree = "<group>"; };
+		22C82C971461F8AB00E663F4 /* libKagiSA.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libKagiSA.a; sourceTree = "<group>"; };
+		22C82C9D1462011200E663F4 /* FPKagiSA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPKagiSA.h; path = Sources/FPKagiSA.h; sourceTree = "<group>"; };
+		22C82C9E1462011200E663F4 /* FPKagiSA.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = FPKagiSA.mm; path = Sources/FPKagiSA.mm; sourceTree = "<group>"; };
+		22CB44370E648C400092FB35 /* TSynthOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSynthOutput.h; path = Sources/TSynthOutput.h; sourceTree = "<group>"; };
+		22CB44380E648C400092FB35 /* TSynthOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TSynthOutput.cpp; path = Sources/TSynthOutput.cpp; sourceTree = "<group>"; };
+		22CB443D0E64ABF80092FB35 /* TMusicOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TMusicOutput.h; path = Sources/TMusicOutput.h; sourceTree = "<group>"; };
+		22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TMusicOutput.cpp; path = Sources/TMusicOutput.cpp; sourceTree = "<group>"; wrapsLines = 0; };
+		22CDBA2D1328B8CB00D675AB /* AppStoreValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppStoreValidation.h; path = Sources/AppStoreValidation.h; sourceTree = "<group>"; };
+		22CDBA2E1328B8CB00D675AB /* AppStoreValidation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = AppStoreValidation.cpp; path = Sources/AppStoreValidation.cpp; sourceTree = "<group>"; };
+		22CDBA311328C34100D675AB /* asn_application.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_application.h; sourceTree = "<group>"; };
+		22CDBA321328C34100D675AB /* asn_codecs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs.h; sourceTree = "<group>"; };
+		22CDBA331328C34100D675AB /* asn_codecs_prim.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_codecs_prim.c; sourceTree = "<group>"; };
+		22CDBA341328C34100D675AB /* asn_codecs_prim.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_codecs_prim.h; sourceTree = "<group>"; };
+		22CDBA351328C34100D675AB /* asn_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_internal.h; sourceTree = "<group>"; };
+		22CDBA361328C34100D675AB /* asn_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = asn_SET_OF.c; sourceTree = "<group>"; };
+		22CDBA371328C34100D675AB /* asn_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_SET_OF.h; sourceTree = "<group>"; };
+		22CDBA381328C34100D675AB /* asn_system.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = asn_system.h; sourceTree = "<group>"; };
+		22CDBA391328C34100D675AB /* ber_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_decoder.c; sourceTree = "<group>"; };
+		22CDBA3A1328C34100D675AB /* ber_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_decoder.h; sourceTree = "<group>"; };
+		22CDBA3B1328C34100D675AB /* ber_tlv_length.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_length.c; sourceTree = "<group>"; };
+		22CDBA3C1328C34100D675AB /* ber_tlv_length.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_length.h; sourceTree = "<group>"; };
+		22CDBA3D1328C34100D675AB /* ber_tlv_tag.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ber_tlv_tag.c; sourceTree = "<group>"; };
+		22CDBA3E1328C34100D675AB /* ber_tlv_tag.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ber_tlv_tag.h; sourceTree = "<group>"; };
+		22CDBA3F1328C34100D675AB /* BIT_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = BIT_STRING.c; sourceTree = "<group>"; };
+		22CDBA401328C34100D675AB /* BIT_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BIT_STRING.h; sourceTree = "<group>"; };
+		22CDBA411328C34100D675AB /* constr_SEQUENCE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SEQUENCE.c; sourceTree = "<group>"; };
+		22CDBA421328C34100D675AB /* constr_SEQUENCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SEQUENCE.h; sourceTree = "<group>"; };
+		22CDBA431328C34100D675AB /* constr_SET_OF.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_SET_OF.c; sourceTree = "<group>"; };
+		22CDBA441328C34100D675AB /* constr_SET_OF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_SET_OF.h; sourceTree = "<group>"; };
+		22CDBA451328C34100D675AB /* constr_TYPE.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constr_TYPE.c; sourceTree = "<group>"; };
+		22CDBA461328C34100D675AB /* constr_TYPE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constr_TYPE.h; sourceTree = "<group>"; };
+		22CDBA471328C34100D675AB /* constraints.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = constraints.c; sourceTree = "<group>"; };
+		22CDBA481328C34100D675AB /* constraints.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = constraints.h; sourceTree = "<group>"; };
+		22CDBA491328C34100D675AB /* converter-sample.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "converter-sample.c"; sourceTree = "<group>"; };
+		22CDBA4A1328C34100D675AB /* der_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = der_encoder.c; sourceTree = "<group>"; };
+		22CDBA4B1328C34100D675AB /* der_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = der_encoder.h; sourceTree = "<group>"; };
+		22CDBA4C1328C34100D675AB /* INTEGER.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = INTEGER.c; sourceTree = "<group>"; };
+		22CDBA4D1328C34100D675AB /* INTEGER.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = INTEGER.h; sourceTree = "<group>"; };
+		22CDBA4E1328C34100D675AB /* Makefile.am.sample */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.am.sample; sourceTree = "<group>"; };
+		22CDBA4F1328C34100D675AB /* module.asn1 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = module.asn1; sourceTree = "<group>"; };
+		22CDBA501328C34100D675AB /* NativeEnumerated.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeEnumerated.c; sourceTree = "<group>"; };
+		22CDBA511328C34100D675AB /* NativeEnumerated.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeEnumerated.h; sourceTree = "<group>"; };
+		22CDBA521328C34100D675AB /* NativeInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = NativeInteger.c; sourceTree = "<group>"; };
+		22CDBA531328C34100D675AB /* NativeInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeInteger.h; sourceTree = "<group>"; };
+		22CDBA541328C34100D675AB /* OCTET_STRING.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = OCTET_STRING.c; sourceTree = "<group>"; };
+		22CDBA551328C34100D675AB /* OCTET_STRING.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCTET_STRING.h; sourceTree = "<group>"; };
+		22CDBA561328C34100D675AB /* Payload.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Payload.c; sourceTree = "<group>"; };
+		22CDBA571328C34100D675AB /* Payload.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Payload.h; sourceTree = "<group>"; };
+		22CDBA581328C34100D675AB /* per_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_decoder.c; sourceTree = "<group>"; };
+		22CDBA591328C34100D675AB /* per_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_decoder.h; sourceTree = "<group>"; };
+		22CDBA5A1328C34100D675AB /* per_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_encoder.c; sourceTree = "<group>"; };
+		22CDBA5B1328C34100D675AB /* per_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_encoder.h; sourceTree = "<group>"; };
+		22CDBA5C1328C34100D675AB /* per_opentype.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_opentype.c; sourceTree = "<group>"; };
+		22CDBA5D1328C34100D675AB /* per_opentype.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_opentype.h; sourceTree = "<group>"; };
+		22CDBA5E1328C34100D675AB /* per_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = per_support.c; sourceTree = "<group>"; };
+		22CDBA5F1328C34100D675AB /* per_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = per_support.h; sourceTree = "<group>"; };
+		22CDBA601328C34100D675AB /* ReceiptAttribute.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReceiptAttribute.c; sourceTree = "<group>"; };
+		22CDBA611328C34100D675AB /* ReceiptAttribute.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReceiptAttribute.h; sourceTree = "<group>"; };
+		22CDBA621328C34100D675AB /* xer_decoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_decoder.c; sourceTree = "<group>"; };
+		22CDBA631328C34100D675AB /* xer_decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_decoder.h; sourceTree = "<group>"; };
+		22CDBA641328C34100D675AB /* xer_encoder.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_encoder.c; sourceTree = "<group>"; };
+		22CDBA651328C34100D675AB /* xer_encoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_encoder.h; sourceTree = "<group>"; };
+		22CDBA661328C34100D675AB /* xer_support.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = xer_support.c; sourceTree = "<group>"; };
+		22CDBA671328C34100D675AB /* xer_support.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xer_support.h; sourceTree = "<group>"; };
+		22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = ../../../../../../../System/Library/Frameworks/AudioUnit.framework; sourceTree = "<group>"; };
+		22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = ../../../../../../../System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<group>"; };
+		22CE930C13B5D38600DAAAC4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = ../../../../../../../System/Library/Frameworks/QuickTime.framework; sourceTree = "<group>"; };
+		22D12766166B36D400DB2690 /* FPBankControl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPBankControl.cpp; path = Sources/FPBankControl.cpp; sourceTree = "<group>"; };
+		22D12767166B36D400DB2690 /* FPBankControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPBankControl.h; path = Sources/FPBankControl.h; sourceTree = "<group>"; };
+		22D35BEA0E32F9FD00D83D0E /* CGHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGHelper.h; path = Sources/CGHelper.h; sourceTree = "<group>"; };
+		22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = CGHelper.cpp; path = Sources/CGHelper.cpp; sourceTree = "<group>"; };
+		22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TCustomWindow.cpp; path = Sources/TCustomWindow.cpp; sourceTree = "<group>"; };
+		22F5ACA70E251F0C003DD005 /* TCustomWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TCustomWindow.h; path = Sources/TCustomWindow.h; sourceTree = "<group>"; };
+		22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPCloneSheet.cpp; path = Sources/FPCloneSheet.cpp; sourceTree = "<group>"; };
+		22F9DD3313B9F377007D7D19 /* FPCloneSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPCloneSheet.h; path = Sources/FPCloneSheet.h; sourceTree = "<group>"; };
+		32DBCF6D0370B57F00C91783 /* FretPet_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FretPet_Prefix.pch; path = Sources/FretPet_Prefix.pch; sourceTree = "<group>"; };
+		BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TCarbonEvent.cp; path = Sources/TCarbonEvent.cp; sourceTree = "<group>"; };
+		BD041ECB06D8C57600E38D4B /* TCarbonEvent.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TCarbonEvent.h; path = Sources/TCarbonEvent.h; sourceTree = "<group>"; };
+		BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPAboutBox.cpp; path = Sources/FPAboutBox.cpp; sourceTree = "<group>"; };
+		BD0A677407310A6F007E2BDF /* FPAboutBox.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPAboutBox.h; path = Sources/FPAboutBox.h; sourceTree = "<group>"; };
+		BD17DD040578470300324BCE /* FPScalePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPScalePalette.h; path = Sources/FPScalePalette.h; sourceTree = "<group>"; };
+		BD17DD050578470300324BCE /* FPScalePalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPScalePalette.cpp; path = Sources/FPScalePalette.cpp; sourceTree = "<group>"; };
+		BD17DD3E057854AF00324BCE /* FPInfoPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPInfoPalette.h; path = Sources/FPInfoPalette.h; sourceTree = "<group>"; };
+		BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPInfoPalette.cpp; path = Sources/FPInfoPalette.cpp; sourceTree = "<group>"; };
+		BD17DD48057854D800324BCE /* FPChordPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPChordPalette.h; path = Sources/FPChordPalette.h; sourceTree = "<group>"; };
+		BD17DD49057854D800324BCE /* FPChordPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPChordPalette.cpp; path = Sources/FPChordPalette.cpp; sourceTree = "<group>"; };
+		BD17DD4E057854E900324BCE /* FPCirclePalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPCirclePalette.h; path = Sources/FPCirclePalette.h; sourceTree = "<group>"; };
+		BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPCirclePalette.cpp; path = Sources/FPCirclePalette.cpp; sourceTree = "<group>"; };
+		BD17DD540578550A00324BCE /* FPGuitarPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPGuitarPalette.h; path = Sources/FPGuitarPalette.h; sourceTree = "<group>"; };
+		BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPGuitarPalette.cpp; path = Sources/FPGuitarPalette.cpp; sourceTree = "<group>"; };
+		BD17DD620578554600324BCE /* FPMetroPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPMetroPalette.h; path = Sources/FPMetroPalette.h; sourceTree = "<group>"; };
+		BD17DD630578554600324BCE /* FPMetroPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPMetroPalette.cpp; path = Sources/FPMetroPalette.cpp; sourceTree = "<group>"; };
+		BD17DD680578556800324BCE /* FPPianoPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPPianoPalette.h; path = Sources/FPPianoPalette.h; sourceTree = "<group>"; };
+		BD17DD690578556800324BCE /* FPPianoPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPPianoPalette.cpp; path = Sources/FPPianoPalette.cpp; sourceTree = "<group>"; };
+		BD17DD6E0578558300324BCE /* FPToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPToolbar.h; path = Sources/FPToolbar.h; sourceTree = "<group>"; };
+		BD17DD6F0578558300324BCE /* FPToolbar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPToolbar.cpp; path = Sources/FPToolbar.cpp; sourceTree = "<group>"; };
+		BD1A687F07443618000B672A /* FPPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPPreferences.h; path = Sources/FPPreferences.h; sourceTree = "<group>"; };
+		BD1A688007443618000B672A /* FPPreferences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPPreferences.cpp; path = Sources/FPPreferences.cpp; sourceTree = "<group>"; };
+		BD22B14A05736C52004790D4 /* FPDocWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPDocWindow.h; path = Sources/FPDocWindow.h; sourceTree = "<group>"; };
+		BD22B14B05736C52004790D4 /* FPDocWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPDocWindow.cpp; path = Sources/FPDocWindow.cpp; sourceTree = "<group>"; };
+		BD22B1E3057378F9004790D4 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = /System/Library/Frameworks/OpenGL.framework; sourceTree = "<absolute>"; };
+		BD22B1E505737903004790D4 /* AGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AGL.framework; path = /System/Library/Frameworks/AGL.framework; sourceTree = "<absolute>"; };
+		BD22B1E705737912004790D4 /* QuickTime.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickTime.framework; path = /System/Library/Frameworks/QuickTime.framework; sourceTree = "<absolute>"; };
+		BD2B6E1608666E34000A1FF2 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD2D090305755F8800AF16C6 /* FPPaletteGW.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPPaletteGW.h; path = Sources/FPPaletteGW.h; sourceTree = "<group>"; };
+		BD2D090405755F8800AF16C6 /* FPPaletteGW.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPPaletteGW.cpp; path = Sources/FPPaletteGW.cpp; sourceTree = "<group>"; };
+		BD3637CD0BACF4700007FCE6 /* FPContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPContext.h; path = Sources/FPContext.h; sourceTree = "<group>"; };
+		BD3637D70BACF4D20007FCE6 /* FPFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPFrame.h; path = Sources/FPFrame.h; sourceTree = "<group>"; };
+		BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPFrame.cpp; path = Sources/FPFrame.cpp; sourceTree = "<group>"; };
+		BD3637DF0BACF4F40007FCE6 /* FPSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPSprite.h; path = Sources/FPSprite.h; sourceTree = "<group>"; };
+		BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPSprite.cpp; path = Sources/FPSprite.cpp; sourceTree = "<group>"; };
+		BD3637E70BACF5130007FCE6 /* FPSpriteLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPSpriteLayer.h; path = Sources/FPSpriteLayer.h; sourceTree = "<group>"; };
+		BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPSpriteLayer.cpp; path = Sources/FPSpriteLayer.cpp; sourceTree = "<group>"; };
+		BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPContext.cpp; path = Sources/FPContext.cpp; sourceTree = "<group>"; };
+		BD3AAF820780C37200B5F7D2 /* FretPet Data Storage.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "FretPet Data Storage.txt"; path = "Documentation/FretPet Data Storage.txt"; sourceTree = "<group>"; };
+		BD3AAF8E0780C38A00B5F7D2 /* FretPet Notes.txt */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text; name = "FretPet Notes.txt"; path = "Documentation/FretPet Notes.txt"; sourceTree = "<group>"; };
+		BD3B157009A74AE900115250 /* English */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = English; path = English.lproj/FretPet.rsrc; sourceTree = "<group>"; };
+		BD3B157A09A74B3500115250 /* French */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = French; path = French.lproj/FretPet.rsrc; sourceTree = "<group>"; };
+		BD3B157B09A74B3900115250 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; name = Italian; path = Italian.lproj/FretPet.rsrc; sourceTree = "<group>"; };
+		BD3B15A409A74EBF00115250 /* FretPet.rsrc */ = {isa = PBXFileReference; lastKnownFileType = archive.rsrc; path = FretPet.rsrc; sourceTree = "<group>"; };
+		BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPDiagramPalette.cpp; path = Sources/FPDiagramPalette.cpp; sourceTree = "<group>"; };
+		BD4069BA06DB3BD700962711 /* FPDiagramPalette.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPDiagramPalette.h; path = Sources/FPDiagramPalette.h; sourceTree = "<group>"; };
+		BD434A6009272A5900EBEB4F /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD434A6609272A7700EBEB4F /* Italian */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Italian; path = Italian.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = NavServicesSupport.cpp; path = Sources/NavServicesSupport.cpp; sourceTree = "<group>"; };
+		BD4C5C22076E6E7B002ADD4E /* NavServicesSupport.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = NavServicesSupport.h; path = Sources/NavServicesSupport.h; sourceTree = "<group>"; };
+		BD4EFC3A07FE850F0059A89F /* FPTuningInfo.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPTuningInfo.h; path = Sources/FPTuningInfo.h; sourceTree = "<group>"; };
+		BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPTuningInfo.cpp; path = Sources/FPTuningInfo.cpp; sourceTree = "<group>"; };
+		BD53305008665E3500B229ED /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD53311D08665F2800B229ED /* French */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/Localizable.strings; sourceTree = "<group>"; };
+		BD53312E08665FF400B229ED /* English */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD5331330866600000B229ED /* French */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = French; path = French.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BD58DAAE0759782F0096908B /* TFile.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TFile.cpp; path = Sources/TFile.cpp; sourceTree = "<group>"; };
+		BD58DAAF0759782F0096908B /* TFile.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TFile.h; path = Sources/TFile.h; sourceTree = "<group>"; };
+		BD5B1D8E06ECDD3C00602DC1 /* FPCommands.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPCommands.h; path = Sources/FPCommands.h; sourceTree = "<group>"; };
+		BD6094CC08333DF000203BBB /* TDictionary.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TDictionary.cpp; path = Sources/TDictionary.cpp; sourceTree = "<group>"; };
+		BD6094CD08333DF000203BBB /* TDictionary.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TDictionary.h; path = Sources/TDictionary.h; sourceTree = "<group>"; };
+		BD60A32C0837474300203BBB /* FPTypes.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPTypes.h; path = Sources/FPTypes.h; sourceTree = "<group>"; };
+		BD6320F40B73F291005262D0 /* FPGuitar.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPGuitar.cpp; path = Sources/FPGuitar.cpp; sourceTree = "<group>"; };
+		BD6320F50B73F291005262D0 /* FPGuitar.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPGuitar.h; path = Sources/FPGuitar.h; sourceTree = "<group>"; };
+		BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPGuitarArray.cpp; path = Sources/FPGuitarArray.cpp; sourceTree = "<group>"; };
+		BD6320FE0B73F304005262D0 /* FPGuitarArray.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPGuitarArray.h; path = Sources/FPGuitarArray.h; sourceTree = "<group>"; };
+		BD6321850B73F6BC005262D0 /* Guitars */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Guitars; sourceTree = "<group>"; };
+		BD6382210574B158001481F6 /* FPPalette.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPPalette.h; path = Sources/FPPalette.h; sourceTree = "<group>"; };
+		BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TTrackingRegion.cpp; path = Sources/TTrackingRegion.cpp; sourceTree = "<group>"; };
+		BD66ECF707860B100027F2EC /* TTrackingRegion.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TTrackingRegion.h; path = Sources/TTrackingRegion.h; sourceTree = "<group>"; };
+		BD8090240BAFAD7A005356E3 /* English */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = English; path = English.lproj/about.png; sourceTree = "<group>"; };
+		BD8090270BAFAD8F005356E3 /* French */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = French; path = French.lproj/about.png; sourceTree = "<group>"; };
+		BD8090280BAFAD9B005356E3 /* Italian */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Italian; path = Italian.lproj/about.png; sourceTree = "<group>"; };
+		BD8355AF058C0DCF00504128 /* FPMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPMacros.h; path = Sources/FPMacros.h; sourceTree = "<group>"; };
+		BD83560D058C176F00504128 /* FPChord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPChord.h; path = Sources/FPChord.h; sourceTree = "<group>"; };
+		BD83560E058C176F00504128 /* FPChord.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPChord.cpp; path = Sources/FPChord.cpp; sourceTree = "<group>"; };
+		BD8C16CA057D526F00970DD1 /* TControls.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = TControls.cpp; path = Sources/TControls.cpp; sourceTree = "<group>"; };
+		BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPCustomTuning.cpp; path = Sources/FPCustomTuning.cpp; sourceTree = "<group>"; };
+		BD9AB0F507DA25FD00399E77 /* FPCustomTuning.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPCustomTuning.h; path = Sources/FPCustomTuning.h; sourceTree = "<group>"; };
+		BD9C68D9099DE5B90007509A /* ZonicKRM.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = ZonicKRM.h; path = Headers/ZonicKRM.h; sourceTree = "<group>"; };
+		BD9C68DB099DE5C30007509A /* libZonicKRM.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZonicKRM.a; path = Libraries/Xcode/libZonicKRM.a; sourceTree = "<group>"; };
+		BD9C68E6099DE6CE0007509A /* GenericDecode.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = GenericDecode.h; path = decodeInC1.1.1/GenericDecode.h; sourceTree = "<group>"; };
+		BD9C68E9099DE6DB0007509A /* GenericDecode.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = GenericDecode.cpp; path = decodeInC1.1.1/GenericDecode.cpp; sourceTree = "<group>"; };
+		BD9C68EC099DE6E90007509A /* BigInt.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = BigInt.h; path = decodeInC1.1.1/BigInt.h; sourceTree = "<group>"; };
+		BD9C68EE099DE6EE0007509A /* BigInt.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = BigInt.cpp; path = decodeInC1.1.1/BigInt.cpp; sourceTree = "<group>"; };
+		BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPUtilities.cpp; path = Sources/FPUtilities.cpp; sourceTree = "<group>"; };
+		BDAD3AD3073CC35E0090FE2A /* FPUtilities.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPUtilities.h; path = Sources/FPUtilities.h; sourceTree = "<group>"; };
+		BDB077E30A3B231500A30CE7 /* Info (Dev).plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info (Dev).plist"; sourceTree = "<group>"; };
+		BDB7DC810784F68900F50909 /* FPClipboard.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPClipboard.cpp; path = Sources/FPClipboard.cpp; sourceTree = "<group>"; };
+		BDB7DC820784F68900F50909 /* FPClipboard.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPClipboard.h; path = Sources/FPClipboard.h; sourceTree = "<group>"; };
+		BDC690880637C35C00637422 /* FPMusicPlayer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPMusicPlayer.cpp; path = Sources/FPMusicPlayer.cpp; sourceTree = "<group>"; };
+		BDC690890637C35C00637422 /* FPMusicPlayer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPMusicPlayer.h; path = Sources/FPMusicPlayer.h; sourceTree = "<group>"; };
+		BDC93B1A07471D1600190332 /* FPWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPWindow.cpp; path = Sources/FPWindow.cpp; sourceTree = "<group>"; };
+		BDC93B1B07471D1600190332 /* FPWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPWindow.h; path = Sources/FPWindow.h; sourceTree = "<group>"; };
+		BDCD187007091CC9005108D4 /* CoreMIDI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMIDI.framework; path = /System/Library/Frameworks/CoreMIDI.framework; sourceTree = "<absolute>"; };
+		BDD698B108107F12006AFF9D /* FPAuthorizer.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPAuthorizer.cpp; path = Sources/FPAuthorizer.cpp; sourceTree = "<group>"; };
+		BDD698B208107F12006AFF9D /* FPAuthorizer.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPAuthorizer.h; path = Sources/FPAuthorizer.h; sourceTree = "<group>"; };
+		BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPDocument.cpp; path = Sources/FPDocument.cpp; sourceTree = "<group>"; };
+		BDD8E49B0740FD4300B52D15 /* FPDocument.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPDocument.h; path = Sources/FPDocument.h; sourceTree = "<group>"; };
+		BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPPaletteGL.cpp; path = Sources/FPPaletteGL.cpp; sourceTree = "<group>"; };
+		BDDE3EC60B894F5400E28F99 /* FPPaletteGL.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPPaletteGL.h; path = Sources/FPPaletteGL.h; sourceTree = "<group>"; };
+		BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPHistory.cpp; path = Sources/FPHistory.cpp; sourceTree = "<group>"; };
+		BDDE58FD07CA6B1E0077F291 /* FPHistory.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPHistory.h; path = Sources/FPHistory.h; sourceTree = "<group>"; };
+		BDE3759F057351B1000D6223 /* TWindow.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TWindow.cpp; path = Sources/TWindow.cpp; sourceTree = "<group>"; };
+		BDE375AC057352DC000D6223 /* FPApplication.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPApplication.h; path = Sources/FPApplication.h; sourceTree = "<group>"; };
+		BDE375AE057352DC000D6223 /* TWindow.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TWindow.h; path = Sources/TWindow.h; sourceTree = "<group>"; };
+		BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = FPChannelsPalette.cpp; path = Sources/FPChannelsPalette.cpp; sourceTree = "<group>"; };
+		BDE4B3E908451ED600F3EA40 /* FPChannelsPalette.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = FPChannelsPalette.h; path = Sources/FPChannelsPalette.h; sourceTree = "<group>"; };
+		BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.cpp.cpp; name = TError.cpp; path = Sources/TError.cpp; sourceTree = "<group>"; };
+		BDF21AD70BBA1BFD0055FCC4 /* TError.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = TError.h; path = Sources/TError.h; sourceTree = "<group>"; };
+		BDF21C000BBA28260055FCC4 /* TControls.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TControls.h; path = Sources/TControls.h; sourceTree = "<group>"; };
+		BDF6915306FE63C9003C537B /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		BDF79CF10855AE730011C6C0 /* manual */ = {isa = PBXFileReference; lastKnownFileType = folder; path = manual; sourceTree = "<group>"; };
+		BDF7B06E057F46CE00CA1358 /* FPGlobals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FPGlobals.h; path = Sources/FPGlobals.h; sourceTree = "<group>"; };
+		BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = FPGlobals.cpp; path = Sources/FPGlobals.cpp; sourceTree = "<group>"; };
+		D2F8C85513D32C6C003AB610 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/FretPet.xib; sourceTree = "<group>"; };
+		D2F8C85713D32C84003AB610 /* French */ = {isa = PBXFileReference; explicitFileType = text.xml; name = French; path = French.lproj/FretPet.xib; sourceTree = "<group>"; };
+		D2F8C85913D32C91003AB610 /* Italian */ = {isa = PBXFileReference; explicitFileType = text.xml; name = Italian; path = Italian.lproj/FretPet.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		225413BD12E0F3BC00BDCE01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225413BF12E0F3BC00BDCE01 /* Carbon.framework in Frameworks */,
+				225413C012E0F3BC00BDCE01 /* OpenGL.framework in Frameworks */,
+				225413C112E0F3BC00BDCE01 /* AGL.framework in Frameworks */,
+				225413C212E0F3BC00BDCE01 /* QuickTime.framework in Frameworks */,
+				225413C312E0F3BC00BDCE01 /* CoreMIDI.framework in Frameworks */,
+				222DAF351325D460005B5C66 /* IOKit.framework in Frameworks */,
+				22C1D2A413276D4000D1BD02 /* Security.framework in Frameworks */,
+				22CE92F513B530EA00DAAAC4 /* AudioUnit.framework in Frameworks */,
+				22CE92F813B5310300DAAAC4 /* AudioToolbox.framework in Frameworks */,
+				22B6D75413FB6724000B444E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279AD0415CA40E600592BC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279AD0515CA40E600592BC0 /* Carbon.framework in Frameworks */,
+				2279AD0615CA40E600592BC0 /* OpenGL.framework in Frameworks */,
+				2279AD0715CA40E600592BC0 /* AGL.framework in Frameworks */,
+				2279AD0815CA40E600592BC0 /* CoreMIDI.framework in Frameworks */,
+				2279AD0915CA40E600592BC0 /* Sparkle.framework in Frameworks */,
+				2279AD0A15CA40E600592BC0 /* AudioUnit.framework in Frameworks */,
+				2279AD0B15CA40E600592BC0 /* AudioToolbox.framework in Frameworks */,
+				2279AD0C15CA40E600592BC0 /* QuickTime.framework in Frameworks */,
+				2279AD0D15CA40E600592BC0 /* Cocoa.framework in Frameworks */,
+				2279AD1E15CA410D00592BC0 /* libZonicKRM.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B6EFF219A593C600D8E88F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6EFF319A593C600D8E88F /* Sparkle.framework in Frameworks */,
+				22B6EFF419A593C600D8E88F /* Carbon.framework in Frameworks */,
+				22B6EFF519A593C600D8E88F /* OpenGL.framework in Frameworks */,
+				22B6EFF619A593C600D8E88F /* AGL.framework in Frameworks */,
+				22B6EFF719A593C600D8E88F /* QuickTime.framework in Frameworks */,
+				22B6EFF819A593C600D8E88F /* CoreMIDI.framework in Frameworks */,
+				22B6EFF919A593C600D8E88F /* IOKit.framework in Frameworks */,
+				22B6EFFA19A593C600D8E88F /* Security.framework in Frameworks */,
+				22B6EFFB19A593C600D8E88F /* AudioUnit.framework in Frameworks */,
+				22B6EFFC19A593C600D8E88F /* AudioToolbox.framework in Frameworks */,
+				22B6EFFD19A593C600D8E88F /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC2139A08665C5C008CC62E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDC2139B08665C5C008CC62E /* Carbon.framework in Frameworks */,
+				BDC2139C08665C5C008CC62E /* OpenGL.framework in Frameworks */,
+				BDC2139D08665C5C008CC62E /* AGL.framework in Frameworks */,
+				BDC2139F08665C5C008CC62E /* CoreMIDI.framework in Frameworks */,
+				225414EA12E0FD4D00BDCE01 /* Sparkle.framework in Frameworks */,
+				22CE92F413B530EA00DAAAC4 /* AudioUnit.framework in Frameworks */,
+				22CE92F713B5310300DAAAC4 /* AudioToolbox.framework in Frameworks */,
+				22CE930D13B5D38600DAAAC4 /* QuickTime.framework in Frameworks */,
+				22B6D75313FB6724000B444E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		195DF8CFFE9D517E11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22BD0DAC10E76384008691DF /* FretPet.app */,
+				225413CF12E0F3BC00BDCE01 /* FretPet.app */,
+				2279AD1915CA40E600592BC0 /* FretPet.app */,
+				22B6F00219A593C600D8E88F /* FretPet.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		20286C29FDCF999611CA2CEA /* FretPet */ = {
+			isa = PBXGroup;
+			children = (
+				229DBC5114006AC800B90EEF /* FretPet.entitlements */,
+				BD3AAF8E0780C38A00B5F7D2 /* FretPet Notes.txt */,
+				BD3AAF820780C37200B5F7D2 /* FretPet Data Storage.txt */,
+				22AAD79113B9EF860032ABD8 /* Source */,
+				20286C2CFDCF999611CA2CEA /* Resources */,
+				22C82C921461F8AB00E663F4 /* KSA */,
+				BD9E4B8107CD3B1E00737713 /* KRM */,
+				2260BBDB10E5F1BA00822FE5 /* Sparkle */,
+				22CDBA251328B78B00D675AB /* Validation */,
+				20286C32FDCF999611CA2CEA /* Frameworks */,
+				195DF8CFFE9D517E11CA2CBB /* Products */,
+			);
+			comments = "removed extra options: -Wmost -Wno-four-char-constants -Wno-unknown-pragmas";
+			name = FretPet;
+			sourceTree = "<group>";
+		};
+		20286C2AFDCF999611CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2048C07E8DC4300FA6A51 /* Headers */,
+				20286C2BFDCF999611CA2CEA /* main.cpp */,
+				22B6D75513FB6C23000B444E /* FPApplication.mm */,
+				BD83560E058C176F00504128 /* FPChord.cpp */,
+				BDB7DC810784F68900F50909 /* FPClipboard.cpp */,
+				BD9AB0F407DA25FD00399E77 /* FPCustomTuning.cpp */,
+				BD6320F40B73F291005262D0 /* FPGuitar.cpp */,
+				BD6320FB0B73F2F8005262D0 /* FPGuitarArray.cpp */,
+				BDDE58FC07CA6B1E0077F291 /* FPHistory.cpp */,
+				BD1A688007443618000B672A /* FPPreferences.cpp */,
+				BD4EFC4707FE86450059A89F /* FPTuningInfo.cpp */,
+				BDAD3AD2073CC35E0090FE2A /* FPUtilities.cpp */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		20286C2CFDCF999611CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD6321850B73F6BC005262D0 /* Guitars */,
+				BDF6915306FE63C9003C537B /* images */,
+				BDF79CF10855AE730011C6C0 /* manual */,
+				22BD232B10E35EDB00054B2F /* dsa_pub.pem */,
+				BD3B15A409A74EBF00115250 /* FretPet.rsrc */,
+				BD3B156F09A74AE900115250 /* FretPet.rsrc */,
+				BD53312D08665FF400B229ED /* InfoPlist.strings */,
+				BD53310508665EF700B229ED /* Localizable.strings */,
+				D2F8C85413D32C6C003AB610 /* FretPet.xib */,
+				BD8090230BAFAD7A005356E3 /* about.png */,
+				BD2B6E1608666E34000A1FF2 /* Info.plist */,
+				225413D112E0F3BC00BDCE01 /* Info (App Store).plist */,
+				22B6F00519A5988500D8E88F /* Info (MASDemo).plist */,
+				BDB077E30A3B231500A30CE7 /* Info (Dev).plist */,
+				22B6EF8519A5926C00D8E88F /* iTunesArtwork.png */,
+				22B6EF8619A5926C00D8E88F /* iTunesArtwork@2x.png */,
+				22B6F00B19A5A85F00D8E88F /* FretPet.iconset */,
+				22B6F01019A5AD6E00D8E88F /* FPFile.icns */,
+				22B6F01119A5AD6E00D8E88F /* FPGuitar.icns */,
+				222DB17F132704C9005B5C66 /* Release Notes.pdf */,
+				222DB17A13270469005B5C66 /* Release Notes.rtf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20286C32FDCF999611CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				22B6D75213FB6724000B444E /* Cocoa.framework */,
+				22CE930C13B5D38600DAAAC4 /* QuickTime.framework */,
+				22CE92F613B5310300DAAAC4 /* AudioToolbox.framework */,
+				22CE92F313B530EA00DAAAC4 /* AudioUnit.framework */,
+				22C1D2A313276D4000D1BD02 /* Security.framework */,
+				222DAF341325D460005B5C66 /* IOKit.framework */,
+				BDCD187007091CC9005108D4 /* CoreMIDI.framework */,
+				BD22B1E505737903004790D4 /* AGL.framework */,
+				BD22B1E3057378F9004790D4 /* OpenGL.framework */,
+				BD22B1E705737912004790D4 /* QuickTime.framework */,
+				20286C33FDCF999611CA2CEA /* Carbon.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2260BBDB10E5F1BA00822FE5 /* Sparkle */ = {
+			isa = PBXGroup;
+			children = (
+				2262965910E623FB005F88D6 /* Sparkle.framework */,
+			);
+			name = Sparkle;
+			path = ../CarbonSparkle;
+			sourceTree = Sparkle;
+		};
+		227A430A13B6DA8800E2A13B /* File Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDD8E49B0740FD4300B52D15 /* FPDocument.h */,
+				BDD8E49A0740FD4300B52D15 /* FPDocument.cpp */,
+				22B76AAC13B9CEDD00D3D71D /* FPExportFile.h */,
+				22B76AAB13B9CEDD00D3D71D /* FPExportFile.cpp */,
+				BD58DAAF0759782F0096908B /* TFile.h */,
+				BD58DAAE0759782F0096908B /* TFile.cpp */,
+				2242047B13B9372400E74428 /* TRecentItems.h */,
+				2242047A13B9372400E74428 /* TRecentItems.cpp */,
+			);
+			name = "File Classes";
+			sourceTree = "<group>";
+		};
+		22AAD79013B9EF420032ABD8 /* Document Window */ = {
+			isa = PBXGroup;
+			children = (
+				BD22B14A05736C52004790D4 /* FPDocWindow.h */,
+				BD22B14B05736C52004790D4 /* FPDocWindow.cpp */,
+				22AAD79313B9F0730032ABD8 /* FPDocControls.h */,
+				22AAD79213B9F0730032ABD8 /* FPDocControls.cpp */,
+				22D12767166B36D400DB2690 /* FPBankControl.h */,
+				22D12766166B36D400DB2690 /* FPBankControl.cpp */,
+				22F9DD3313B9F377007D7D19 /* FPCloneSheet.h */,
+				22F9DD3213B9F377007D7D19 /* FPCloneSheet.cpp */,
+			);
+			name = "Document Window";
+			sourceTree = "<group>";
+		};
+		22AAD79113B9EF860032ABD8 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				22F9DD3613BA0007007D7D19 /* Precomp */,
+				20286C2AFDCF999611CA2CEA /* Classes */,
+				227A430A13B6DA8800E2A13B /* File Classes */,
+				22AAD79013B9EF420032ABD8 /* Document Window */,
+				BDBCDBB1057FA23E00256889 /* Palettes */,
+				22CB44430E64AC630092FB35 /* Music Player */,
+				BD3637ED0BACF54D0007FCE6 /* Sprite Classes */,
+				BDE37596057350F6000D6223 /* Base Classes */,
+				BD76D3E80BB08B080081B54F /* Base Windows */,
+				22B69E020E2750AE00A5B7B6 /* Base Controls */,
+				BD76D3E60BB08AA50081B54F /* System Objects */,
+				22D21F4715D7E49C00C88A35 /* Kagi Auth */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		22B69E020E2750AE00A5B7B6 /* Base Controls */ = {
+			isa = PBXGroup;
+			children = (
+				22B69E030E2750CD00A5B7B6 /* Headers */,
+				22B69D730E273DBF00A5B7B6 /* TControl.cpp */,
+				BD8C16CA057D526F00970DD1 /* TControls.cpp */,
+				22B69D890E27438E00A5B7B6 /* TCustomControl.cpp */,
+				22B69D9B0E274B4800A5B7B6 /* TPictureControl.cpp */,
+				22B69E280E2752B000A5B7B6 /* TSpriteControl.cpp */,
+				22B69DEF0E274F0C00A5B7B6 /* TTextField.cpp */,
+			);
+			name = "Base Controls";
+			sourceTree = "<group>";
+		};
+		22B69E030E2750CD00A5B7B6 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				22B69D720E273DBF00A5B7B6 /* TControl.h */,
+				BDF21C000BBA28260055FCC4 /* TControls.h */,
+				22B69D880E27438E00A5B7B6 /* TCustomControl.h */,
+				22B69D9A0E274B4800A5B7B6 /* TPictureControl.h */,
+				22B69E270E2752B000A5B7B6 /* TSpriteControl.h */,
+				22B69DEE0E274F0C00A5B7B6 /* TTextField.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		22C82C921461F8AB00E663F4 /* KSA */ = {
+			isa = PBXGroup;
+			children = (
+				22C82C931461F8AB00E663F4 /* KSAProductOffer.nib */,
+				22C82C951461F8AB00E663F4 /* KSAObject.h */,
+				22C82C961461F8AB00E663F4 /* KSAResult.h */,
+				22C82C971461F8AB00E663F4 /* libKagiSA.a */,
+			);
+			name = KSA;
+			path = ../../_LIBS/KSA;
+			sourceTree = KagiSA;
+		};
+		22CB44430E64AC630092FB35 /* Music Player */ = {
+			isa = PBXGroup;
+			children = (
+				2241375513BEF4040036565E /* FPMidiHelper.h */,
+				2241375613BEF4040036565E /* FPMidiHelper.cpp */,
+				BDC690890637C35C00637422 /* FPMusicPlayer.h */,
+				BDC690880637C35C00637422 /* FPMusicPlayer.cpp */,
+				22CB443D0E64ABF80092FB35 /* TMusicOutput.h */,
+				22CB443E0E64ABF80092FB35 /* TMusicOutput.cpp */,
+				22001E350E18455600E30C14 /* TMidiOutput.h */,
+				22001E360E18455600E30C14 /* TMidiOutput.cpp */,
+				22CB44370E648C400092FB35 /* TSynthOutput.h */,
+				22CB44380E648C400092FB35 /* TSynthOutput.cpp */,
+				227A430713B6936300E2A13B /* TQTOutput.h */,
+				227A430613B6936300E2A13B /* TQTOutput.cpp */,
+			);
+			name = "Music Player";
+			sourceTree = "<group>";
+		};
+		22CDBA251328B78B00D675AB /* Validation */ = {
+			isa = PBXGroup;
+			children = (
+				22CDBA2D1328B8CB00D675AB /* AppStoreValidation.h */,
+				22CDBA2E1328B8CB00D675AB /* AppStoreValidation.cpp */,
+				22CDBA301328C34100D675AB /* asn1 */,
+			);
+			name = Validation;
+			sourceTree = "<group>";
+		};
+		22CDBA301328C34100D675AB /* asn1 */ = {
+			isa = PBXGroup;
+			children = (
+				22CDBA311328C34100D675AB /* asn_application.h */,
+				22CDBA321328C34100D675AB /* asn_codecs.h */,
+				22CDBA331328C34100D675AB /* asn_codecs_prim.c */,
+				22CDBA341328C34100D675AB /* asn_codecs_prim.h */,
+				22CDBA351328C34100D675AB /* asn_internal.h */,
+				22CDBA361328C34100D675AB /* asn_SET_OF.c */,
+				22CDBA371328C34100D675AB /* asn_SET_OF.h */,
+				22CDBA381328C34100D675AB /* asn_system.h */,
+				22CDBA391328C34100D675AB /* ber_decoder.c */,
+				22CDBA3A1328C34100D675AB /* ber_decoder.h */,
+				22CDBA3B1328C34100D675AB /* ber_tlv_length.c */,
+				22CDBA3C1328C34100D675AB /* ber_tlv_length.h */,
+				22CDBA3D1328C34100D675AB /* ber_tlv_tag.c */,
+				22CDBA3E1328C34100D675AB /* ber_tlv_tag.h */,
+				22CDBA3F1328C34100D675AB /* BIT_STRING.c */,
+				22CDBA401328C34100D675AB /* BIT_STRING.h */,
+				22CDBA411328C34100D675AB /* constr_SEQUENCE.c */,
+				22CDBA421328C34100D675AB /* constr_SEQUENCE.h */,
+				22CDBA431328C34100D675AB /* constr_SET_OF.c */,
+				22CDBA441328C34100D675AB /* constr_SET_OF.h */,
+				22CDBA451328C34100D675AB /* constr_TYPE.c */,
+				22CDBA461328C34100D675AB /* constr_TYPE.h */,
+				22CDBA471328C34100D675AB /* constraints.c */,
+				22CDBA481328C34100D675AB /* constraints.h */,
+				22CDBA491328C34100D675AB /* converter-sample.c */,
+				22CDBA4A1328C34100D675AB /* der_encoder.c */,
+				22CDBA4B1328C34100D675AB /* der_encoder.h */,
+				22CDBA4C1328C34100D675AB /* INTEGER.c */,
+				22CDBA4D1328C34100D675AB /* INTEGER.h */,
+				22CDBA4E1328C34100D675AB /* Makefile.am.sample */,
+				22CDBA4F1328C34100D675AB /* module.asn1 */,
+				22CDBA501328C34100D675AB /* NativeEnumerated.c */,
+				22CDBA511328C34100D675AB /* NativeEnumerated.h */,
+				22CDBA521328C34100D675AB /* NativeInteger.c */,
+				22CDBA531328C34100D675AB /* NativeInteger.h */,
+				22CDBA541328C34100D675AB /* OCTET_STRING.c */,
+				22CDBA551328C34100D675AB /* OCTET_STRING.h */,
+				22CDBA561328C34100D675AB /* Payload.c */,
+				22CDBA571328C34100D675AB /* Payload.h */,
+				22CDBA581328C34100D675AB /* per_decoder.c */,
+				22CDBA591328C34100D675AB /* per_decoder.h */,
+				22CDBA5A1328C34100D675AB /* per_encoder.c */,
+				22CDBA5B1328C34100D675AB /* per_encoder.h */,
+				22CDBA5C1328C34100D675AB /* per_opentype.c */,
+				22CDBA5D1328C34100D675AB /* per_opentype.h */,
+				22CDBA5E1328C34100D675AB /* per_support.c */,
+				22CDBA5F1328C34100D675AB /* per_support.h */,
+				22CDBA601328C34100D675AB /* ReceiptAttribute.c */,
+				22CDBA611328C34100D675AB /* ReceiptAttribute.h */,
+				22CDBA621328C34100D675AB /* xer_decoder.c */,
+				22CDBA631328C34100D675AB /* xer_decoder.h */,
+				22CDBA641328C34100D675AB /* xer_encoder.c */,
+				22CDBA651328C34100D675AB /* xer_encoder.h */,
+				22CDBA661328C34100D675AB /* xer_support.c */,
+				22CDBA671328C34100D675AB /* xer_support.h */,
+			);
+			name = asn1;
+			path = Sources/asn1;
+			sourceTree = "<group>";
+		};
+		22D21F4715D7E49C00C88A35 /* Kagi Auth */ = {
+			isa = PBXGroup;
+			children = (
+				BDD698B208107F12006AFF9D /* FPAuthorizer.h */,
+				BDD698B108107F12006AFF9D /* FPAuthorizer.cpp */,
+				22C82C9D1462011200E663F4 /* FPKagiSA.h */,
+				22C82C9E1462011200E663F4 /* FPKagiSA.mm */,
+			);
+			name = "Kagi Auth";
+			sourceTree = "<group>";
+		};
+		22F9DD3613BA0007007D7D19 /* Precomp */ = {
+			isa = PBXGroup;
+			children = (
+				32DBCF6D0370B57F00C91783 /* FretPet_Prefix.pch */,
+				2254149512E0F46A00BDCE01 /* FretPet_AppStorePrefix.pch */,
+				22B6F00419A5944B00D8E88F /* FretPet_MASDemo_Prefix.pch */,
+				BD5B1D8E06ECDD3C00602DC1 /* FPCommands.h */,
+				BDF7B06E057F46CE00CA1358 /* FPGlobals.h */,
+				BDF7B06F057F46CE00CA1358 /* FPGlobals.cpp */,
+				BD8355AF058C0DCF00504128 /* FPMacros.h */,
+				BD60A32C0837474300203BBB /* FPTypes.h */,
+			);
+			name = Precomp;
+			sourceTree = "<group>";
+		};
+		BD3637ED0BACF54D0007FCE6 /* Sprite Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BD3637EE0BACF58D0007FCE6 /* Headers */,
+				BD3637F40BACF5EB0007FCE6 /* FPContext.cpp */,
+				BD3637D80BACF4D20007FCE6 /* FPFrame.cpp */,
+				BD3637E00BACF4F40007FCE6 /* FPSprite.cpp */,
+				BD3637E80BACF5130007FCE6 /* FPSpriteLayer.cpp */,
+			);
+			name = "Sprite Classes";
+			sourceTree = "<group>";
+		};
+		BD3637EE0BACF58D0007FCE6 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BD3637CD0BACF4700007FCE6 /* FPContext.h */,
+				BD3637D70BACF4D20007FCE6 /* FPFrame.h */,
+				BD3637DF0BACF4F40007FCE6 /* FPSprite.h */,
+				BD3637E70BACF5130007FCE6 /* FPSpriteLayer.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BD76D3E60BB08AA50081B54F /* System Objects */ = {
+			isa = PBXGroup;
+			children = (
+				BD76D3E70BB08AE00081B54F /* Headers */,
+				22D35BEB0E32F9FD00D83D0E /* CGHelper.cpp */,
+				BD4C5C21076E6E7B002ADD4E /* NavServicesSupport.cpp */,
+				BD041ECA06D8C57600E38D4B /* TCarbonEvent.cp */,
+				22F5ACA60E251F0C003DD005 /* TCustomWindow.cpp */,
+				BD6094CC08333DF000203BBB /* TDictionary.cpp */,
+				22C0B67C13FF506500D7BE27 /* TString.cpp */,
+				BD66ECF607860B100027F2EC /* TTrackingRegion.cpp */,
+				BDE3759F057351B1000D6223 /* TWindow.cpp */,
+			);
+			name = "System Objects";
+			sourceTree = "<group>";
+		};
+		BD76D3E70BB08AE00081B54F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				22D35BEA0E32F9FD00D83D0E /* CGHelper.h */,
+				BD4C5C22076E6E7B002ADD4E /* NavServicesSupport.h */,
+				22C0B67D13FF506500D7BE27 /* TString.h */,
+				BD041ECB06D8C57600E38D4B /* TCarbonEvent.h */,
+				22F5ACA70E251F0C003DD005 /* TCustomWindow.h */,
+				BD6094CD08333DF000203BBB /* TDictionary.h */,
+				BD66ECF707860B100027F2EC /* TTrackingRegion.h */,
+				BDE375AE057352DC000D6223 /* TWindow.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BD76D3E80BB08B080081B54F /* Base Windows */ = {
+			isa = PBXGroup;
+			children = (
+				BD76D3E90BB08B230081B54F /* Headers */,
+				22B6D75813FC53EA000B444E /* FPPalette.cpp */,
+				BDDE3EC50B894F5400E28F99 /* FPPaletteGL.cpp */,
+				BD2D090405755F8800AF16C6 /* FPPaletteGW.cpp */,
+				BDC93B1A07471D1600190332 /* FPWindow.cpp */,
+			);
+			name = "Base Windows";
+			sourceTree = "<group>";
+		};
+		BD76D3E90BB08B230081B54F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BD6382210574B158001481F6 /* FPPalette.h */,
+				BDDE3EC60B894F5400E28F99 /* FPPaletteGL.h */,
+				BD2D090305755F8800AF16C6 /* FPPaletteGW.h */,
+				BDC93B1B07471D1600190332 /* FPWindow.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BD9E4B8107CD3B1E00737713 /* KRM */ = {
+			isa = PBXGroup;
+			children = (
+				BD9C68EC099DE6E90007509A /* BigInt.h */,
+				BD9C68EE099DE6EE0007509A /* BigInt.cpp */,
+				BD9C68E6099DE6CE0007509A /* GenericDecode.h */,
+				BD9C68E9099DE6DB0007509A /* GenericDecode.cpp */,
+				BD9C68D9099DE5B90007509A /* ZonicKRM.h */,
+				BD9C68DB099DE5C30007509A /* libZonicKRM.a */,
+			);
+			name = KRM;
+			path = ../../_LIBS/KRM;
+			sourceTree = ZonicKRM;
+		};
+		BDBCDBB1057FA23E00256889 /* Palettes */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2048D07E8DC5700FA6A51 /* Headers */,
+				BD0A677307310A6F007E2BDF /* FPAboutBox.cpp */,
+				BDE4B3E808451ED600F3EA40 /* FPChannelsPalette.cpp */,
+				BD17DD49057854D800324BCE /* FPChordPalette.cpp */,
+				BD17DD4F057854E900324BCE /* FPCirclePalette.cpp */,
+				BD4069B906DB3BD700962711 /* FPDiagramPalette.cpp */,
+				BD17DD550578550A00324BCE /* FPGuitarPalette.cpp */,
+				BD17DD3F057854AF00324BCE /* FPInfoPalette.cpp */,
+				BD17DD630578554600324BCE /* FPMetroPalette.cpp */,
+				BD17DD690578556800324BCE /* FPPianoPalette.cpp */,
+				BD17DD050578470300324BCE /* FPScalePalette.cpp */,
+				BD17DD6F0578558300324BCE /* FPToolbar.cpp */,
+			);
+			name = Palettes;
+			sourceTree = "<group>";
+		};
+		BDC2048B07E8DC2D00FA6A51 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BDF21AD70BBA1BFD0055FCC4 /* TError.h */,
+				2264C9B40E37F9BF0012FEAA /* TObjectDeque.h */,
+				2264CA1C0E3813A40012FEAA /* TObjectList.h */,
+				2264CA1E0E38140B0012FEAA /* TObjectVector.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BDC2048C07E8DC4300FA6A51 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BDE375AC057352DC000D6223 /* FPApplication.h */,
+				BD83560D058C176F00504128 /* FPChord.h */,
+				BDB7DC820784F68900F50909 /* FPClipboard.h */,
+				BD9AB0F507DA25FD00399E77 /* FPCustomTuning.h */,
+				BD6320F50B73F291005262D0 /* FPGuitar.h */,
+				BD6320FE0B73F304005262D0 /* FPGuitarArray.h */,
+				BDDE58FD07CA6B1E0077F291 /* FPHistory.h */,
+				BD1A687F07443618000B672A /* FPPreferences.h */,
+				BD4EFC3A07FE850F0059A89F /* FPTuningInfo.h */,
+				BDAD3AD3073CC35E0090FE2A /* FPUtilities.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BDC2048D07E8DC5700FA6A51 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BD0A677407310A6F007E2BDF /* FPAboutBox.h */,
+				BDE4B3E908451ED600F3EA40 /* FPChannelsPalette.h */,
+				BD17DD48057854D800324BCE /* FPChordPalette.h */,
+				BD17DD4E057854E900324BCE /* FPCirclePalette.h */,
+				BD4069BA06DB3BD700962711 /* FPDiagramPalette.h */,
+				BD17DD540578550A00324BCE /* FPGuitarPalette.h */,
+				BD17DD3E057854AF00324BCE /* FPInfoPalette.h */,
+				BD17DD620578554600324BCE /* FPMetroPalette.h */,
+				BD17DD680578556800324BCE /* FPPianoPalette.h */,
+				BD17DD040578470300324BCE /* FPScalePalette.h */,
+				BD17DD6E0578558300324BCE /* FPToolbar.h */,
+			);
+			name = Headers;
+			sourceTree = "<group>";
+		};
+		BDE37596057350F6000D6223 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BDC2048B07E8DC2D00FA6A51 /* Headers */,
+				BDF21AD60BBA1BFD0055FCC4 /* TError.cpp */,
+			);
+			name = "Base Classes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2254137612E0F3BC00BDCE01 /* FretPet (App Store) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225413CB12E0F3BC00BDCE01 /* Build configuration list for PBXNativeTarget "FretPet (App Store)" */;
+			buildPhases = (
+				2254137712E0F3BC00BDCE01 /* Resources */,
+				225413C512E0F3BC00BDCE01 /* Rez */,
+				2254138712E0F3BC00BDCE01 /* Sources */,
+				225413BD12E0F3BC00BDCE01 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "Using GCC 3.3 the PPC build supports 10.3 through 10.3.8.\n(GCC 4.0 binaries can only run on 10.3.9 or higher.)\n\nIf I require 10.3.9 or higher, I can switch to GCC 4.0 for all builds.\n\nIf I require 10.4 or higher, the i386/PPC build settings (GCC, Target, and SDK) will unify.\n\nFor more info...\nhttp://developer.apple.com/documentation/DeveloperTools/Conceptual/cross_development/UniversalBinaries/chapter_4_section_1.html";
+			dependencies = (
+			);
+			name = "FretPet (App Store)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = FretPet;
+			productReference = 225413CF12E0F3BC00BDCE01 /* FretPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2279ACB715CA40E600592BC0 /* FretPet (old Kagi) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2279AD1515CA40E600592BC0 /* Build configuration list for PBXNativeTarget "FretPet (old Kagi)" */;
+			buildPhases = (
+				2279ACB815CA40E600592BC0 /* Resources */,
+				2279ACC815CA40E600592BC0 /* Sources */,
+				2279AD0415CA40E600592BC0 /* Frameworks */,
+				2279AD0F15CA40E600592BC0 /* Rez */,
+				2279AD1215CA40E600592BC0 /* CopyFiles */,
+				2279AD1415CA40E600592BC0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			comments = "Using GCC 3.3 the PPC build supports 10.3 through 10.3.8.\n(GCC 4.0 binaries can only run on 10.3.9 or higher.)\n\nIf I require 10.3.9 or higher, I can switch to GCC 4.0 for all builds.\n\nIf I require 10.4 or higher, the i386/PPC build settings (GCC, Target, and SDK) will unify.\n\nFor more info...\nhttp://developer.apple.com/documentation/DeveloperTools/Conceptual/cross_development/UniversalBinaries/chapter_4_section_1.html";
+			dependencies = (
+			);
+			name = "FretPet (old Kagi)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = FretPet;
+			productReference = 2279AD1915CA40E600592BC0 /* FretPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22B6EF8919A593C600D8E88F /* FretPet (MAS Demo) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22B6EFFE19A593C600D8E88F /* Build configuration list for PBXNativeTarget "FretPet (MAS Demo)" */;
+			buildPhases = (
+				22B6EF8A19A593C600D8E88F /* Resources */,
+				22B6EF9A19A593C600D8E88F /* Rez */,
+				22B6EF9D19A593C600D8E88F /* Sources */,
+				22B6EFF219A593C600D8E88F /* Frameworks */,
+			);
+			buildRules = (
+			);
+			comments = "Using GCC 3.3 the PPC build supports 10.3 through 10.3.8.\n(GCC 4.0 binaries can only run on 10.3.9 or higher.)\n\nIf I require 10.3.9 or higher, I can switch to GCC 4.0 for all builds.\n\nIf I require 10.4 or higher, the i386/PPC build settings (GCC, Target, and SDK) will unify.\n\nFor more info...\nhttp://developer.apple.com/documentation/DeveloperTools/Conceptual/cross_development/UniversalBinaries/chapter_4_section_1.html";
+			dependencies = (
+			);
+			name = "FretPet (MAS Demo)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = FretPet;
+			productReference = 22B6F00219A593C600D8E88F /* FretPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDC2131508665C5C008CC62E /* FretPet (Kagi) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDC213A408665C5C008CC62E /* Build configuration list for PBXNativeTarget "FretPet (Kagi)" */;
+			buildPhases = (
+				BDC2134508665C5C008CC62E /* Resources */,
+				BDC2134E08665C5C008CC62E /* Sources */,
+				BDC2139A08665C5C008CC62E /* Frameworks */,
+				BDC213A208665C5C008CC62E /* Rez */,
+				22BD0DC910E7649A008691DF /* CopyFiles */,
+				22BD0DC010E76415008691DF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			comments = "Using GCC 3.3 the PPC build supports 10.3 through 10.3.8.\n(GCC 4.0 binaries can only run on 10.3.9 or higher.)\n\nIf I require 10.3.9 or higher, I can switch to GCC 4.0 for all builds.\n\nIf I require 10.4 or higher, the i386/PPC build settings (GCC, Target, and SDK) will unify.\n\nFor more info...\nhttp://developer.apple.com/documentation/DeveloperTools/Conceptual/cross_development/UniversalBinaries/chapter_4_section_1.html";
+			dependencies = (
+			);
+			name = "FretPet (Kagi)";
+			productInstallPath = "$(HOME)/Applications";
+			productName = FretPet;
+			productReference = 22BD0DAC10E76384008691DF /* FretPet.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		20286C28FDCF999611CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				TargetAttributes = {
+					2254137612E0F3BC00BDCE01 = {
+						DevelopmentTeam = 8TBXVC655K;
+						SystemCapabilities = {
+							com.apple.Sandbox = {
+								enabled = 0;
+							};
+						};
+					};
+					22B6EF8919A593C600D8E88F = {
+						DevelopmentTeam = 8TBXVC655K;
+					};
+				};
+			};
+			buildConfigurationList = BDE2CBA8085549E700075DE8 /* Build configuration list for PBXProject "FretPetX" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				Italian,
+			);
+			mainGroup = 20286C29FDCF999611CA2CEA /* FretPet */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDC2131508665C5C008CC62E /* FretPet (Kagi) */,
+				2279ACB715CA40E600592BC0 /* FretPet (old Kagi) */,
+				2254137612E0F3BC00BDCE01 /* FretPet (App Store) */,
+				22B6EF8919A593C600D8E88F /* FretPet (MAS Demo) */,
+				228B3F1E0E2922A7003C76F7 /* Doxygen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2254137712E0F3BC00BDCE01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F8C85613D32C6C003AB610 /* FretPet.xib in Resources */,
+				D2F8C85A13D32C91003AB610 /* about.png in Resources */,
+				22B6F00E19A5A85F00D8E88F /* FretPet.iconset in Resources */,
+				2254137D12E0F3BC00BDCE01 /* Localizable.strings in Resources */,
+				22B6F01419A5AD6E00D8E88F /* FPFile.icns in Resources */,
+				2254137E12E0F3BC00BDCE01 /* InfoPlist.strings in Resources */,
+				2254137F12E0F3BC00BDCE01 /* English in Resources */,
+				2254138012E0F3BC00BDCE01 /* French in Resources */,
+				2254138112E0F3BC00BDCE01 /* Italian in Resources */,
+				22B6F01819A5AD6E00D8E88F /* FPGuitar.icns in Resources */,
+				2254137912E0F3BC00BDCE01 /* images in Resources */,
+				2254138412E0F3BC00BDCE01 /* Guitars in Resources */,
+				222DB181132704C9005B5C66 /* Release Notes.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279ACB815CA40E600592BC0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6F00D19A5A85F00D8E88F /* FretPet.iconset in Resources */,
+				2279ACBA15CA40E600592BC0 /* images in Resources */,
+				22B6F01719A5AD6E00D8E88F /* FPGuitar.icns in Resources */,
+				2279ACBC15CA40E600592BC0 /* Localizable.strings in Resources */,
+				2279ACBD15CA40E600592BC0 /* InfoPlist.strings in Resources */,
+				2279ACBE15CA40E600592BC0 /* English in Resources */,
+				2279ACBF15CA40E600592BC0 /* French in Resources */,
+				2279ACC015CA40E600592BC0 /* Italian in Resources */,
+				2279ACC215CA40E600592BC0 /* Guitars in Resources */,
+				2279ACC315CA40E600592BC0 /* about.png in Resources */,
+				22B6F01319A5AD6E00D8E88F /* FPFile.icns in Resources */,
+				2279ACC415CA40E600592BC0 /* dsa_pub.pem in Resources */,
+				2279ACC515CA40E600592BC0 /* Release Notes.pdf in Resources */,
+				2279ACC615CA40E600592BC0 /* FretPet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B6EF8A19A593C600D8E88F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6EF8C19A593C600D8E88F /* iTunesArtwork@2x.png in Resources */,
+				22B6EF8D19A593C600D8E88F /* FretPet.xib in Resources */,
+				22B6EF8E19A593C600D8E88F /* about.png in Resources */,
+				22B6EF8F19A593C600D8E88F /* Localizable.strings in Resources */,
+				22B6F01519A5AD6E00D8E88F /* FPFile.icns in Resources */,
+				22B6EF9019A593C600D8E88F /* InfoPlist.strings in Resources */,
+				22B6EF9119A593C600D8E88F /* English in Resources */,
+				22B6EF9219A593C600D8E88F /* French in Resources */,
+				22B6EF9419A593C600D8E88F /* Italian in Resources */,
+				22B6F01919A5AD6E00D8E88F /* FPGuitar.icns in Resources */,
+				22B6EF9619A593C600D8E88F /* iTunesArtwork.png in Resources */,
+				22B6F00F19A5A85F00D8E88F /* FretPet.iconset in Resources */,
+				22B6EF9719A593C600D8E88F /* images in Resources */,
+				22B6EF9819A593C600D8E88F /* Guitars in Resources */,
+				22B6EF9919A593C600D8E88F /* Release Notes.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC2134508665C5C008CC62E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6F00C19A5A85F00D8E88F /* FretPet.iconset in Resources */,
+				BDC2134908665C5C008CC62E /* images in Resources */,
+				22B6F01619A5AD6E00D8E88F /* FPGuitar.icns in Resources */,
+				BD53310608665EF700B229ED /* Localizable.strings in Resources */,
+				BD53312F08665FF400B229ED /* InfoPlist.strings in Resources */,
+				BD3C0DF209A939FF002D077E /* English in Resources */,
+				BD3C0DF309A93A04002D077E /* French in Resources */,
+				BD3C0DF409A93A07002D077E /* Italian in Resources */,
+				BD6321AF0B73F6BC005262D0 /* Guitars in Resources */,
+				BD8090260BAFAD7A005356E3 /* about.png in Resources */,
+				22B6F01219A5AD6E00D8E88F /* FPFile.icns in Resources */,
+				22BDE09811B9811900432295 /* dsa_pub.pem in Resources */,
+				222DB180132704C9005B5C66 /* Release Notes.pdf in Resources */,
+				2255761813E058FC0007DC1B /* FretPet.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXRezBuildPhase section */
+		225413C512E0F3BC00BDCE01 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225413C612E0F3BC00BDCE01 /* FretPet.rsrc in Rez */,
+				225413C712E0F3BC00BDCE01 /* FretPet.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279AD0F15CA40E600592BC0 /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279AD1015CA40E600592BC0 /* FretPet.rsrc in Rez */,
+				2279AD1115CA40E600592BC0 /* FretPet.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B6EF9A19A593C600D8E88F /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6EF9B19A593C600D8E88F /* FretPet.rsrc in Rez */,
+				22B6EF9C19A593C600D8E88F /* FretPet.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC213A208665C5C008CC62E /* Rez */ = {
+			isa = PBXRezBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3B157109A74AE900115250 /* FretPet.rsrc in Rez */,
+				BD3B15A509A74EBF00115250 /* FretPet.rsrc in Rez */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXRezBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2279AD1415CA40E600592BC0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "echo <<END\n========================================\n Sparkle Update Package Creation Script\n========================================\n\nUsage of this script:\n1. Create public/private keypair following Sparkle instructions\n2. Add Sparkle.framework to you your linked files in all targets\n3. Create a new copy Build Step with destination: Frameworks\n4. Paste the contents of this file into a new Run Script (bin/bash) Build Phase\n5. Change the values below to get your desired output\n6. Build a \"Release\" target to invoke the script\n\nEND\n\nset -o errexit\n\n[ $CONFIGURATION = Release ] || [ $CONFIGURATION = Distribution ] || { echo No Sparkle AppCast output for \\'$CONFIGURATION\\' build style; exit 0; }\n\nBPD=$BUILT_PRODUCTS_DIR\nVERSION=$(defaults read \"$BPD/$PRODUCT_NAME.app/Contents/Info\" CFBundleVersion)\n\n#\n# *** CHANGE THESE VALUES FOR YOUR ENVIRONMENT ***\n#       (.zip EXAMPLE - .dmg ALSO POSSIBLE)\n#\nKEYCHAIN_PRIVKEY_NAME=\"FretPet Sparkle Private Key\"\nHOST_FILES_PATH=\"public_html/sites/www.thinkyhead.com/files/sparkle\"\nHTTP_FILES_PATH=\"sparkle\"\nDOWNLOAD_BASE_URL=\"http://www.thinkyhead.com/$HTTP_FILES_PATH\"\nAPPCAST_BASE_URL=$DOWNLOAD_BASE_URL\n\nARCHIVE_FILENAME=\"$PRODUCT_NAME$VERSION.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nAPPCAST_NAME=\"${PRODUCT_NAME}Appcast.xml\"\nAPPCAST_URL=\"$APPCAST_BASE_URL/$APPCAST_NAME\"\nRELEASENOTES_NAME=\"$PRODUCT_NAME$VERSION.html\"\nRELEASENOTES_URL=\"$APPCAST_BASE_URL/$RELEASENOTES_NAME\"\n\nWD=$PWD\ncd \"$BPD\"\nrm -f \"$PRODUCT_NAME\"*.zip\nditto -ck --keepParent \"$PRODUCT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\n# Generate a signature for the archive file\nsecurity find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null \\\n\t| perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g; s/\\\\015/\\n/g;' \\\n\t| perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))' \\\n\t>/tmp/privkey.pem\nSIGNATURE=$(openssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" | openssl dgst -dss1 -sign /tmp/privkey.pem | openssl enc -base64)\nrm /tmp/privkey.pem\n\n[ $SIGNATURE ] || { echo FAILURE: Unable to load the signing private key \\'$KEYCHAIN_PRIVKEY_NAME\\' from keychain; false; }\n\ntouch \"$BPD/$RELEASENOTES_NAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(date +\"%a, %d %b %G %T %z\")\n\ncat >\"$BPD/$APPCAST_NAME\" <<EOF\n<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<rss version=\"2.0\" xmlns:sparkle=\"http://www.andymatuschak.org/xml-namespaces/sparkle\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n\t<channel>\n\t\t<title>$PRODUCT_NAME Changelog</title>\n\t\t<link>$APPCAST_URL</link>\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t\t\t<description><![CDATA[\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Some bugs were fixed</li>\n\t\t\t\t\t<li>Some new features were added</li>\n\t\t\t\t</ul>\n\t\t\t]]></description>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\n\t</channel>\n</rss>\nEOF\n\n#\n# *** CHANGE THESE TO FIT YOUR OWN UPDATE SYSTEM ***\n#\necho scp -P 2222 \\\"$BPD/$ARCHIVE_FILENAME\\\" thinksy@thinkyhead.com:$HOST_FILES_PATH/\necho scp -P 2222 \\\"$BPD/$APPCAST_NAME\\\" thinksy@thinkyhead.com:$HOST_FILES_PATH/\n";
+		};
+		228B3F1D0E2922A7003C76F7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#\n#  This script builds the Doxygen documentation for your project and loads the docset into Xcode.\n#\n#  Before using the script you must provide the Doxygen binary's path to your Doxygen target.\n#\n#  Add a User-Defined Setting to your Doxugen target's Build Info named DOXYGEN_PATH\n#  Set its value to the location of your Doxygen binary, which may be one of the following:\n#\n#    Application install: /Applications/Doxygen.app/Contents/Resources/doxygen\n#\n#    Source build install: /usr/local/bin/doxygen\n#\n\nDOX_SRC=\"$SOURCE_ROOT/doxygen.config\"\nDOX_TEMP=\"$TEMP_DIR/doxygen.temp\"\nDOX_DEST=\"$TEMP_DIR/doxygen.config\"\nDOX_SET=\"$TEMP_DIR/DoxygenDocs.docset\"\nDOX_NAME=\"org.doxygen.$PROJECT_NAME\"\n\ndoxset() {\n  subst=${2//\\//\\\\\\/}\n  if [ \"$3\" != \"NO_QUOTES\" -a `expr \"$subst\" : \".* .*\"` -gt 0 ]; then\n  \tsubst=\\\"$subst\\\"\n  fi\n  cat \"$DOX_DEST\" | sed -E \"s/($1[ \\t]+=[ \\t]*).*$/\\1$subst/g\" >\"$DOX_TEMP\"\n  mv -f \"$DOX_TEMP\" \"$DOX_DEST\"\n}\n\n#\n# If the config file doesn't exist, run 'doxygen -g <dest>' to create a default file.\n#\nif ! [ -f \"$DOX_SRC\" ]; then\n  echo doxygen config file does not exist\n  $DOXYGEN_PATH -g \"$DOX_SRC\"\nfi\n\n#\n#  Make a copy of the default config\n#\ncp \"$DOX_SRC\" \"$DOX_DEST\"\n\n#\n# Customize the settings we want to change\n#\ndoxset PROJECT_NAME\t\t\"$PROJECT_NAME\"\ndoxset INPUT\t\t\t\t\"$SOURCE_ROOT\"\ndoxset OUTPUT_DIRECTORY\t\t\"$DOX_SET\"\ndoxset DOCSET_BUNDLE_ID\t\t\"$DOX_NAME\"\ndoxset RECURSIVE\t\t\tYES\ndoxset GENERATE_DOCSET\t\tYES\ndoxset GENERATE_LATEX\t\tNO\ndoxset QUIET\t\t\t\tYES\ndoxset TAB_SIZE\t\t\t4\ndoxset QT_AUTOBRIEF\t\tYES\ndoxset JAVADOC_AUTOBRIEF\tYES\ndoxset FULL_PATH_NAMES\t\tNO\n#doxset EXTRACT_ALL\t\tYES\ndoxset EXTRACT_PRIVATE\t\tYES\ndoxset EXTRACT_STATIC\t\tYES\ndoxset ALWAYS_DETAILED_SEC \tYES\ndoxset FILE_PATTERNS\t\t\"*.c *.cc *.cxx *.cpp *.c++ *.java *.h *.hh *.hxx *.hpp *.h++ *.m *.mm *.dox\" NO_QUOTES\ndoxset WARN_FORMAT\t\t\t\"\\$file:\\$line: warning: \\$text\"\n\n#\n#  Run doxygen on the updated config file.\n#  Note: doxygen creates a Makefile that does most of the heavy lifting.\n#\n$DOXYGEN_PATH \"$DOX_DEST\"\n\n#\n#  make will invoke docsetutil. Take a look at the Makefile to see how this is done.\n#\nmake -C \"$DOX_SET/html\" install\n\n#\n#  Load the doc set\n#\n/usr/bin/osascript -e 'tell application \"Xcode\" to load documentation set with path \"/Users/'$USER'/Library/Developer/Shared/Documentation/DocSets/'$DOX_NAME'.docset\"'\n\n\nexit 0";
+		};
+		22BD0DC010E76415008691DF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/bash;
+			shellScript = "echo <<END\n========================================\n Sparkle Update Package Creation Script\n========================================\n\nUsage of this script:\n1. Create public/private keypair following Sparkle instructions\n2. Add Sparkle.framework to you your linked files in all targets\n3. Create a new copy Build Step with destination: Frameworks\n4. Paste the contents of this file into a new Run Script (bin/bash) Build Phase\n5. Change the values below to get your desired output\n6. Build a \"Release\" target to invoke the script\n\nEND\n\nset -o errexit\n\n[ $CONFIGURATION = Release ] || [ $CONFIGURATION = Distribution ] || { echo No Sparkle AppCast output for \\'$CONFIGURATION\\' build style; exit 0; }\n\nBPD=$BUILT_PRODUCTS_DIR\nVERSION=$(defaults read \"$BPD/$PRODUCT_NAME.app/Contents/Info\" CFBundleVersion)\n\n#\n# *** CHANGE THESE VALUES FOR YOUR ENVIRONMENT ***\n#       (.zip EXAMPLE - .dmg ALSO POSSIBLE)\n#\nKEYCHAIN_PRIVKEY_NAME=\"FretPet Sparkle Private Key\"\nHOST_FILES_PATH=\"public_html/sites/www.thinkyhead.com/files/sparkle\"\nHTTP_FILES_PATH=\"sparkle\"\nDOWNLOAD_BASE_URL=\"http://www.thinkyhead.com/$HTTP_FILES_PATH\"\nAPPCAST_BASE_URL=$DOWNLOAD_BASE_URL\n\nARCHIVE_FILENAME=\"$PRODUCT_NAME$VERSION.zip\"\nDOWNLOAD_URL=\"$DOWNLOAD_BASE_URL/$ARCHIVE_FILENAME\"\nAPPCAST_NAME=\"${PRODUCT_NAME}Appcast.xml\"\nAPPCAST_URL=\"$APPCAST_BASE_URL/$APPCAST_NAME\"\nRELEASENOTES_NAME=\"$PRODUCT_NAME$VERSION.html\"\nRELEASENOTES_URL=\"$APPCAST_BASE_URL/$RELEASENOTES_NAME\"\n\nWD=$PWD\ncd \"$BPD\"\nrm -f \"$PRODUCT_NAME\"*.zip\nditto -ck --keepParent \"$PRODUCT_NAME.app\" \"$ARCHIVE_FILENAME\"\n\n# Generate a signature for the archive file\nsecurity find-generic-password -g -s \"$KEYCHAIN_PRIVKEY_NAME\" 2>&1 1>/dev/null \\\n\t| perl -pe '($_) = /\"(.+)\"/; s/\\\\012/\\n/g; s/\\\\015/\\n/g;' \\\n\t| perl -MXML::LibXML -e 'print XML::LibXML->new()->parse_file(\"-\")->findvalue(q(//string[preceding-sibling::key[1] = \"NOTE\"]))' \\\n\t>/tmp/privkey.pem\nSIGNATURE=$(openssl dgst -sha1 -binary < \"$ARCHIVE_FILENAME\" | openssl dgst -dss1 -sign /tmp/privkey.pem | openssl enc -base64)\nrm /tmp/privkey.pem\n\n[ $SIGNATURE ] || { echo FAILURE: Unable to load the signing private key \\'$KEYCHAIN_PRIVKEY_NAME\\' from keychain; false; }\n\ntouch \"$BPD/$RELEASENOTES_NAME\"\n\nSIZE=$(stat -f %z \"$ARCHIVE_FILENAME\")\nPUBDATE=$(date +\"%a, %d %b %G %T %z\")\n\ncat >\"$BPD/$APPCAST_NAME\" <<EOF\n<?xml version=\"1.0\" encoding=\"iso-8859-1\"?>\n<rss version=\"2.0\" xmlns:sparkle=\"http://www.andymatuschak.org/xml-namespaces/sparkle\" xmlns:dc=\"http://purl.org/dc/elements/1.1/\">\n\t<channel>\n\t\t<title>$PRODUCT_NAME Changelog</title>\n\t\t<link>$APPCAST_URL</link>\n\t\t<item>\n\t\t\t<title>Version $VERSION</title>\n\t\t\t<sparkle:releaseNotesLink>$RELEASENOTES_URL</sparkle:releaseNotesLink>\n\t\t\t<description><![CDATA[\n\t\t\t\t<ul>\n\t\t\t\t\t<li>Some bugs were fixed</li>\n\t\t\t\t\t<li>Some new features were added</li>\n\t\t\t\t</ul>\n\t\t\t]]></description>\n\t\t\t<pubDate>$PUBDATE</pubDate>\n\t\t\t<enclosure\n\t\t\t\turl=\"$DOWNLOAD_URL\"\n\t\t\t\tsparkle:version=\"$VERSION\"\n\t\t\t\ttype=\"application/octet-stream\"\n\t\t\t\tlength=\"$SIZE\"\n\t\t\t\tsparkle:dsaSignature=\"$SIGNATURE\"\n\t\t\t/>\n\t\t</item>\n\t</channel>\n</rss>\nEOF\n\n#\n# *** CHANGE THESE TO FIT YOUR OWN UPDATE SYSTEM ***\n#\necho scp -P 2222 \\\"$BPD/$ARCHIVE_FILENAME\\\" thinksy@thinkyhead.com:$HOST_FILES_PATH/\necho scp -P 2222 \\\"$BPD/$APPCAST_NAME\\\" thinksy@thinkyhead.com:$HOST_FILES_PATH/\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2254138712E0F3BC00BDCE01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2254138812E0F3BC00BDCE01 /* main.cpp in Sources */,
+				2254138912E0F3BC00BDCE01 /* TWindow.cpp in Sources */,
+				2254138B12E0F3BC00BDCE01 /* FPDocWindow.cpp in Sources */,
+				2254138D12E0F3BC00BDCE01 /* FPScalePalette.cpp in Sources */,
+				2254138E12E0F3BC00BDCE01 /* FPChordPalette.cpp in Sources */,
+				2254138F12E0F3BC00BDCE01 /* FPCirclePalette.cpp in Sources */,
+				2254139012E0F3BC00BDCE01 /* FPGuitarPalette.cpp in Sources */,
+				2254139112E0F3BC00BDCE01 /* FPPianoPalette.cpp in Sources */,
+				2254139212E0F3BC00BDCE01 /* FPToolbar.cpp in Sources */,
+				2254139312E0F3BC00BDCE01 /* TControls.cpp in Sources */,
+				2254139412E0F3BC00BDCE01 /* FPGlobals.cpp in Sources */,
+				2254139512E0F3BC00BDCE01 /* FPChord.cpp in Sources */,
+				2254139612E0F3BC00BDCE01 /* FPMusicPlayer.cpp in Sources */,
+				2254139712E0F3BC00BDCE01 /* FPAboutBox.cpp in Sources */,
+				2254139812E0F3BC00BDCE01 /* FPUtilities.cpp in Sources */,
+				2254139912E0F3BC00BDCE01 /* FPDocument.cpp in Sources */,
+				2254139A12E0F3BC00BDCE01 /* FPPreferences.cpp in Sources */,
+				2254139B12E0F3BC00BDCE01 /* FPWindow.cpp in Sources */,
+				2254139C12E0F3BC00BDCE01 /* TFile.cpp in Sources */,
+				2254139D12E0F3BC00BDCE01 /* NavServicesSupport.cpp in Sources */,
+				2254139E12E0F3BC00BDCE01 /* FPClipboard.cpp in Sources */,
+				2254139F12E0F3BC00BDCE01 /* TTrackingRegion.cpp in Sources */,
+				225413A012E0F3BC00BDCE01 /* FPHistory.cpp in Sources */,
+				225413A112E0F3BC00BDCE01 /* FPCustomTuning.cpp in Sources */,
+				225413A212E0F3BC00BDCE01 /* FPDiagramPalette.cpp in Sources */,
+				225413A312E0F3BC00BDCE01 /* FPTuningInfo.cpp in Sources */,
+				225413A512E0F3BC00BDCE01 /* TDictionary.cpp in Sources */,
+				225413A612E0F3BC00BDCE01 /* FPChannelsPalette.cpp in Sources */,
+				225413A712E0F3BC00BDCE01 /* FPInfoPalette.cpp in Sources */,
+				225413AA12E0F3BC00BDCE01 /* FPGuitarArray.cpp in Sources */,
+				225413AB12E0F3BC00BDCE01 /* FPGuitar.cpp in Sources */,
+				225413AC12E0F3BC00BDCE01 /* FPPaletteGL.cpp in Sources */,
+				225413AD12E0F3BC00BDCE01 /* FPFrame.cpp in Sources */,
+				225413AE12E0F3BC00BDCE01 /* FPContext.cpp in Sources */,
+				225413AF12E0F3BC00BDCE01 /* FPSprite.cpp in Sources */,
+				225413B012E0F3BC00BDCE01 /* FPSpriteLayer.cpp in Sources */,
+				225413B212E0F3BC00BDCE01 /* TError.cpp in Sources */,
+				225413B312E0F3BC00BDCE01 /* TCarbonEvent.cp in Sources */,
+				225413B412E0F3BC00BDCE01 /* TMidiOutput.cpp in Sources */,
+				225413B512E0F3BC00BDCE01 /* TCustomWindow.cpp in Sources */,
+				225413B612E0F3BC00BDCE01 /* TControl.cpp in Sources */,
+				225413B712E0F3BC00BDCE01 /* TCustomControl.cpp in Sources */,
+				225413B812E0F3BC00BDCE01 /* TPictureControl.cpp in Sources */,
+				225413B912E0F3BC00BDCE01 /* TTextField.cpp in Sources */,
+				225413BA12E0F3BC00BDCE01 /* TSpriteControl.cpp in Sources */,
+				225413BB12E0F3BC00BDCE01 /* CGHelper.cpp in Sources */,
+				225413BC12E0F3BC00BDCE01 /* TMusicOutput.cpp in Sources */,
+				22CDBA2F1328B8CB00D675AB /* AppStoreValidation.cpp in Sources */,
+				22CDBA681328C34100D675AB /* asn_codecs_prim.c in Sources */,
+				22CDBA691328C34100D675AB /* asn_SET_OF.c in Sources */,
+				22CDBA6A1328C34100D675AB /* ber_decoder.c in Sources */,
+				22CDBA6B1328C34100D675AB /* ber_tlv_length.c in Sources */,
+				22CDBA6C1328C34100D675AB /* ber_tlv_tag.c in Sources */,
+				22CDBA6D1328C34100D675AB /* BIT_STRING.c in Sources */,
+				22CDBA6E1328C34100D675AB /* constr_SEQUENCE.c in Sources */,
+				22CDBA6F1328C34100D675AB /* constr_SET_OF.c in Sources */,
+				22CDBA701328C34100D675AB /* constr_TYPE.c in Sources */,
+				22CDBA711328C34100D675AB /* constraints.c in Sources */,
+				22CDBA731328C34100D675AB /* der_encoder.c in Sources */,
+				22CDBA741328C34100D675AB /* INTEGER.c in Sources */,
+				22CDBA771328C34100D675AB /* NativeEnumerated.c in Sources */,
+				22CDBA781328C34100D675AB /* NativeInteger.c in Sources */,
+				22CDBA791328C34100D675AB /* OCTET_STRING.c in Sources */,
+				22CDBA7A1328C34100D675AB /* Payload.c in Sources */,
+				22CDBA7B1328C34100D675AB /* per_decoder.c in Sources */,
+				22CDBA7C1328C34100D675AB /* per_encoder.c in Sources */,
+				22CDBA7D1328C34100D675AB /* per_opentype.c in Sources */,
+				22CDBA7E1328C34100D675AB /* per_support.c in Sources */,
+				22CDBA7F1328C34100D675AB /* ReceiptAttribute.c in Sources */,
+				22CDBA801328C34100D675AB /* xer_decoder.c in Sources */,
+				22CDBA811328C34100D675AB /* xer_encoder.c in Sources */,
+				22CDBA821328C34100D675AB /* xer_support.c in Sources */,
+				22CE931513B5DE5400DAAAC4 /* TSynthOutput.cpp in Sources */,
+				227A430913B6936300E2A13B /* TQTOutput.cpp in Sources */,
+				2242047D13B9372400E74428 /* TRecentItems.cpp in Sources */,
+				22B76AAE13B9CEDD00D3D71D /* FPExportFile.cpp in Sources */,
+				22AAD79513B9F0730032ABD8 /* FPDocControls.cpp in Sources */,
+				22F9DD3513B9F377007D7D19 /* FPCloneSheet.cpp in Sources */,
+				2241375713BEF4040036565E /* FPMidiHelper.cpp in Sources */,
+				22B6D75713FB6C23000B444E /* FPApplication.mm in Sources */,
+				22B6D75A13FC53EA000B444E /* FPPalette.cpp in Sources */,
+				22C0B68113FF506500D7BE27 /* TString.cpp in Sources */,
+				22D1276A166B36D400DB2690 /* FPBankControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2279ACC815CA40E600592BC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2279ACC915CA40E600592BC0 /* TSynthOutput.cpp in Sources */,
+				2279ACCA15CA40E600592BC0 /* main.cpp in Sources */,
+				2279ACCB15CA40E600592BC0 /* TWindow.cpp in Sources */,
+				2279ACCC15CA40E600592BC0 /* FPDocWindow.cpp in Sources */,
+				2279ACCD15CA40E600592BC0 /* FPScalePalette.cpp in Sources */,
+				2279ACCE15CA40E600592BC0 /* FPChordPalette.cpp in Sources */,
+				2279ACCF15CA40E600592BC0 /* FPCirclePalette.cpp in Sources */,
+				2279ACD015CA40E600592BC0 /* FPGuitarPalette.cpp in Sources */,
+				2279ACD115CA40E600592BC0 /* FPPianoPalette.cpp in Sources */,
+				2279ACD215CA40E600592BC0 /* FPToolbar.cpp in Sources */,
+				2279ACD315CA40E600592BC0 /* TControls.cpp in Sources */,
+				2279ACD415CA40E600592BC0 /* FPGlobals.cpp in Sources */,
+				2279ACD515CA40E600592BC0 /* FPChord.cpp in Sources */,
+				2279ACD615CA40E600592BC0 /* FPMusicPlayer.cpp in Sources */,
+				2279ACD715CA40E600592BC0 /* FPAboutBox.cpp in Sources */,
+				2279ACD815CA40E600592BC0 /* FPUtilities.cpp in Sources */,
+				2279ACD915CA40E600592BC0 /* FPDocument.cpp in Sources */,
+				2279ACDA15CA40E600592BC0 /* FPPreferences.cpp in Sources */,
+				2279ACDB15CA40E600592BC0 /* FPWindow.cpp in Sources */,
+				2279ACDC15CA40E600592BC0 /* TFile.cpp in Sources */,
+				2279ACDD15CA40E600592BC0 /* NavServicesSupport.cpp in Sources */,
+				2279ACDE15CA40E600592BC0 /* FPClipboard.cpp in Sources */,
+				2279ACDF15CA40E600592BC0 /* TTrackingRegion.cpp in Sources */,
+				2279ACE015CA40E600592BC0 /* FPHistory.cpp in Sources */,
+				2279ACE115CA40E600592BC0 /* FPCustomTuning.cpp in Sources */,
+				2279ACE215CA40E600592BC0 /* FPDiagramPalette.cpp in Sources */,
+				2279ACE315CA40E600592BC0 /* FPTuningInfo.cpp in Sources */,
+				2279ACE415CA40E600592BC0 /* FPAuthorizer.cpp in Sources */,
+				2279ACE515CA40E600592BC0 /* TDictionary.cpp in Sources */,
+				2279ACE615CA40E600592BC0 /* FPChannelsPalette.cpp in Sources */,
+				2279ACE715CA40E600592BC0 /* FPInfoPalette.cpp in Sources */,
+				2279ACE815CA40E600592BC0 /* FPGuitarArray.cpp in Sources */,
+				2279ACE915CA40E600592BC0 /* FPGuitar.cpp in Sources */,
+				2279ACEA15CA40E600592BC0 /* FPPaletteGL.cpp in Sources */,
+				2279ACEB15CA40E600592BC0 /* FPFrame.cpp in Sources */,
+				2279ACEC15CA40E600592BC0 /* FPContext.cpp in Sources */,
+				2279ACED15CA40E600592BC0 /* FPSprite.cpp in Sources */,
+				2279ACEE15CA40E600592BC0 /* FPSpriteLayer.cpp in Sources */,
+				2279ACEF15CA40E600592BC0 /* TError.cpp in Sources */,
+				2279ACF015CA40E600592BC0 /* TCarbonEvent.cp in Sources */,
+				2279ACF115CA40E600592BC0 /* TMidiOutput.cpp in Sources */,
+				2279ACF215CA40E600592BC0 /* TCustomWindow.cpp in Sources */,
+				2279ACF315CA40E600592BC0 /* TControl.cpp in Sources */,
+				2279ACF415CA40E600592BC0 /* TCustomControl.cpp in Sources */,
+				2279ACF515CA40E600592BC0 /* TPictureControl.cpp in Sources */,
+				2279ACF615CA40E600592BC0 /* TTextField.cpp in Sources */,
+				2279ACF715CA40E600592BC0 /* TSpriteControl.cpp in Sources */,
+				2279ACF815CA40E600592BC0 /* CGHelper.cpp in Sources */,
+				2279ACF915CA40E600592BC0 /* TMusicOutput.cpp in Sources */,
+				2279ACFA15CA40E600592BC0 /* TQTOutput.cpp in Sources */,
+				2279ACFB15CA40E600592BC0 /* TRecentItems.cpp in Sources */,
+				2279ACFC15CA40E600592BC0 /* FPExportFile.cpp in Sources */,
+				2279ACFD15CA40E600592BC0 /* FPDocControls.cpp in Sources */,
+				2279ACFE15CA40E600592BC0 /* FPCloneSheet.cpp in Sources */,
+				2279ACFF15CA40E600592BC0 /* FPMidiHelper.cpp in Sources */,
+				2279AD0015CA40E600592BC0 /* FPApplication.mm in Sources */,
+				2279AD0115CA40E600592BC0 /* FPPalette.cpp in Sources */,
+				2279AD0215CA40E600592BC0 /* TString.cpp in Sources */,
+				2279AD1C15CA410600592BC0 /* BigInt.cpp in Sources */,
+				2279AD1D15CA410900592BC0 /* GenericDecode.cpp in Sources */,
+				22D12769166B36D400DB2690 /* FPBankControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22B6EF9D19A593C600D8E88F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B6EF9E19A593C600D8E88F /* main.cpp in Sources */,
+				22B6EF9F19A593C600D8E88F /* TWindow.cpp in Sources */,
+				22B6EFA019A593C600D8E88F /* FPDocWindow.cpp in Sources */,
+				22B6EFA119A593C600D8E88F /* FPScalePalette.cpp in Sources */,
+				22B6EFA219A593C600D8E88F /* FPChordPalette.cpp in Sources */,
+				22B6EFA319A593C600D8E88F /* FPCirclePalette.cpp in Sources */,
+				22B6EFA419A593C600D8E88F /* FPGuitarPalette.cpp in Sources */,
+				22B6EFA519A593C600D8E88F /* FPPianoPalette.cpp in Sources */,
+				22B6EFA619A593C600D8E88F /* FPToolbar.cpp in Sources */,
+				22B6EFA719A593C600D8E88F /* TControls.cpp in Sources */,
+				22B6EFA819A593C600D8E88F /* FPGlobals.cpp in Sources */,
+				22B6EFA919A593C600D8E88F /* FPChord.cpp in Sources */,
+				22B6EFAA19A593C600D8E88F /* FPMusicPlayer.cpp in Sources */,
+				22B6EFAB19A593C600D8E88F /* FPAboutBox.cpp in Sources */,
+				22B6EFAC19A593C600D8E88F /* FPUtilities.cpp in Sources */,
+				22B6EFAD19A593C600D8E88F /* FPDocument.cpp in Sources */,
+				22B6EFAE19A593C600D8E88F /* FPPreferences.cpp in Sources */,
+				22B6EFAF19A593C600D8E88F /* FPWindow.cpp in Sources */,
+				22B6EFB019A593C600D8E88F /* TFile.cpp in Sources */,
+				22B6EFB119A593C600D8E88F /* NavServicesSupport.cpp in Sources */,
+				22B6EFB219A593C600D8E88F /* FPClipboard.cpp in Sources */,
+				22B6EFB319A593C600D8E88F /* TTrackingRegion.cpp in Sources */,
+				22B6EFB419A593C600D8E88F /* FPHistory.cpp in Sources */,
+				22B6EFB519A593C600D8E88F /* FPCustomTuning.cpp in Sources */,
+				22B6EFB619A593C600D8E88F /* FPDiagramPalette.cpp in Sources */,
+				22B6EFB719A593C600D8E88F /* FPTuningInfo.cpp in Sources */,
+				22B6EFB819A593C600D8E88F /* TDictionary.cpp in Sources */,
+				22B6EFB919A593C600D8E88F /* FPChannelsPalette.cpp in Sources */,
+				22B6EFBA19A593C600D8E88F /* FPInfoPalette.cpp in Sources */,
+				22B6EFBB19A593C600D8E88F /* FPGuitarArray.cpp in Sources */,
+				22B6EFBC19A593C600D8E88F /* FPGuitar.cpp in Sources */,
+				22B6EFBD19A593C600D8E88F /* FPPaletteGL.cpp in Sources */,
+				22B6EFBE19A593C600D8E88F /* FPFrame.cpp in Sources */,
+				22B6EFBF19A593C600D8E88F /* FPContext.cpp in Sources */,
+				22B6EFC019A593C600D8E88F /* FPSprite.cpp in Sources */,
+				22B6EFC119A593C600D8E88F /* FPSpriteLayer.cpp in Sources */,
+				22B6EFC219A593C600D8E88F /* TError.cpp in Sources */,
+				22B6EFC319A593C600D8E88F /* TCarbonEvent.cp in Sources */,
+				22B6EFC419A593C600D8E88F /* TMidiOutput.cpp in Sources */,
+				22B6EFC519A593C600D8E88F /* TCustomWindow.cpp in Sources */,
+				22B6EFC619A593C600D8E88F /* TControl.cpp in Sources */,
+				22B6EFC719A593C600D8E88F /* TCustomControl.cpp in Sources */,
+				22B6EFC819A593C600D8E88F /* TPictureControl.cpp in Sources */,
+				22B6EFC919A593C600D8E88F /* TTextField.cpp in Sources */,
+				22B6EFCA19A593C600D8E88F /* TSpriteControl.cpp in Sources */,
+				22B6EFCB19A593C600D8E88F /* CGHelper.cpp in Sources */,
+				22B6EFCC19A593C600D8E88F /* TMusicOutput.cpp in Sources */,
+				22B6EFCD19A593C600D8E88F /* AppStoreValidation.cpp in Sources */,
+				22B6EFCE19A593C600D8E88F /* asn_codecs_prim.c in Sources */,
+				22B6EFCF19A593C600D8E88F /* asn_SET_OF.c in Sources */,
+				22B6EFD019A593C600D8E88F /* ber_decoder.c in Sources */,
+				22B6EFD119A593C600D8E88F /* ber_tlv_length.c in Sources */,
+				22B6EFD219A593C600D8E88F /* ber_tlv_tag.c in Sources */,
+				22B6EFD319A593C600D8E88F /* BIT_STRING.c in Sources */,
+				22B6EFD419A593C600D8E88F /* constr_SEQUENCE.c in Sources */,
+				22B6EFD519A593C600D8E88F /* constr_SET_OF.c in Sources */,
+				22B6EFD619A593C600D8E88F /* constr_TYPE.c in Sources */,
+				22B6EFD719A593C600D8E88F /* constraints.c in Sources */,
+				22B6EFD819A593C600D8E88F /* der_encoder.c in Sources */,
+				22B6EFD919A593C600D8E88F /* INTEGER.c in Sources */,
+				22B6EFDA19A593C600D8E88F /* NativeEnumerated.c in Sources */,
+				22B6EFDB19A593C600D8E88F /* NativeInteger.c in Sources */,
+				22B6EFDC19A593C600D8E88F /* OCTET_STRING.c in Sources */,
+				22B6EFDD19A593C600D8E88F /* Payload.c in Sources */,
+				22B6EFDE19A593C600D8E88F /* FPAuthorizer.cpp in Sources */,
+				22B6EFDF19A593C600D8E88F /* per_decoder.c in Sources */,
+				22B6EFE019A593C600D8E88F /* per_encoder.c in Sources */,
+				22B6EFE119A593C600D8E88F /* per_opentype.c in Sources */,
+				22B6EFE219A593C600D8E88F /* per_support.c in Sources */,
+				22B6EFE319A593C600D8E88F /* ReceiptAttribute.c in Sources */,
+				22B6EFE419A593C600D8E88F /* xer_decoder.c in Sources */,
+				22B6EFE519A593C600D8E88F /* xer_encoder.c in Sources */,
+				22B6EFE619A593C600D8E88F /* xer_support.c in Sources */,
+				22B6EFE719A593C600D8E88F /* TSynthOutput.cpp in Sources */,
+				22B6EFE819A593C600D8E88F /* TQTOutput.cpp in Sources */,
+				22B6EFE919A593C600D8E88F /* TRecentItems.cpp in Sources */,
+				22B6EFEA19A593C600D8E88F /* FPExportFile.cpp in Sources */,
+				22B6EFEB19A593C600D8E88F /* FPDocControls.cpp in Sources */,
+				22B6EFEC19A593C600D8E88F /* FPCloneSheet.cpp in Sources */,
+				22B6EFED19A593C600D8E88F /* FPMidiHelper.cpp in Sources */,
+				22B6EFEE19A593C600D8E88F /* FPApplication.mm in Sources */,
+				22B6EFEF19A593C600D8E88F /* FPPalette.cpp in Sources */,
+				22B6EFF019A593C600D8E88F /* TString.cpp in Sources */,
+				22B6EFF119A593C600D8E88F /* FPBankControl.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDC2134E08665C5C008CC62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CE92FF13B54DE900DAAAC4 /* TSynthOutput.cpp in Sources */,
+				BDC2134F08665C5C008CC62E /* main.cpp in Sources */,
+				BDC2135008665C5C008CC62E /* TWindow.cpp in Sources */,
+				BDC2135308665C5C008CC62E /* FPDocWindow.cpp in Sources */,
+				BDC2135608665C5C008CC62E /* FPScalePalette.cpp in Sources */,
+				BDC2135708665C5C008CC62E /* FPChordPalette.cpp in Sources */,
+				BDC2135808665C5C008CC62E /* FPCirclePalette.cpp in Sources */,
+				BDC2135908665C5C008CC62E /* FPGuitarPalette.cpp in Sources */,
+				BDC2135A08665C5C008CC62E /* FPPianoPalette.cpp in Sources */,
+				BDC2135B08665C5C008CC62E /* FPToolbar.cpp in Sources */,
+				BDC2135C08665C5C008CC62E /* TControls.cpp in Sources */,
+				BDC2135D08665C5C008CC62E /* FPGlobals.cpp in Sources */,
+				BDC2135E08665C5C008CC62E /* FPChord.cpp in Sources */,
+				BDC2135F08665C5C008CC62E /* FPMusicPlayer.cpp in Sources */,
+				BDC2136E08665C5C008CC62E /* FPAboutBox.cpp in Sources */,
+				BDC2136F08665C5C008CC62E /* FPUtilities.cpp in Sources */,
+				BDC2137008665C5C008CC62E /* FPDocument.cpp in Sources */,
+				BDC2137108665C5C008CC62E /* FPPreferences.cpp in Sources */,
+				22438C9219A6C5540081B5F3 /* FPKagiSA.mm in Sources */,
+				BDC2137208665C5C008CC62E /* FPWindow.cpp in Sources */,
+				BDC2137308665C5C008CC62E /* TFile.cpp in Sources */,
+				BDC2137408665C5C008CC62E /* NavServicesSupport.cpp in Sources */,
+				BDC2137508665C5C008CC62E /* FPClipboard.cpp in Sources */,
+				BDC2137608665C5C008CC62E /* TTrackingRegion.cpp in Sources */,
+				BDC2137808665C5C008CC62E /* FPHistory.cpp in Sources */,
+				BDC2137908665C5C008CC62E /* FPCustomTuning.cpp in Sources */,
+				BDC2137A08665C5C008CC62E /* FPDiagramPalette.cpp in Sources */,
+				BDC2139208665C5C008CC62E /* FPTuningInfo.cpp in Sources */,
+				BDC2139608665C5C008CC62E /* TDictionary.cpp in Sources */,
+				BDC2139708665C5C008CC62E /* FPChannelsPalette.cpp in Sources */,
+				BDC2139808665C5C008CC62E /* FPInfoPalette.cpp in Sources */,
+				BD44BAA10B7BFAEC00F43B80 /* FPGuitarArray.cpp in Sources */,
+				BD44BAA20B7BFAED00F43B80 /* FPGuitar.cpp in Sources */,
+				BDDE3EC70B894F5400E28F99 /* FPPaletteGL.cpp in Sources */,
+				BD3638010BACF63F0007FCE6 /* FPFrame.cpp in Sources */,
+				BD3638020BACF63F0007FCE6 /* FPContext.cpp in Sources */,
+				BD3638030BACF63F0007FCE6 /* FPSprite.cpp in Sources */,
+				BD3638040BACF63F0007FCE6 /* FPSpriteLayer.cpp in Sources */,
+				BDF21AD80BBA1BFD0055FCC4 /* TError.cpp in Sources */,
+				BDF21B880BBA233D0055FCC4 /* TCarbonEvent.cp in Sources */,
+				22001E380E18455600E30C14 /* TMidiOutput.cpp in Sources */,
+				22F5ACA80E251F0C003DD005 /* TCustomWindow.cpp in Sources */,
+				22B69D750E273DBF00A5B7B6 /* TControl.cpp in Sources */,
+				22B69D8B0E27438E00A5B7B6 /* TCustomControl.cpp in Sources */,
+				22B69D9D0E274B4800A5B7B6 /* TPictureControl.cpp in Sources */,
+				22B69DF10E274F0C00A5B7B6 /* TTextField.cpp in Sources */,
+				22B69E2A0E2752B000A5B7B6 /* TSpriteControl.cpp in Sources */,
+				22D35BED0E32F9FD00D83D0E /* CGHelper.cpp in Sources */,
+				22CB44400E64ABF80092FB35 /* TMusicOutput.cpp in Sources */,
+				227A430813B6936300E2A13B /* TQTOutput.cpp in Sources */,
+				2242047C13B9372400E74428 /* TRecentItems.cpp in Sources */,
+				22AAD79413B9F0730032ABD8 /* FPDocControls.cpp in Sources */,
+				22F9DD3413B9F377007D7D19 /* FPCloneSheet.cpp in Sources */,
+				2241375813BEF4040036565E /* FPMidiHelper.cpp in Sources */,
+				22B6D75613FB6C23000B444E /* FPApplication.mm in Sources */,
+				22B6D75913FC53EA000B444E /* FPPalette.cpp in Sources */,
+				22C0B68013FF506500D7BE27 /* TString.cpp in Sources */,
+				22D12768166B36D400DB2690 /* FPBankControl.cpp in Sources */,
+				229CA46F1721781A00C8FF38 /* FPAuthorizer.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		22C82C931461F8AB00E663F4 /* KSAProductOffer.nib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22C82C941461F8AB00E663F4 /* English */,
+			);
+			name = KSAProductOffer.nib;
+			sourceTree = "<group>";
+		};
+		BD3B156F09A74AE900115250 /* FretPet.rsrc */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD3B157009A74AE900115250 /* English */,
+				BD3B157A09A74B3500115250 /* French */,
+				BD3B157B09A74B3900115250 /* Italian */,
+			);
+			name = FretPet.rsrc;
+			sourceTree = "<group>";
+		};
+		BD53310508665EF700B229ED /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53305008665E3500B229ED /* English */,
+				BD53311D08665F2800B229ED /* French */,
+				BD434A6009272A5900EBEB4F /* Italian */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		BD53312D08665FF400B229ED /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD53312E08665FF400B229ED /* English */,
+				BD5331330866600000B229ED /* French */,
+				BD434A6609272A7700EBEB4F /* Italian */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BD8090230BAFAD7A005356E3 /* about.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD8090240BAFAD7A005356E3 /* English */,
+				BD8090270BAFAD8F005356E3 /* French */,
+				BD8090280BAFAD9B005356E3 /* Italian */,
+			);
+			name = about.png;
+			sourceTree = "<group>";
+		};
+		D2F8C85413D32C6C003AB610 /* FretPet.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D2F8C85513D32C6C003AB610 /* English */,
+				D2F8C85713D32C84003AB610 /* French */,
+				D2F8C85913D32C91003AB610 /* Italian */,
+			);
+			name = FretPet.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22335D221401DB48008B41DA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Mac Developer: Scott Lahteine (ACVZH886L4)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CONFIG_$CONFIGURATION,
+					"TARGET_($TARGET)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_DEVELOPER_DIR)/Headers/FlatCarbon",
+					"$(ZonicKRM)/Headers",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = "$(SYMROOT)";
+				PROVISIONING_PROFILE = "2a115456-d852-4d96-b1ac-4d1dc264d45a";
+				SDKROOT = macosx10.6;
+				SYMROOT = ../build;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Distribution;
+		};
+		22335D231401DB48008B41DA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)/With Carbon Support\"",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ZonicKRM)/Libraries/Xcode\"",
+					"$(KagiSA)",
+				);
+				PRODUCT_NAME = FretPet;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		22335D241401DB48008B41DA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_AppStorePrefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (App Store).plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		22335D251401DB48008B41DA /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DOXYGEN_PATH = /Applications/_Applications/DEVELOPER/Doxygen.app/Contents/Resources/doxygen;
+				DOXYGEN_SETTINGS = "";
+				PRODUCT_NAME = Doxygen;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		225413CC12E0F3BC00BDCE01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_AppStorePrefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (App Store).plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		225413CD12E0F3BC00BDCE01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_AppStorePrefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (App Store).plist";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		2279AD1615CA40E600592BC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(ZonicKRM)/Libraries/XCode";
+				PRODUCT_NAME = FretPet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2279AD1715CA40E600592BC0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(ZonicKRM)/Libraries/XCode";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = FretPet;
+				STRIP_INSTALLED_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		2279AD1815CA40E600592BC0 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = "$(ZonicKRM)/Libraries/XCode";
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				PRODUCT_NAME = FretPet;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		228B3F1F0E2922A7003C76F7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DOXYGEN_PATH = /Applications/_Applications/DEVELOPER/Doxygen.app/Contents/Resources/doxygen;
+				DOXYGEN_SETTINGS = "";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				PRODUCT_NAME = Doxygen;
+			};
+			name = Debug;
+		};
+		228B3F210E2922A7003C76F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DOXYGEN_PATH = /Applications/_Applications/DEVELOPER/Doxygen.app/Contents/Resources/doxygen;
+				DOXYGEN_SETTINGS = "";
+				PRODUCT_NAME = Doxygen;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		22B6EFFF19A593C600D8E88F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FretPet.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_MASDemo_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (MASDemo).plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		22B6F00019A593C600D8E88F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FretPet.entitlements;
+				CODE_SIGN_IDENTITY = "Developer ID Application: Scott Lahteine";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application: Scott Lahteine";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_MASDemo_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (MASDemo).plist";
+				LIBRARY_SEARCH_PATHS = "";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		22B6F00119A593C600D8E88F /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = FretPet.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)\"/**",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_MASDemo_Prefix.pch;
+				GCC_VERSION = "";
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "Resources/Info (MASDemo).plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				OTHER_LDFLAGS = "-lcrypto";
+				PRODUCT_NAME = FretPet;
+				VALIDATE_PRODUCT = YES;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Distribution;
+		};
+		BDC213A508665C5C008CC62E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)/With Carbon Support\"",
+				);
+				GCC_DEBUGGING_SYMBOLS = used;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = YES;
+				GCC_WARN_UNUSED_VARIABLE = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ZonicKRM)/Libraries/Xcode\"",
+					"$(KagiSA)",
+				);
+				PRODUCT_NAME = FretPet;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BDC213A708665C5C008CC62E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(Sparkle)/With Carbon Support\"",
+				);
+				GCC_ENABLE_TRIGRAPHS = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Sources/FretPet_Prefix.pch;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = NO;
+				GCC_WARN_FOUR_CHARACTER_CONSTANTS = NO;
+				GCC_WARN_UNKNOWN_PRAGMAS = NO;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = Resources/Info.plist;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(ZonicKRM)/Libraries/Xcode\"",
+					"$(KagiSA)",
+				);
+				PRODUCT_NAME = FretPet;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+					"-Wno-missing-braces",
+				);
+				WRAPPER_EXTENSION = app;
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		BDE2CBA9085549E700075DE8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "Mac Developer: Scott Lahteine (ACVZH886L4)";
+				COPY_PHASE_STRIP = NO;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CONFIG_$CONFIGURATION,
+					"TARGET_($TARGET)",
+				);
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_DEVELOPER_DIR)/Headers/FlatCarbon",
+					"$(ZonicKRM)/Headers",
+				);
+				PROVISIONING_PROFILE = "2a115456-d852-4d96-b1ac-4d1dc264d45a";
+				SDKROOT = macosx10.6;
+				SYMROOT = ../build;
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		BDE2CBAB085549E700075DE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "3rd Party Mac Developer Application";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					CONFIG_$CONFIGURATION,
+					"TARGET_($TARGET)",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(SYSTEM_DEVELOPER_DIR)/Headers/FlatCarbon",
+					"$(ZonicKRM)/Headers",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.4;
+				OBJROOT = "$(SYMROOT)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = macosx10.6;
+				SYMROOT = ../build;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		225413CB12E0F3BC00BDCE01 /* Build configuration list for PBXNativeTarget "FretPet (App Store)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225413CC12E0F3BC00BDCE01 /* Debug */,
+				225413CD12E0F3BC00BDCE01 /* Release */,
+				22335D241401DB48008B41DA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		2279AD1515CA40E600592BC0 /* Build configuration list for PBXNativeTarget "FretPet (old Kagi)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2279AD1615CA40E600592BC0 /* Debug */,
+				2279AD1715CA40E600592BC0 /* Release */,
+				2279AD1815CA40E600592BC0 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		228B3F230E2922C5003C76F7 /* Build configuration list for PBXAggregateTarget "Doxygen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				228B3F1F0E2922A7003C76F7 /* Debug */,
+				228B3F210E2922A7003C76F7 /* Release */,
+				22335D251401DB48008B41DA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		22B6EFFE19A593C600D8E88F /* Build configuration list for PBXNativeTarget "FretPet (MAS Demo)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22B6EFFF19A593C600D8E88F /* Debug */,
+				22B6F00019A593C600D8E88F /* Release */,
+				22B6F00119A593C600D8E88F /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDC213A408665C5C008CC62E /* Build configuration list for PBXNativeTarget "FretPet (Kagi)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDC213A508665C5C008CC62E /* Debug */,
+				BDC213A708665C5C008CC62E /* Release */,
+				22335D231401DB48008B41DA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BDE2CBA8085549E700075DE8 /* Build configuration list for PBXProject "FretPetX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDE2CBA9085549E700075DE8 /* Debug */,
+				BDE2CBAB085549E700075DE8 /* Release */,
+				22335D221401DB48008B41DA /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 20286C28FDCF999611CA2CEA /* Project object */;
+}

@@ -1,0 +1,453 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Document Window</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+<a name="top"></a>
+
+<div id="mantop">
+<h1>the document</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="../palette/channels.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="filters.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="intro.html">Introduction</a></li>
+				<li><a href="require.html">Requirements</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="interface.html">Interface</a></li>
+				<li class="current">The Document</li>
+				<li><a href="filters.html">Filters</a></li>
+				<li><a href="prefs.html">Preferences</a></li>
+				<li><a href="customize.html">Custom Tunings</a></li>
+				<li><a href="export.html">File Export</a></li>
+				<li><a href="hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img src="_img/document.png" alt="document" width="373" height="324" />
+		</div>
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr valign="top">
+		<td>
+			<ul>
+				<li><a href="#head">Document Heading</a></li>
+				<li><a href="#cfeats">Chord Features</a></li>
+				<li><a href="#howto">Document How-To</a></li>
+				<li><a href="#theseq">The Picking Sequencer</a></li>
+				<li><a href="#editseq">Editing Tools</a></li>
+			</ul>
+		</td>
+		</tr></table>
+		</div>
+
+		<p>The document window is divided into two sections. The top of the
+			window contains a heading with <a href="#parts">Part Tabs</a>, a <a
+			href="#tempo">Tempo Slider</a>, and the current part's <a
+			href="#velocity">Velocity</a> and <a href="#sustain">Sustain</a>
+			settings. Below this is your chord progression, displayed as a
+			series of boxes, each with its own <a
+			href="#theseq">Sequencer</a> for making picking patterns.</p>
+
+		<p>When you select a line or part in the document the selected chord
+			becomes the <a href="#current">Current Chord</a> and the various
+			palettes update to show the properties of the chord. All actions you
+			perform in the palettes then affect the selected chord.</p>
+
+		<h2><a name="head"></a>Document Heading<a class="top" href="#top">TOP</a></h2>
+		<dl>
+			<dt><a name="parts"></a>Part Tabs</dt>
+			<dd>
+				<p>The part tabs allow you to select which part you wish to view
+					and edit. Each part has its own instrument, velocity,
+					sustain settings, and chords.</p>
+
+				<p>Whenever you perform an operation on the Current Chord only
+				the chord in the active part is directly affected. However the
+				other three parts will be synchronized when they are (1)
+				identical to the visible chord and (2) have no picking pattern.
+				Only the bracket position is unaffected by this
+				auto-synchronization.</p>
+
+				<ul>
+					<li>Click on an inactive Part Tab to activate it.</li>
+					<li>You can also use the ← and → keys.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="popup"></a>Instrument Menu</dt>
+			<dd>
+				<p>Use this popup menu to select a General MIDI instrument for
+				the current part.</p>
+				<ul>
+					<li>You can also use the <span class="menu">Sequencer →
+						GM Instrument</span> submenu.
+					<li>You can also use the Instrument Popups in the Channels
+						Palette.</li>
+					<li>⌘ click to toggle Instrument Name and Instrument
+						Number.</li>
+					<li>This control also responds to a mouse scroll-wheel.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="tempo"></a>Tempo Slider</dt>
+			<dd>
+				<p>This slider indicates the tempo for the entire document and
+					all parts. The tempo is represented in beats-per-minute
+					(BPM). Each vertical line in the sequencer represents 1/4
+					beat. The tempo can be set to any value from 30 to 300 BPM,
+					so FretPet can theoretically play as many as 28,800 tones
+					per minute (300 BPM x 4 sub-beats x 6 strings x 4 parts). 
+					During play changes to the tempo may not take effect right
+					away. To maximize synchronization the player always waits
+					until the beginning of the next chord before using the
+					updated tempo.</p>
+				<ul>
+					<li>Click and drag to set any value from 30 to 150 BPM.</li>
+					<li>Quick-click to set the value to a multiple of 5.</li>
+					<li>This control also responds to a mouse scroll-wheel.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="doubler"></a>Tempo Doubler</dt>
+			<dd>
+				<p>The document can be played at normal or double speed. At 1X
+					speed you can adjust the tempo to values between 30 and 150
+					BPM in intervals of 1/2 BPM. At 2X speed the tempo can be
+					adjusted to any value between 60 and 300 BPM in intervals of
+					1 BPM. During play changes to the tempo doubler may not
+					take effect right away. To maximize synchronization the
+					player always waits until the beginning of the next
+					chord before using the updated tempo.</p>
+				<ul><li>Click to toggle between 1X and 2X speed.</li></ul>
+			</dd>
+
+			<dt><a name="velocity"></a>Velocity Slider</dt>
+			<dd>
+				<p>Velocity determines how hard notes in this part will be
+					struck, so it's basically equivalent to volume.</p>
+				<ul>
+					<li>Click and drag to set the velocity from 0 to 127.</li>
+					<li>Quick-click to set the value to a multiple of 10.</li>
+					<li>This control also responds to a mouse scroll-wheel.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="sustain"></a>Sustain Slider</dt>
+			<dd>
+				<p>Sustain determines how long a note continues to ring after it
+					has been struck.</p>
+				<ul>
+					<li>Click and drag to set any value from 1 to 50.</li>
+					<li>Quick-click constrains the value to a multiple of 5.</li>
+					<li>This control also responds to a mouse scroll-wheel.</li>
+				</ul>
+			</dd>
+
+			<div class="note">
+				<table><tr>
+				<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+				<td>When using more complex synthesizers like GarageBand,
+					Absynth, and others, the velocity setting may have a
+					characteristic effect on the timbre of the sound. When the
+					sustain is longer than the interval between successive tones
+					they may merge, slide, or continue in the same envelope.
+					Experiment!</td>
+				</tr></table>
+			</div>
+
+		</dl>
+
+		<h2><a name="cfeats"></a>Chord Features<a class="top" href="#top">TOP</a></h2>
+		<p>Every line in the document contains four chords, one for each part.
+			The four chords that live on a single line are referred to as a
+			Chord Group.</p>
+
+		<dl>
+			<dt><a name="current"></a>Current Chord</dt>
+			<dd>The green highlighted chord is the Current Chord. All chord
+				operations affect this chord.</dd>
+
+			<dt><a name="number"></a>Chord Number</dt>
+			<dd>Each chord is numbered according to its position in the document.</dd>
+
+			<dt><a name="circle"></a>Chord Circle</dt>
+			<dd>
+				<p>Every chord is represented by a small version of the Circle.
+					The Chord Circle - unlike the Circle Palette - always has C
+					at 12-o-clock.</p>
+				<ul>
+					<li>Click inside the Chord Circle to add or remove notes
+					from the Current Chord.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="name"></a>Chord Name</dt>
+			<dd>
+				<p>This is the name of the chord. To change a chord's name
+					select one from the Chord Palette or use the Scale Palette
+					to select a new root tone.</p>
+			</dd>
+
+			<dt><a name="lock"></a>Chord Lock Indicator</dt>
+			<dd>
+				<p>When the chord root is locked a padlock appears at the right
+					end of the chord name box. Chords with a locked root can be
+					modified as freely as other chords. However the root cannot
+					be changed in the Scale Palette.</p>
+				<ul>
+					<li>Click the padlock to toggle Root Lock.</li>
+				</ul>
+			</dd>
+
+			<dt><a name="tabs"></a>Tablature Numbers</dt>
+			<dd>This is the fingering of the chord represented as fret numbers
+				in the current tuning. For example, 0 1 0 2 3 3 represents a C
+				chord in standard tuning.</dd>
+
+			<dt><a name="repeat"></a>The Repeat Slider</dt>
+			<dd>indicates how many times a chord will repeat when the document
+				is played.</dd>
+
+			<dt>The Picking Sequencer</dt>
+			<dd><a href="#theseq">Described Below...</a></dd>
+
+		</dl>
+
+		<h2><a name="howto"></a>Document How-To<a class="top" href="#top">TOP</a></h2>
+		<dl>
+		<dt><a name="maneuver"></a>Navigating</dt>
+		<dd>
+			<p>Navigate the Document Window using the mouse or keyboard in much
+			the same manner as you would any typical Mac document.</p>
+			<ul>
+				<li>Click on a chord to select it.</li>
+				<li>Drag to select several chords at once.</li>
+				<li>↑ and ↓ move the document cursor.</li>
+				<li>← and → change the active part.</li>
+				<li>⇧↑ and ⇧↓ move the cursor while extending the
+				selection.</li>
+				<li>Page Up / Page Down change the view by a page.</li>
+				<li>Home / End move to the top / bottom of the document.</li>
+			</ul>
+		</dd>
+
+		<dt><a name="adding"></a>Adding Chords</dt>
+		<dd>
+			<p>When you add a chord to the document you are effectively making a
+				copy of the Current Chord. The new chord is placed <em>after</em>
+				the Current Chord and it becomes the new Current Chord.</p>
+			<ul>
+				<li>Click the Add Chord button in the toolbar to copy the
+					Current Chord.</li>
+				<li>You can also press the <em>A</em> key</li>
+			</ul>
+		</dd>
+
+		<dt><a name="selecting"></a>Selecting Chords</dt>
+		<dd>
+			<p>Fretpet allows you to select a range of chords using the
+				traditional methods. You can click and drag in the document, ⇧
+				click, or use ⇧↑ and ⇧↓. Selected chords appear in a light green
+				color while the Current Chord remains a darker green. This is to
+				remind you that the various palettes reflect the state of the
+				Current Chord and not the whole selection.</p>
+
+			<p>FretPet has a <span class="menu">Filter</span> menu that you can
+				use to operate on several chords at once. These operations are
+				described in detail in the <a href="filters.html">Filters</a>
+				chapter.</p>
+		</dd>
+
+		<dt><a name="deleting"></a>Deleting Chords</dt>
+		<dd>
+			<p>When you press the ⌫ key all selected chords are removed from
+				the document. (You can get them back with the Undo command.)</p>
+			<ul>
+				<li>Press ⌫ or ⌦ to delete the current selection.</li>
+			</ul>
+		</dd>
+
+		<dt><a name="clear"></a>Clear Commands</dt>
+		<dd>
+			<p>The <a href="../palette/toolbar.html#clear">Clear Button</a> and
+				corresponding menu items only affect the Current Chord
+				regardless of the current selection.</p>
+			<ul>
+				<li>Click the Clear Button or use the <span class="menu">Chord
+					→ Clear Tones</span> command to remove all tones from the
+					chord.</li>
+				<li>⌥ click the Clear Button or use the <span class="menu">Chord
+					→ Clear Pattern</span> command to clear the picking
+					pattern.</li>
+				<li>⇧ click the Clear Button or use the <span class="menu">Chord
+					→ Clear Both</span> command to remove all tones and clear
+					the picking pattern.</li>
+			</ul>
+		</dd>
+
+		<dt><a name="editdoc"></a>Edit Commands</dt>
+		<dd>
+			<p>The standard clipboard commands are available to copy and paste
+				chords. There are also a couple of additional commands that make
+				editing your compositions much easier.</p>
+
+			<ul>
+				<li>Use the <span class="menu">Edit</span> menu commands to
+					perform standard Cut, Copy, and Paste for single or multiple
+					chords.</li>
+
+				<li>The <span class="menu">Edit → Paste Pattern</span> menu
+					command fills the selected chords in the active part with
+					patterns from the clipboard, repeating them if necessary.
+					The patterns pasted will be those of the part that was
+					visible at the time of the <span class="menu">Cut</span> or
+					<span class="menu">Copy</span>.</li>
+
+				<li><span class="menu">Edit → Paste Tones</span> fills the
+					selected range with chords from the clipboard, repeating
+					them if necessary. The chords pasted will be those of the
+					part that was visible at the time of the <span
+					class="menu">Cut</span> or <span
+					class="menu">Copy</span>.</li>
+
+				<li><span class="menu">Edit → Select All</span> sets the
+					selected range to the whole document.</li>
+			</ul>
+
+			<div class="note">
+				<table><tr>
+				<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+				<td>When you do a regular Copy, Cut, or Paste, all the parts are
+					included in the operation. But Paste Pattern and Paste Tones
+					only affect the Active Part which is plainly visible.</td>
+				</tr></table>
+			</div>
+
+		</dd>
+
+		<dt><a name="playdoc"></a>Play Commands</dt>
+		<dd>
+			<p>At any time you can press the <a
+				href="../palette/toolbar.html#play">Play Button</a> to hear some
+				or all of your composition. Playback will proceed differently
+				depending on whether you have a selection and the current state
+				of the Loop, Follow View, and Edit Mode buttons in the Toolbar.
+			</p>
+			<p>See the section on the Toolbar to learn more about the <a
+				href="../palette/toolbar.html#loop">Loop</a>, <a
+				href="../palette/toolbar.html#follow">Follow View</a>, and <a
+				href="../palette/toolbar.html#free">Edit Mode</a> buttons.</p>
+			<ul>
+				<li>The <a href="../palette/toolbar.html#play">Play Button</a> plays the currently selected range.</li>
+				<li>The <a href="../palette/toolbar.html#hear">Hear Button</a> plays only the Current Chord.</li>
+				<li>You can also use the <span class="menu">Sequencer</span>
+				menu commands <span class="menu">Play</span> and <span
+				class="menu">Hear</span>.</li>
+			</ul>
+		</dd>
+		</dl>
+
+		<h2><a name="theseq"></a>The Picking Sequencer<a class="top" href="#top">TOP</a></h2>
+		<p>The Picking Sequencer is a simple tool you can use to build picking
+			patterns for each chord. It is roughly modeled after a guitar
+			tablature diagram. Only the sequencer of the Current Chord is
+			active. If you click in an inactive chord's sequencer area you will
+			instead select the chord.</p>
+
+		<dl>
+			<dt><a name="stringlines"></a>String Lines</dt>
+			<dd>The horizontal lines represent the strings of the guitar. Each
+				string represents a single tone as indicated on the fretboard.
+				If the Fret Bracket is turned off or if no tone is selected on a
+				string then a red x will appear in the tablature area and dots
+				placed on these strings will also appear red.</dd>
+
+			<dt><a name="tickmarks"></a>Beat Markers</dt>
+			<dd>The vertical lines represent beats in your picking pattern.
+				Each line actually represents a quarter-beat, and the darker
+				lines lines mark whole beats. There are up to 16 quarter-beats
+				available for each pattern.</dd>
+
+			<dt><a name="sizer"></a>Sequence Length</dt>
+			<dd>The thick bar at the right end of the sequencer is used to
+				change the number of beats in the picking pattern for all
+				parts.</dd>
+		</dl>
+
+
+		<h2><a name="editseq"></a>Editing Tools<a class="top" href="#top">TOP</a></h2>
+		<p>Clicking and dragging in the sequencer simply adds and removes tones
+			from the picking-pattern. But you can also use the following
+			modifier keys to edit the pattern in other interesting ways:</p>
+
+		<table class="clean indent">
+			<tr>
+				<th width="80">MODIFIERS</td>
+				<th width="20"></td>
+				<th>CLICK ACTION</td>
+			</tr>
+			<tr>
+				<td class="ctr">NONE</td>
+				<td><img height=16 width=16 src="_img/add.gif" /></td>
+				<td>Toggle single dots</td>
+			</tr>
+			<tr>
+				<td class="ctr">⌥</td>
+				<td><img height=16 width=16 src="_img/col.gif" /></td>
+				<td>Toggle columns of dots</td>
+			</tr>
+			<tr>
+				<td class="ctr">⇧</td>
+				<td><img height=16 width=16 src="_img/move.gif" /></td>
+				<td>Move the sequence around</td>
+			</tr>
+			<tr>
+				<td class="ctr">⇧⌥</td>
+				<td><img height=16 width=16 src="_img/dupe.gif" /></td>
+				<td>Clone the sequence</td>
+			</tr>
+			<tr>
+				<td class="ctr">⌘</td>
+				<td><img height=16 width=16 src="_img/line.gif" /></td>
+				<td>Draw a line</td>
+			</tr>
+		</table>
+
+  </div>
+</div>
+
+</div></body>
+</html>

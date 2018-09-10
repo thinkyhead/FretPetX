@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Info Palette</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>info palette</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="circle.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="channels.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li><a href="toolbar.html">Toolbar</a></li>
+						<li><a href="chord.html">Chord Palette</a></li>
+						<li><a href="scale.html">Scale Palette</a></li>
+						<li><a href="guitar.html">Guitar Palette</a></li>
+						<li><a href="keyboard.html">Keyboard Palette</a></li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li class="current">Info Palette</li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img src="_img/info.png" alt="info" width="222" height="213" />
+		</div>
+
+		<p>The Note Info palette provides additional details about the tones
+		currently selected in the <a href="scale.html">Scale Palette</a> and <a
+		href="guitar.html">Guitar Palette</a>. You can refer to this palette
+		whenever you're curious about the chord-relative functions of the
+		tones with which you're working.</p>
+
+		<h2>Palette Features</h2>
+		<dl>
+
+		<dt>Scale Cursor Tone</dt>
+		<dd>The tone at the scale cursor. This tone will always be the root note
+			of the chord unless the root is locked.</dd>
+
+		<dt>Primary Chord Function</dt>
+		<dd>The primary function of the tone at the scale cursor with respect to
+			the root of the chord. Note that this will always be &quot;R&quot;
+			unless the root is locked, since the scale cursor determines the
+			root of the chord otherwise.</dd>
+
+		<dt>Secondary Chord Function</dt>
+		<dd>The secondary (second octave) function of the tone at the scale
+			cursor with respect to the root of the chord.</dd>
+
+		<dt>Sol-Fa Name</dt>
+		<dd>
+			<p>The Sol-Fa Name is a simple phoneme that corresponds to the scale
+				tone. Phonetic systems have long been used to encourage music
+				students to sing and mentally integrate the tones of the Major
+				Scale. In this system the Major scale is sung with the syllables
+				&quot;Do, Re, Mi, Fa, Sol, La, Ti, Do,&quot; pronounced
+				&quot;Doe, Ray, Mee, Fah, Sole, Lah, Tee, Doe.&quot;</p>
+
+			<p>The original Sol-Fa system comes from a Benedictine monk called
+				Guido of Arezzo, who took the first notes of each line in a
+				Latin hymn written around 770 A.D. This system was later
+				popularized by <a
+				href="http://en.wikipedia.org/wiki/John_Curwen">John Curwen</a>
+				of England in the mid-19th century, and <a
+				href="http://en.wikipedia.org/wiki/Zolt%E1n_Kod%E1ly">Zoltán
+				Kodály</a> of Hungary in the 20th Century. If that name sounds
+				familiar, you probably heard it in a movie. <em>Close Encounters
+				of the Third Kind</em> prominently features the system of
+				hand-signs invented by John Curwen and propagated by Zoltán
+				Kodály. Watch for it next time.</p>
+		</dd>
+
+		<dt>Guitar Cursor Tone</dt>
+		<dd>This is the tone on the guitar at the Fret Cursor.</dd>
+
+		<dt>Primary Function</dt>
+		<dd>Primary Function indicates the function of the Guitar Cursor Tone
+			with respect to the root of the Current Chord.</dd>
+
+		<dt>Secondary Function</dt>
+		<dd>Secondary Function indicates how the Fret Cursor Note fits into
+			the Current Chord in the second octave.</dd>
+
+		<dt>Note Intervals</dt>
+		<dd>This is the interval between the scale tone and the guitar tone
+			expressed in both directions within a single octave. This interval
+			is expressed as two intervals that are always reciprocal of one
+			other. That means that as one interval ascends the other descends,
+			and the same intervals will always appear together.</dd>
+		</dl>
+
+		<div class="note">
+			<table><tr>
+			<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+			<td>For more insight into the role of harmonies check out the
+			sidebar, <a href="../sidebar/tritones.html">Try Some
+			Tritones</a>.</td>
+			</tr></table>
+		</div>
+
+	</td>
+
+</tr></table>
+</div></body>
+</html>

@@ -1,0 +1,6 @@
+/* Localized versions of Info.plist keys */
+
+CFBundleName = "FretPet";
+CFBundleShortVersionString = "1.4";
+CFBundleGetInfoString = "1.4";
+NSHumanReadableCopyright = "Copyright © 2013 Thinkyhead Software.";

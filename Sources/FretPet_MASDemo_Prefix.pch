@@ -1,0 +1,21 @@
+/*
+ *  FretPet_AppStorePrefix.pch
+ *
+ *	FretPet X
+ *  Copyright © 2012 Scott Lahteine. All rights reserved.
+ *
+ */
+
+#define SPARKLE_SUPPORT		0
+#define KAGI_SUPPORT		0
+#define DEMO_ONLY           1
+#define APPSTORE_SUPPORT	1
+#define QUICKTIME_SUPPORT	0
+#define DEBUG_REFCOUNTS		0
+
+#include <Carbon/Carbon.h>
+
+#include "FPTypes.h"
+#include "FPMacros.h"
+#include "FPGlobals.h"
+#include "FPCommands.h"

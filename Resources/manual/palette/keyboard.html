@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Keyboard Palette</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>keyboard palette</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="guitar.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="diagram.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li><a href="toolbar.html">Toolbar</a></li>
+						<li><a href="chord.html">Chord Palette</a></li>
+						<li><a href="scale.html">Scale Palette</a></li>
+						<li><a href="guitar.html">Guitar Palette</a></li>
+						<li class="current">Keyboard Palette</li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li><a href="info.html">Info Palette</a></li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img src="_img/keyboard.png" alt="" width="383" height="84" />
+		</div>
+
+		<h2><a name="intro"></a>Guitar vs. Keyboard</h2>
+
+		<p>The guitar was invented a bit earlier than the piano. So was the
+			harpsichord. In fact, stringed instruments have been around since
+			before the dawn of written history. Pianos and harpsichords were
+			invented to make it easier for &quot;those lacking the subtle
+			dexterity of Olympians&quot; to play music. And they do. Far, far
+			easier. In fact, no instrument comes closer to the quintessence of
+			12-tone music than the piano. You might say it is the Mac OS of
+			music.</p>
+
+		<p>Sure, we love stringed instruments for all their nuance and direct
+			feel. But lest we come to disdain pianos, harpsichords, and other
+			keyboards, remember that they too are stringed instruments.</p>
+
+		<h2><a name="layout"></a>The Layman's Layout</h2>
+
+		<p>The white keys on a keyboard represent all the natural notes in the
+			key of C / Am. The black keys represent all the sharp and flat tones
+			that surround C Major. (The black keys also happen to represent the
+			F# Major / Eb minor pentatonic scale.) The relationship between
+			scale tones and keys on the keyboard is easier to understand if we
+			follow the Circle of Fifths order:</p>
+
+		<p>As I've already mentioned, the C Major scale has no black keys.
+			Moving up a Fifth, we see that the G Major scale gains one black key
+			(F#). Next the key of D gains C#. This progress continues until we
+			get all the way up to B which has all the black keys in the scale.
+			Then F# (Gb) and C# (Db) have all the black keys but different white
+			keys. Beginning with Ab (G#) we begin to lose black keys one at a
+			time until we get back around to C again.</p>
+
+		<h2><a name="color"></a>Color Coding</h2>
+
+		<dl>
+		<dt>Tones in the Current Scale are Blue</dt>
+		<dd>Blue is the color used in the Keyboard and Circle Palettes to
+			indicate Scale Tones. In the Keyboard Palette there are two
+			different shades of blue - a lighter shade for white keys and a
+			darker shade for black keys.</dd>
+
+		<dt>Tones outside the Current Scale are White &amp; Black</dt>
+		<dd><p>All the scales in FretPet are 7-tone scales, so there will always
+			be 5 tones left over that aren't colored blue. These tones will be
+			left uncolored, white and black.</p>
+		</dd>
+
+		<dt>Tones in the Current Chord appear as Dots</dt>
+		<dd>
+		<p>Just as in the Guitar Palette, chord tones are shown as colored dots.
+			Yellow dots represent the root of the Current Chord. White dots
+			represent other Chord Tones that lie within the Current Scale. Chord
+			tones outside the Current Scale are drawn in a darker shade.
+			gray.</p>
+		</dd>
+
+		</dl>
+
+		<h2><a name="tickle"></a>Tickling the Ivories</h2>
+		<p>As you might have guessed the Keyboard Palette is totally
+			interactive.</p>
+		<dl><dd>
+		<ul>
+			<li>Click a key to play a tone. Drag to play several.</li>
+			<li>Hold the ⌘ key to only play notes that are in the current key.</li>
+			<li>Double-click to toggle a tone in the Current Chord.</li>
+			<li>Triple-click to add a triad to the Current Chord.</li>
+			<li>⌥ Triple-click to remove a triad from the Current Chord.</li>
+		</ul>
+		</dd></dl>
+
+  </div>
+</div>
+
+</div></body>
+</html>

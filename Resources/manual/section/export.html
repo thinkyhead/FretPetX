@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - Export</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>export</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="customize.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="hints.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="intro.html">Introduction</a></li>
+				<li><a href="require.html">Requirements</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="interface.html">Interface</a></li>
+				<li><a href="document.html">The Document</a></li>
+				<li><a href="filters.html">Filters</a></li>
+				<li><a href="prefs.html">Preferences</a></li>
+				<li><a href="customize.html">Custom Tunings</a></li>
+				<li class="current">File Export</li>
+				<li><a href="hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox"> 
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr><td>
+			<ul>
+				<li><a href="#crossover">FretPet Crosses Over</a></li>
+				<li><a href="#movie">QuickTime Movie Export</a></li>
+				<li><a href="#midi">MIDI Export</a></li>
+				<li><a href="#sunvox">SunVox Export</a></li>
+				<li><a href="#embed">Your Music on the Web</a></li>
+			</ul>
+		</td></tr></table>
+		</div>
+
+		<h2><a name="crossover"></a>FretPet Crosses Over</h2>
+
+		<p>FretPet uses an XML-based file format to store its compositions.
+			This file format isn't yet supported by other applications, so when
+			you want to use your music in multimedia projects or on other
+			platforms you need to export them to a more popular standard format.
+			FretPet provides export to QuickTime Movie and Standard MIDI
+			Format.</p>
+
+		<h2><a name="movie"></a>QuickTime Movie Export</h2>
+
+		<p>Use the <span class="menu">File → Export Movie&#133;</span>
+			command to export your sequence as a QuickTime Music Movie. You can
+			use QuickTime Pro to convert Music Movie files directly to other
+			formats including AIFF (Audio Interchange File Format) and MIDI.</p>
+
+		<p>Music Movie files can be extremely useful in multimedia projects.
+			With QuickTime Pro you can copy and paste video, still images,
+			music, sound, and MIDI all in the same simple interface. QuickTime
+			Player is deceptively simple in appearance, but you can use it to
+			build impressive movies complete with a soundtrack.</p>
+
+		<h2><a name="midi"></a>MIDI Export</h2>
+
+		<p>FretPet can export directly to MIDI. These files can be read and
+			played by any MIDI sequencer.</p>
+
+		<p>Use the <span class="menu">File → Export MIDI&#133;</span> command
+			to save your composition as a MIDI file. MIDI Export has two optional
+			settings that appear at the bottom of the MIDI Export dialog.</p>
+
+		<dl>
+			<dt>Format 1</dt>
+			<dd>Standard MIDI Format specifies 3 different styles for storing
+				multi-track compositions. <em>Format 0</em> places all note
+				events into a single track. <em>Format 1</em> places all the
+				note events for a given MIDI Channel into its own track.
+				(<em>Format 2</em> isn't useful for FretPet.) So check this box
+				if you need or prefer to split channels into separate tracks
+				according to Format 1.</dd>
+
+			<dt>Running Mode</dt>
+			<dd>Standard MIDI Format supports two different styles for storing
+				note events. The <em>Verbose</em> style stores a separate
+				command for every event. A tighter format called <em>Running
+				Mode</em> only stores a single command that applies to a run of
+				similar events. To create shorter MIDI files enable Running
+				Mode.</dd>
+			<dd>
+				<p>Here's an example where using Running Mode saves two bytes of
+					storage:</p>
+				<ul>
+				<li>Verbose Mode: 91 20 40 | <span style="color:red">91</span>
+					22 3A | <span style="color:red">91</span> 3C 29 | 92 55 23
+					...</li>
+				<li>Running Mode: 91 20 40 | 22 3A | 3C 29 | 92 55 23 ...</li>
+				</ul>
+			</dd>
+		</dl>
+
+		<h2><a name="sunvox"></a>SunVox Export</h2>
+
+		<p>Use the <span class="menu">File → Export SunVox&#133;</span>
+			command to export your sequence as a SunVox file. After you open
+			it in SunVox you can edit the modules or create new ones and
+			remap your tracks using the Edit &gt; Remap option. The current
+			export produces basic Generator (sine wave) modules for instrument
+			tracks, and DrumSynth modules for any drum tracks.</p>
+
+		<p>If you haven't tried <a href="http://warmplace.ru/">SunVox</a> I
+			encourage you to run out and get it now! It's entirely FREE for
+			desktop platforms, including Linux, and very inexpensive for iPad
+			and Android devices. It's an old-school tracker with a built-in
+			synthesizer, filters, and samplers. Starting out with a simple
+			FretPet composition you can very quickly end up with something
+			that sounds out of this world.</p>
+
+		<h2><a name="embed"></a>Your Music on the Web</h2>
+
+		<p>MIDI can be placed directly into a web page using the &lt;embed&gt;
+			tag. Visitors will hear your music if their browser has a
+			MIDI-capable plugin such as QuickTime. The code below demonstrates
+			one popular way to embed MIDI in an XHTML web page. This example is
+			non-standard in that it doesn't specify any MIME type or object
+			class, but most current browsers know what to do with it.</p>
+
+		<div>
+		<pre style="font-size:x-small;font-family:monaco;">
+  &lt;embed src="MyMidiFile.mid" autostart="false" height="45" width="200" /&gt;
+		</pre>
+		</div>
+
+		<p>Music Movies should be placed into a web page using the correct
+			&lt;object&gt; and &lt;embed&gt; tags to explicitly specify the
+			QuickTime Plugin as the handler. Anyone visiting your page will see
+			a controller for playing the music if have the QuickTime Plugin
+			installed in their browser, or they will be directed to the
+			Apple website to download the plugin.</p>
+
+		<div>
+		<pre style="font-size:x-small;font-family:monaco;">
+  &lt;object CLASSID="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B"
+    width="200" height="16"
+    CODEBASE="http://www.apple.com/qtactivex/qtplugin.cab"&gt;
+  &lt;param name="src" value="MyMusicMovie.mov" /&gt;
+  &lt;param name="qtsrc" value="MyMusicMovie.mov" /&gt;
+  &lt;param name="autoplay" value="false" /&gt;
+  &lt;param name="loop" value="true" /&gt;
+  &lt;param name="cache" value="true" /&gt;
+  &lt;param name="controller" value="true" /&gt;
+  &lt;embed src="MyMusicMovie.mov" width="200"
+    height="16" autoplay="false" controller="true" cache="true"
+    loop="true" type="video/quicktime"
+    pluginspage="http://www.apple.com/quicktime/download/" /&gt;
+  &lt;/object&gt;
+		</pre>
+		</div>
+
+  </div>
+</div>
+
+</div></body>
+</html>

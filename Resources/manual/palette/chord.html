@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Chord Palette</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>chord palette</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="toolbar.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="scale.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li><a href="toolbar.html">Toolbar</a></li>
+						<li class="current">Chord Palette</li>
+						<li><a href="scale.html">Scale Palette</a></li>
+						<li><a href="guitar.html">Guitar Palette</a></li>
+						<li><a href="keyboard.html">Keyboard Palette</a></li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li><a href="info.html">Info Palette</a></li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img src="_img/chord.png" alt="" width="278" height="243" />
+		</div>
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr>
+		<td width="50%">
+			<ul>
+			<li><a href="#naming">What's In a Name?</a></li>
+			<li><a href="#tones">Chord Tones</a></li>
+			<li><a href="#name">Chord Name</a></li>
+			</ul>
+		</td><td>
+			<ul>
+			<li><a href="#rootlock">Root Lock</a></li>
+			<li><a href="#disclose">Disclosure Triangle</a></li>
+			<li><a href="#extended">Extended Name List</a></li>
+			</ul>
+		</td>
+		</tr></table>
+		</div>
+
+
+		<h2><a name="naming"></a>What's In a Name?</h2>
+
+		<p>The Chord Palette displays all the notes in the <a
+			href="../section/glossary.html#Current%20Chord" class="gloss">Current Chord</a>,
+			the chord's name, and the 11 other names of the <a
+			href="../section/glossary.html#Chord" class="gloss">chord</a>. A Chord Name is
+			another way of describing which notes are in the chord.</p>
+
+		<p>The letter name assigned to a chord is called the <a
+			href="../section/glossary.html#Root" class="gloss">Root</a>. The Root Note is used
+			as an anchor for the chord. A chord named for just its root note,
+			such as a C chord, is a <a
+			href="../section/glossary.html#Triad" class="gloss">triad</a> with a root note
+			(C), a major third (E), and a perfect 5th (G).</p>
+
+		<p>Extensions are added to a chord's name to specify alterations to the
+			basic major triad. For example, the letter <b>m</b> indicates that
+			the third of the chord is a minor 3rd. The number <b>7</b> indicates
+			that a <a href="../section/glossary.html#Dominant" class="gloss">Dominant 7</a>
+			has been added.</p>
+
+		<p>The following table shows the names of tones in the key of C in the
+			primary and secondary octaves:</p>
+
+		<table class="clean indent ctr">
+			<tr>
+				<th width="33%">NOTE</th>
+				<th width="34%">PRIMARY</th>
+				<th width="33%">SECONDARY</th>
+			</tr>
+			<tr class="odd">	<td>C</td> <td>R</td> <td></td> </tr>
+			<tr>				<td>C♯</td> <td></td> <td>♭9</td> </tr>
+			<tr class="odd">	<td>D</td> <td></td> <td>9</td> </tr>
+			<tr>				<td>E♭</td> <td>m</td> <td>♯9</td> </tr>
+			<tr class="odd">	<td>E</td> <td>3</td> <td></td> </tr>
+			<tr>				<td>F</td> <td>sus</td> <td>11</td> </tr>
+			<tr class="odd">	<td>F♯</td> <td>♭5, –, or <sup>o</sup></td> <td>♯11</td> </tr>
+			<tr>				<td>G</td> <td>5</td> <td></td> </tr>
+			<tr class="odd">	<td>A♭</td> <td>♯5</td> <td></td> </tr>
+			<tr>				<td>A</td> <td>6</td> <td></td> </tr>
+			<tr class="odd">	<td>B♭</td> <td>7</td> <td></td> </tr>
+			<tr>				<td>B</td> <td>Δ7</td> <td></td> </tr>
+		</table>
+
+		<h2>Palette Features</h2>
+		<dl>
+
+			<dt><a name="tones"></a>Chord Tones</dt>
+			<dd><p>The black box at the top of the window displays all the tones
+				in the Current Chord arranged in ascending order beginning with
+				the root of the Current Chord. Tones appear in different colors
+				based on their relationship to the <a
+				href="../section/glossary.html#Keyscale" class="gloss">keyscale</a>.</p>
+			
+				<table class="clean indent">
+					<tr>
+						<th>WHITE</th>
+						<td>Note is in the Current Keyscale</td>
+					</tr>
+					<tr>
+						<th>YELLOW</th>
+						<td>Root Note of the Current Chord</td>
+					</tr>
+					<tr>
+						<th>GRAY</th>
+						<td>Note is not in the Current Keyscale</td>
+					</tr>
+				</table>
+
+			</dd>
+
+
+			<dt><a name="name"></a>Chord Name</dt>
+			<dd>The white box below the Chord Tones contains the name of the
+				Current Chord. The letter name depends on the setting of the
+				Chord Root Button and the position of the Scale Cursor.</dd>
+
+			<dd>Check out <a href="../appendix/c_name.html">Appendix C: Chord
+				Naming</a> to get the lowdown on all the special characters that
+				appear in chord names.</dd>
+
+			<dt><a name="rootlock"></a>Root Lock</dt>
+			<dd><p>Moving the Scale Cursor selects the root and thus the name
+				of the Current Chord. This is useful while you're trying to find
+				a good name for your chord but afterwards it can become an
+				inconvenience. The Root Lock causes the Current Chord to retain
+				its key and root and to ignore the position of the Scale Cursor.
+				This allows you to use the Scale Palette more freely without
+				affecting the chord name.</p>
+
+				<div class="note">
+					<table><tr>
+					<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+					<td>When the root is locked the Scale Cursor stays on the Root Note
+						as you move the Key Cursor.</td>
+					</tr></table>
+				</div>
+
+			</dd>
+
+			<dt><a name="disclose"></a>Disclosure Triangle</dt>
+			<dd><ul><li>Click to view or hide the Extended Name
+				List.</li></ul></dd>
+
+			<dt><a name="extended"></a>The Extended Name List</dt>
+			<dd>The full palette shows a total list of 12 chords, named for each
+				of the 12 tones. This allows you to see how your chord fits into
+				other &quot;contexts.&quot; Any of these names is equally good.
+				Which one you pick is up to you.</dd>
+			<dd>Chord names are color-coded as a visual aid. A chord name
+				appears in red if the tone it is named for is not native to the
+				chord's key. A chord name is dimmed if the tone it is named
+				for isn't in the Current Chord.</dd>
+
+			<dd>
+			<ul>
+			<li>Click on any name in the extended list to select a new name for
+				the chord.</li>
+			</ul>
+			</dd>
+
+		</dl>
+
+  </div>
+</div>
+
+</div></body>
+</html>

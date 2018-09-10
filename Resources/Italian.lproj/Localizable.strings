@@ -1,0 +1,166 @@
+/* general */
+"Yes" = "Si";
+"No" = "No";
+"untitled" = "senza titolo";
+"Cancel" = "Annulla";
+"Discard" = "Scarto";
+"Clear Menu" = "Cancella Menu";
+
+/* beta warning */
+"Beta Version Expired" = "Versione beta ha espirato.";
+"This beta version of FretPet X has expired. Visit www.thinkyhead.com to get the latest version." = "Questa versione beta di FretPet X ha espirato. Visita www.thinkyhead.com per ottenere l'ultima versione.";
+
+/* save picking pattern */
+"Set Default Pattern?" = "Cambiare la sequenza di standard";
+"Do you want to save the current picking pattern as the default from now on? " = "Volete salvare la sequenza corrente come lo standard?";
+"Save As Default" = "Risparmi";
+
+/* scale palette */
+"1 Ionian (Major)" = "1 Ionico (Maggiore)";
+"2 Dorian Minor" = "2 Dorico Minore";
+"3 Phrygian Minor" = "3 Frigio Minore";
+"4 Lydian Major" = "4 Lidio Maggiore";
+"5 Mixolydian Major" = "5 Misolidio Maggiore";
+"6 Aeolian Minor" = "6 Eolio Minore";
+"7 Locrian Diminished" = "7 Locrio Diminuito";
+"Harmonic Minor" = "Minore Armonico";
+"Fixed Melodic Minor" = "Minore Melodica";
+"Oriental Scale" = "Scala Orientale";
+
+/* about box */
+"*** UNREGISTERED ***" = "*** NON REGISTRATO ***";
+"Registered to %@" = "Registrato a %@";
+"* Licensed via the Mac App Store *" = "* Autorizzazione ottenuta dal Mac App Store. *";
+
+/* nag dialog */
+"Welcome To FretPet X" = "Benvenuto in FretPet X";
+"If you find this program useful, educational, or entertaining you can support Thinkyhead by purchasing a license key from Kagi's secure online store. Save will be disabled during the evaluation period." = "Se trovi questo programma utile, educativo, o divertente puoi supportare Thinkyhead comprando un codice di attivazione dal negozio online sicuro di Kagi. La registrazione dei file è disabilitata nel periodo di valutazione del programma.";
+"Register Now" = "Registro Ora";
+"Register Later" = "Registro Dopo";
+"Enter Serial Number" = "Inserici il Numero Seriale";
+
+"Are you sure you want to discard this document?" = "Sei sicuro di non voler salvare questo documento?";
+"If you close this document all your work will be lost. Register now to remove all restrictions from FretPet X and help support quality shareware." = "Se chiudi questo document tutto il lavoro andrà perso. Registra adesso il programma per togliere tutte le limitazioni da FretPet X ed aiutarci a realizzare shareware di qualità.";
+
+/* authorization */
+"Authorization Successful!" = "Autorizzazione riuscita!";
+"Thank you for registering FretPet X. All restrictions have been removed from the program." = "Grazie per aver registrato FretPet X. Tutte le limitazioni sono state rimosse dal programma.";
+
+/* Success message for the KRM */
+"I hope you've enjoyed Kagi's new registration process." = "Ci auguriamo che abbiate apprezzato il nuovo processo di registrazione tramite Kagi.";
+
+/* nav dialogs */
+"Export as a Standard MIDI Format (SMF) file" = "Esporta il file nel Formato Standard MIDI (SMF)";
+"Export as a QuickTime Music Movie file" = "Esporta il file come filmato QuickTime";
+
+/* error messages */
+"The document could not be saved because the file \"%@\" is currently open in FretPet. Choose another name or close the document you are trying to replace." = "Il documento non può essere salvato poiché il file \"%@\" è tuttora aperto da FretPet. Scegli un altro nome o chiudi il documento che vuoi sostituire.";
+"The file could not be overwritten because it is in use." = "Il documento non potrebbe essere scritto sopra perché è in uso.";
+"The file could not be saved due to an error." = "Il documento non ha potuto essere salvato a causa di un errore.";
+"This is not a file that FretPet recognizes." = "FretPet non può aprire questo documento.";
+"To install a guitar bundle copy it to the 'Application Support/FretPet' folder." = "Copi i gruppi della chitarra alla cartella “Application Support/FretPet„ per installarli.";
+"An unspecified error occurred." = "Un errore non specificato ha accaduto.";
+"Error %d" = "Errore %d";
+"The file \"%@\" could not be saved." = "L'archivio “%@„ non ha potuto essere salvato.";
+"QuickTime Note Player is conflicting with an unknown component in your system. Please use the Thinkyhead contact form to help us track down this issue." = "Qualcosa installato sul vostro sistema è contrastante con il Giocatore Della Nota di QuickTime. Contatti prego Thinkyhead per aiutarci a seguire giù questa edizione. Grazie!";
+
+/* Ask Review Changes */
+"You have %d FretPet documents with unsaved changes. Do you want to review these changes before closing all?" = "Hai %d documenti di FretPet con modifiche non salvate. Vuoi controllare queste modifiche prima di chiudere tutto?";
+"If you don't review your documents, all your changes will be lost." = "Se non controlli i documenti, tutte le modifiche andranno perse.";
+"Review Changes..." = "Controlla le Modifiche...";
+"Discard Changes" = "Non Salvare le Modifiche";
+
+/* Menu Strings */
+"Play" = "Riproduci";
+"Play All" = "Riproduci Tutto";
+"Play %d" = "Riproduci %d";
+"Play %d to %d" = "Riproduci da %d a %d";
+"Stop" = "Stop";
+"Strum" = "Strum";
+"Undo " = "Annulla ";
+"Redo " = "Ripristina ";
+"Lock Root" = "Blocca la Fondamentale";
+"Unlock Root" = "Sblocca la Fondamentale";
+"Anchor Toolbar" = "Ancora la Toolbar";
+"Unanchor Toolbar" = "Disancora Toolbar";
+"Filter Part %@" = "Filtra la Parte %@";
+"Filter Parts %@" = "Filtra le Parti %@";
+"(No Parts)" = "(Nessuna Parte)";
+
+/* Tuning Items */
+"untitled tuning" = "Tonalità Senza Titolo";
+"Tuning Change" = "Cambio di Tonalità";
+"Changing the tuning will cause all chord fingerings in the document to be recalculated. Are you sure you want to proceed?" = "Cambiando la Tonalità saranno ricalcolate tutte le diteggiature nel documento. Sei sicuro di voler procedere?";
+"Change Tuning" = "Cambia la Tonalità";
+
+/* Help Menu */
+"Check for Update..." = "Ricerca dell'aggiornamento…";
+"FretPet Manual" = "Manuale di FretPet";
+"Release Notes" = "Note della Versione";
+"FretPet Web Site" = "Sito Web di FretPet";
+"Deauthorize" = "Deauthorize";
+"Register FretPet..." = "Registra FretPet...";
+"Enter Serial Number..." = "Inserisci il Numero Seriale...";
+
+/* Undo Strings */
+"Add Chord" = "Aggiungi Accordo";
+"Add Guitar Triad" = "Aggiungi una Triade di Chitarra";
+"Add Scale" = "Aggiungi una Scala";
+"Add Scale Tone" = "Aggiungi una Nota di Scala";
+"Add Scale Triad" = "Aggiungi una Triade di Scala";
+"Add Triad" = "Aggiungi una Triade";
+"Bracket Change" = "Cambia la Parentesi";
+"Change Chord Name" = "Cambia Nome dell'Accordo";
+"Change Fingering" = "Cambia Diteggiatura";
+"Change Instrument" = "Cambia Strumento";
+"Change MIDI Channel" = "Cambia Canale MIDI";
+"Change Tuning" = "Cambia Tonalità";
+"Clear Tones" = "Cancella Toni";
+"Clear Pattern" = "Cancella Sequenza";
+"Clear Tones & Pattern" = "Clear Tones & Pattern";
+"Cut Chords" = "Taglia Accordi";
+"Delete Chords" = "Cancella Accordi";
+"Direct Transform" = "Trasformazione Diretta";
+"Disable Fret Bracket" = "Disabilita Parentesi della Diteggiatura";
+"Edit Chord" = "Edita Accordo";
+"Enable Fret Bracket" = "Abilita Parentesi della Diteggiatura";
+"Flatten Tone" = "Appiattisci Tono";
+"Harmonize Chord" = "Armonizza l'Accordo";
+"Invert Tones" = "Inverti Toni";
+"Lock Root" = "Blocca la Fondamentale";
+"Move Fret Bracket" = "Muovi Parentesi di Diteggiatura";
+"Natural Tone" = "Tono Naturale";
+"Paste Chords" = "Incolla Accordi";
+"Root Change" = "Cambia Fondamentale";
+"Set Tempo 1X" = "Set Tempo 1X";
+"Set Tempo 2X" = "Set Tempo 2X";
+"Sharpen Tone" = "Alza Tono";
+"Subtract Scale Triad" = "Sottrai una Triade di Scala";
+"Sustain Change" = "Cambia Sustain";
+"Tempo Change" = "Cambia Tempo";
+"Toggle Guitar Tone" = "Oscilla Tono della Guitar";
+"Toggle Scale Tone" = "Oscilla Tono della Scala";
+"Toggle Tone" = "Oscilla Tono";
+"Transpose Chord" = "Trasponi Accordo";
+"Unlock Root" = "Sblocca la Fondamentale";
+"Velocity Change" = "Cambia Velocità";
+
+/* Filter Undo Strings */
+"Clone Filter" = "Filtro > Duplichi";
+"Consolidate Filter" = "Filtro > Consolidano";
+"Double Filter" = "Filtro > Doppio";
+"Harmonize Filter" = "Filtro > Armonizza";
+"Lock Roots Filter" = "Filtro > Blocca Fondamentale";
+"Pattern:Clear Filter" = "Filtro > Sequenza:Clear";
+"Pattern:Flip Filter" = "Filtro > Sequenza:Flip";
+"Pattern:Random 1 Filter" = "Filtro > Sequenza:Riorganizzi 1";
+"Pattern:Random 2 Filter" = "Filtro > Sequenza:Riorganizzi 2";
+"Pattern:Reverse Filter" = "Filtro > Sequenza:Inverso";
+"Reverse Chords Filter" = "Filtro > Inverta le corde";
+"Reverse Melody Filter" = "Filtro > Inverta la melodia";
+"Scramble Filter" = "Filtro > Riorganizzi";
+"Splay Filter" = "Filtro > Strombatura";
+"Tones:Clear Filter" = "Filtro > Toni:Cancella";
+"Tones:Invert Filter" = "Filtro > Toni:Invertito";
+"Transpose Filter" = "Filtro > Trasponi";
+"Unlock Roots Filter" = "Filtro > Sblocca Fondamentale";

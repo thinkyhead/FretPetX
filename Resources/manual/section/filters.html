@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - Filters</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+<a name="top"></a>
+
+<div id="mantop">
+<h1>filters</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="document.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="prefs.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="intro.html">Introduction</a></li>
+				<li><a href="require.html">Requirements</a></li>
+				<li><a href="tutorial.html">Tutorial</a></li>
+				<li><a href="interface.html">Interface</a></li>
+				<li><a href="document.html">The Document</a></li>
+				<li class="current"><a href="filters.html">Filters</a></li>
+				<li><a href="prefs.html">Preferences</a></li>
+				<li><a href="customize.html">Custom Tunings</a></li>
+				<li><a href="export.html">File Export</a></li>
+				<li><a href="hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr valign="top">
+		<td width="33%">
+			<ul>
+				<li><a href="#menu">The Filter Menu</a></li>
+				<li><a href="#clone">Clone</a></li>
+				<li><a href="#splay">Splay</a></li>
+				<li><a href="#consolidate">Consolidate</a></li>
+				<li><a href="#double">Double</a></li>
+				<li><a href="#scramble">Scramble</a></li>
+				<li><a href="#creverse">Reverse Chords</a></li>
+			</ul>
+		</td>
+		<td>
+			<ul>
+				<li><a href="#mreverse">Reverse Melody</a></li>
+				<li><a href="#patclear">Pattern: Clear</a></li>
+				<li><a href="#patreverse">Pattern: Reverse</a></li>
+				<li><a href="#patflip">Pattern: Flip</a></li>
+				<li><a href="#patrandom">Pattern: Random</a></li>
+				<li><a href="#toneclear">Tones: Clear</a></li>
+				<li><a href="#toneinvert">Tones: Invert</a></li>
+			</ul>
+		</td>
+		<td width="33%">
+			<ul>
+				<li><a href="#toneclean">Tones: Cleanup</a></li>
+				<li><a href="#harmup">Harmonize Up</a></li>
+				<li><a href="#harmdown">Harmonize Down</a></li>
+				<li><a href="#harmby">Harmonize By →</a></li>
+				<li><a href="#transto">Transpose To →</a></li>
+				<li><a href="#transby">Transpose By →</a></li>
+				<li><a href="#lock">Lock / Unlock</a></li>
+			</ul>
+		</td>
+		</tr></table>
+		</div>
+
+		<h2><a name="menu"></a>The Filter Menu</h2>
+
+		<p>The <span class="menu">Filter</span> menu contains commands that you
+			can use to make sweeping changes to whole groups of chords across
+			multiple parts. So for example you can change a chord progression to
+			an entirely different key or set it entirely in reverse. Some
+			filters provide helpful randomness. Filters are a lot of fun.</p>
+
+		<p>The Filter menu contains three submenus containing identical filters,
+			except that they affect different sets of parts.</p>
+
+		<ol>
+
+			<li>All Parts : Always affects all parts regardless of which parts
+				are filter-enabled in the Channels Palette.</li>
+
+			<li>Enabled Parts : Only affects filter-enabled parts as specified
+				in the Channels Palette. This allows you to perform an
+				&quot;atomic&quot; filter operation to affects multiple parts at
+				once without needing to execute the same filter on one part
+				after another.</li>
+
+			<li>The Current Part : Always affects the current, visible part
+				regardless of which parts are filter-enabled in the Channels
+				Palette.</li>
+
+		</ol>
+
+
+
+		<h2>Filter Descriptions</h2>
+
+		<dl>
+
+		<dt><a name="clone"></a>Clone<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Clone makes multiple copies of the selected chords and optionally
+				transforms each copy. When you select the Clone filter a sheet
+				appears with some useful options.</p>
+
+			<img src="_img/clone.png" alt="clone sheet" width="265" height="176" />
+
+			<p>Enter a <b>Total Clones</b> number from 2 to 9999. This will be
+				the resulting number of clones (including the original
+				selection).</p>
+
+			<p>If you want to transform each clone as they are created check the
+				<b>Transform Each</b> checkbox. Then choose which parts to
+				affect and the amount to transpose and / or harmonize each
+				clone. Transformations are cumulative, so if you make 4 clones
+				of a C chord, transposing each one by a fifth, the resulting
+				chords will be C, G, D, A.</p>
+		</dd>
+
+		<dt><a name="splay"></a>Splay<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Splay makes multiple single-repeat copies of chords having a
+				repeat greater than 1. For example, if you have a C chord with a
+				repeat of 16 and a D chord with a repeat of 4, when you Splay
+				them you'll get 16 C chords with a repeat of 1 and 4 D chords
+				with a repeat of 1. To reverse this effect, use the Consolidate
+				filter.</p>
+		</dd>
+
+		<dt><a name="consolidate"></a>Consolidate<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Consolidate combines each contiguous set of identical chords in
+				the selection into as few individual chords as possible with the
+				repeats set as high as necessary. For example, if you have 4 C
+				chords selected, each with a repeat of 2, you'll get a single C
+				chord with a repeat of 8. This filter will only affect chords
+				that are completely identical in all four parts. More or less
+				the opposite of Splay.</p>
+		</dd>
+
+		<dt><a name="double"></a>Double<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>This filter doubles the amount of time occupied by the selected
+				chords, stretching the picking patterns so that they take up
+				twice as much time.</p>
+		</dd>
+
+		<dt><a name="scramble"></a>Scramble<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Use this filter to randomly scramble the selected chords.</p>
+		</dd>
+
+		<dt><a name="creverse"></a>Reverse Chords<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>This filter reverses the selected chords, leaving their picking
+				patterns unaffected.</p>
+		</dd>
+
+		<dt><a name="mreverse"></a>Reverse Melody<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>The Reverse Melody filter reverses the selected chords and their
+				picking patterns.</p>
+		</dd>
+
+		<dt><a name="patclear"></a>Pattern: Clear<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Clear the picking patterns of the selected chords.</p>
+		</dd>
+
+		<dt><a name="patreverse"></a>Pattern: Reverse<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Reverse the picking patterns of the selected chords.</p>
+		</dd>
+
+		<dt><a name="patflip"></a>Pattern: Flip<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Vertically flip the picking patterns of the selected chords.</p>
+		</dd>
+
+		<dt><a name="patrandom"></a>Pattern: Random 1 and 2<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Set the picking sequence of the selected chords to a random
+			pattern. <strong>Random 1</strong> generates unusual patterns
+			algorithmically. <strong>Random 2</strong> generates patterns which
+			simply have one dot per tick mark.</p>
+		</dd>
+
+		<dt><a name="toneclear"></a>Tones: Clear<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Clear the tones of the selected chords.</p>
+		</dd>
+
+		<dt><a name="toneinvert"></a>Tones: Invert<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Invert the tones of the selected chords. For example, a C chord
+				built on the C Ionian scale (C-E-G) will be changed to D-F-A-B
+				(the other tones in C Ionian).</p>
+		</dd>
+
+		<dt><a name="toneclean"></a>Tones: Cleanup<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Remove all tones from the chord which aren't used in the chord
+				fingering. This only remvoves the tones which aren't held down
+				in the fingering. Tones which are held down, but which aren't
+				used in the picking pattern will still be retained.</p>
+		</dd>
+
+		<dt><a name="harmup"></a>Harmonize Up<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Harmonize the selected chords by a single step forward (according
+				to each chord's key).</p>
+		</dd>
+
+		<dt><a name="harmdown"></a>Harmonize Down<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Harmonize the selected chords by a single step backward
+				(according to each chord's key).</p>
+		</dd>
+
+		<dt><a name="harmby"></a>Harmonize By →<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Harmonize the selected chords by a specified number of steps
+				forward (according to each chord's key).</p>
+		</dd>
+
+		<dt><a name="transto"></a>Transpose To →<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Transpose the selected chords to a specified key. For example if
+				you select a C chord based in the key of C and a G chord based
+				in the key of D and transpose them both to G, the resulting
+				chords will be D and C, both in the key of G.</p>
+		</dd>
+
+		<dt><a name="transby"></a>Transpose By →<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Transpose the selected chords by a specified number of chromatic
+				key-steps. For example if you select a C chord based in the key
+				of C and a G chord based in the key of D and transpose them both
+				by a perfect fifth, the resulting chords will be G in the key of
+				G and D in the key of A.</p>
+		</dd>
+
+		<dt><a name="lock"></a>Lock / Unlock<a class="top" href="#top">TOP</a></dt>
+		<dd>
+			<p>Lock or unlock the roots of the selected chords.</p>
+		</dd>
+
+		</dl>
+
+  </div>
+</div>
+
+<div style="height:1024px"></div>
+
+</div></body>
+</html>

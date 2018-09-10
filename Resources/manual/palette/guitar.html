@@ -1,0 +1,253 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Guitar Palette</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>guitar palette</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="scale.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="keyboard.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li><a href="toolbar.html">Toolbar</a></li>
+						<li><a href="chord.html">Chord Palette</a></li>
+						<li><a href="scale.html">Scale Palette</a></li>
+						<li class="current">Guitar Palette</li>
+						<li><a href="keyboard.html">Keyboard Palette</a></li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li><a href="info.html">Info Palette</a></li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img width="447" height="143" src="_img/guitar.png" border="0" />
+		</div>
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr valign="top">
+		<td width="50%">
+			<ul>
+			<li><a href="#fretboard">The Fretboard</a></li>
+			<li><a href="#bracket">Fret Bracket</a></li>
+			<li><a href="#dots">Note Dots</a></li>
+			<li><a href="#blinkers">Blinking Dots</a></li>
+			<li><a href="#cursor">Fret Cursor</a></li>
+			</ul>
+		</td><td>
+			<ul>
+			<li><a href="#tones">String Tones</a></li>
+			<li><a href="#flip">Flip Guitar</a></li>
+			<li><a href="#reverse">Reverse Strings</a></li>
+			<li><a href="#override">Overriding the Bracket</a></li>
+			</ul>
+		</td>
+		</tr></table>
+		</div>
+
+		<h2>About the Guitar Palette</h2>
+		<p>The Guitar Palette gives you a quick and convenient way to enter
+			chords straight onto the fretboard. This is especially useful when
+			you know what a chord looks like, but nothing else. Just put the
+			dots on the neck where your fingers are and suddenly you know every
+			name and every possible fingering. That's powerful, baby.</p>
+
+		<div class="note">
+			<table><tr>
+			<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+			<td>FretPet includes an Example.guitar bundle you can copy and
+				customize to make your own guitars! Just edit the images
+				and the Info.plist inside the guitar bundle. Install it in
+				<em>~/Library/Application Support/FretPet</em> folder to install.</td>
+			</tr></table>
+		</div>
+
+		<h2>Guitar Palette Features</h2>
+		<dl>
+
+		<dt><a name="fretboard"></a>The Fretboard</dt>
+		<dd>
+			<p>All the really good stuff in FretPet happens on the Fretboard. Be
+				sure to have your guitar in your lap when you start playing with
+				this palette. The default display mode uses a vertical
+				orientation to save on screen real estate. You can switch to a
+				horizontal display mode if you prefer.</p>
+
+			<p>The fretboard is displayed so that the head - or &quot;nut
+				end&quot; - of the guitar is at the top of the window. Notes
+				ascend in pitch from the &quot;nut end&quot; of the window to
+				the &quot;bridge end&quot; (bottom shown here).</p>
+
+			<ul>
+				<li>Fret 0 is referred to as the Open String.</li>
+
+				<li>There are 18 frets besides the open string.</li>
+
+				<li>FretPet only supports 6 string guitars.</li>
+
+				<li>Conventionally the string with the lowest pitch is called
+					the Bottom String and the string with the highest pitch the
+					Top String. This has nothing to do with the physical
+					orientation of the guitar.</li>
+
+				<li>Use the <span class="menu">Guitar → Guitar Image</span>
+					sub-menu to choose a guitar image you like.</li>
+			</ul>
+
+		</dd>
+
+		<dt><a name="bracket"></a>The Fret Bracket</dt>
+		<dd>
+			<p>The tones of a chord are distributed across the whole fretboard,
+				so there are several possible positions where you can play any
+				chord. The Fret Bracket allows you to choose a region of the
+				neck in which to play your chord. FretPet automatically selects
+				as many notes as it can to build the chord.</p>
+
+			<p>Once you've used the bracket to select a fingering you can
+				override it to get just the tones you want. See
+				<a href="#override">Overriding the Bracket</a> below to learn
+				more.</p>
+
+			<ul>
+				<li>Click and drag in the middle of the bracket to move it.</li>
+				<li>Click and drag either end of the bracket to resize it.</li>
+				<li>Click outside of the bracket to jump it to a new position.</li>
+				<li>The [ and ] keys also move the bracket.</li>
+			</ul>
+
+		</dd>
+
+		<dt><a name="dots"></a>Note Dots</dt>
+		<dd>
+			<p>The tones in your chord appear on the fretboard as color-coded
+				dots in one of three styles. Choose the style you want to use
+				from the <span class="menu">Guitar → Dots Display</span>
+				submenu.</p>
+
+			<div class="indent">
+			<ol class="plain">
+				<li>"Dots" shows plain colored dots.</li>
+				<li>"Letters" shows letter names like A, Bb, and C#.</li>
+				<li>"Numbers" shows scale functions like 1, b3, and #5.</li>
+			</ol>
+			</div>
+
+				in the same colors that they appear in the
+				<a href="chord.html">Chord Palette</a>:</p>
+
+			<div class="indent">
+			<ol class="plain">
+				<li><img src="_img/dot-y.png" alt="yellow" width="9" height="9" />
+					The root note of the chord is shown in yellow.</li>
+				<li><img src="_img/dot-w.png" alt="white" width="7" height="7" />
+					Other tones in the current scale are shown in white.</li>
+				<li><img src="_img/dot-g.png" alt="gray" width="7" height="7" />
+					Tones outside of the current scale are gray.</li>
+				<li><img src="_img/dot-r.png" alt="red" width="7" height="7" />
+					Tones outside of the fingering are shown in red.</li>
+			</ol>
+			</div>
+
+		<ul>
+			<li>Double-click on the fretboard to add or remove a tone.</li>
+			<li>Triple-click to add a triad to the chord.</li>
+			<li>⌥ click or click-and-hold on a red dot to override the <a href="#bracket">Fret
+				Bracket</a>.</li>
+		</ul>
+		</dd>
+
+		<dt><a name="blinkers"></a>Blinking Dots</dt>
+		<dd>Blinking dots correspond to the tone at the <a
+			href="scale.html#ScaleCurs">Scale Cursor</a>.</dd>
+
+		<dt><a name="cursor"></a>Fret Cursor</dt>
+		<dd>
+			<p>The Fret Cursor is indicated by a rotating box. Details about the
+				tone at the Fret Cursor are displayed in the Info Palette.</p>
+			<ul>
+				<li>Click and drag in the fretboard to move the Fret Cursor.</li>
+				<li>Clicking in the Diagram Palette also moves the Fret Cursor.</li>
+			</ul>
+		</dd>
+
+		<dt><a name="tones"></a>String Tones</dt>
+		<dd>
+			<p>The notes that correspond to each open string are displayed at
+				the &quot;bridge&quot; end of the window. These will change
+				depending on the tuning.</p>
+			<p>Select tunings from the <span class="menu">Guitar → Guitar
+				Tuning</span> submenu.</p>
+		</dd>
+
+		</dl>
+
+		<h2><a name="override"></a>Overriding the Bracket</h2>
+
+		<p>The Fret Bracket is pretty helpful, but it isn't the lord of the
+			Fretboard - you are! Fortunately, you are not limited to the notes
+			FretPet chooses. You can select any dot on the neck to play as part
+			of the Current Chord.</p>
+
+		<p>To override the fingering you can either ⌥ click or click-and-hold on
+			any red dot on the neck. (Use <span class="menu">Guitar → Unused Tones</span>to
+			show red dots.) ⌥ click or click-and-hold on the dot again to revert
+			to an automatically chosen position, if one is available.</p>
+
+		<p>Note that anytime you make changes to a chord or move the Fret
+			Bracket the chord fingering is recalculated. So you'll need to redo
+			your fingering changes in that case.</p>
+
+	</td>
+
+</tr>
+</table>
+</div></body>
+</html>

@@ -1,0 +1,520 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>FretPet Manual - The Toolbar</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<link rel="stylesheet" type="text/css" href="../css/fretpet.css" />
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
+	<script src="../manual.js"></script>
+</head>
+
+<body><div id="wrapper">
+
+<div id="mantop">
+<h1>toolbar</h1>
+</div>
+
+<div id="page">
+	<div id="sidebar"><div class="navbox">
+
+			<div class="navarr">
+			<a href="../section/interface.html"><img src="../image/nav-.png" alt="" width="23" height="20" border="0" /></a>
+			<a href="chord.html"><img src="../image/nav_.png" alt="" width="23" height="20" border="0" /></a>
+			</div>
+
+			<ul>
+				<li><a href="../section/intro.html">Introduction</a></li>
+				<li><a href="../section/require.html">Requirements</a></li>
+				<li><a href="../section/tutorial.html">Tutorial</a></li>
+				<li class="iface">
+					<span><a href="../section/interface.html">Interface</a></span>
+					<ul>
+						<li class="current">Toolbar</li>
+						<li><a href="chord.html">Chord Palette</a></li>
+						<li><a href="scale.html">Scale Palette</a></li>
+						<li><a href="guitar.html">Guitar Palette</a></li>
+						<li><a href="keyboard.html">Keyboard Palette</a></li>
+						<li><a href="diagram.html">Diagram Palette</a></li>
+						<li><a href="circle.html">Circle Palette</a></li>
+						<li><a href="info.html">Info Palette</a></li>
+						<li><a href="channels.html">Channels Palette</a></li>
+					</ul>
+				</li>
+				<li><a href="../section/document.html">The Document</a></li>
+				<li><a href="../section/filters.html">Filters</a></li>
+				<li><a href="../section/prefs.html">Preferences</a></li>
+				<li><a href="../section/customize.html">Custom Tunings</a></li>
+				<li><a href="../section/export.html">File Export</a></li>
+				<li><a href="../section/hints.html">Hints &amp; Tips</a></li>
+					<li><a href="../appendix/a_menu.html">Appendix</a></li>
+				<li><a href="../section/glossary.html">Glossary</a></li>
+			</ul>
+
+		</div>
+
+		<ul class="keykey">
+			<li>⌘ Command</li>
+			<li>⌥ Option</li>
+			<li>⇧ Shift</li>
+			<li>⌃ Control</li>
+			<li>⌫ Delete</li>
+			<li>⌦ Fwd Del</li>
+		</ul>
+
+  </div>
+
+  <div id="mainbox">
+		<div class="mapimage">
+		<img src="_img/toolbar.png" alt="toolbar" width="392" height="57" />
+		</div>
+
+		<div id="index">
+		<h3>Page Index</h3>
+		<table width="100%"><tr valign="top">
+		<td width="50%">
+		<ul>
+			<li><a href="#clear">Clear</a></li>
+			<li><a href="#triad">Triad</a></li>
+			<li><a href="#scale">Scale</a></li>
+			<li><a href="#transform">Transform</a></li>
+			<li><a href="#hear">Hear</a></li>
+			<li><a href="#stop">Stop</a></li>
+			<li><a href="#play">Play</a></li>
+		</ul>
+		</td>
+
+		<td>
+		<ul>
+			<li><a href="#loop">Loop</a></li>
+			<li><a href="#follow">Follow View</a></li>
+			<li><a href="#free">Edit Mode</a></li>
+			<li><a href="#solo">Solo</a></li>
+			<li><a href="#order">Tone Order</a></li>
+			<li><a href="#roman">Roman View</a></li>
+			<li><a href="#addchord">Add Chord</a></li>
+		</ul>
+		</td>
+		</tr></table>
+
+		</div>
+
+		<h2><a name="About"></a>About the Toolbar</h2>
+		<p>The Toolbar Palette contains buttons that execute the most common
+		operations you'll want to perform on tones, chords, and scales. Click
+		on a button or use a <a href="../appendix/b_key.html">keyboard shortcut</a>
+		to enact the command. The keyboard shortcuts for each button are shown
+		next to its name below, and also in the balloon help. Some buttons
+		make use of modifier keys, which are noted.</p>
+		<dl><dd>
+			<ul>
+			<li>Use the <span class="menu">Window → Toolbar</span> command
+			to toggle the Toolbar.</li>
+			</ul>
+		</dd></dl>
+
+		<div class="note">
+			<table><tr>
+			<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+			<td>There is built-in help in FretPet! Hover the mouse pointer over any control
+			  until a tooltip appears. You can then hold down the Command Key (<em>⌘</em>)
+			  to see additional details.</td>
+			</tr></table>
+		</div>
+
+		<h2>Toolbar Buttons</h2>
+		<dl>
+			<!--
+
+				Clear Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/clear.png" alt="clear" width="20" height="21" />
+			<span><a name="clear"></a>Clear</span>
+			</dt>
+
+			<dd>
+			<p>Depending on which modifier keys are pressed, this button will
+				clear the tones of the Current Chord, the sequence of the
+				Current Chord, or both.</p>
+			<ul>
+				<li>This corresponds to the <span class="menu">Chord → Clear...</span> commands.</li>
+				<li>⌥ click to clear the chord's sequence.</li>
+				<li>⌘ click to clear both the tones and the sequence.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Triad Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/triad.png" alt="triad" width="20" height="21" />
+			<span><a name="triad"></a>Triad</span>
+			</dt>
+
+			<dd>
+			<p>Add three notes to the chord beginning with the
+			<a href="scale.html#ScaleCurs">Scale Note</a>. The notes are added in
+			Third <a href="../section/glossary.html#Interval" class="gloss">intervals</a>.
+			(For example, if you select a D triad in the C scale you get a Dm chord
+			with the tones D - F - A.) FretPet plays the triad as an
+			<a href="../section/glossary.html#Arpeggio" class="gloss">arpeggio</a>.</p>
+
+			<ul>
+				<li>⇧ click clears the chord before adding the triad.</li>
+				<li>⌥ click subtracts the triad from the chord.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Scale Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/scale.png" alt="scale" width="20" height="21" />
+			<span><a name="scale"></a>Scale</span>
+			</dt>
+
+			<dd>
+			<p>Add the entire Current Scale to the chord. FretPet will play a linear
+			progression of all the notes in the resulting chord, beginning with the
+			root of the Current Key. This is useful when you want to see how a scale
+			is laid out on the fretboard.</p>
+			<ul>
+				<li>⇧ click clears the chord before adding the scale.</li>
+				<li>⌥ click subtracts the scale from the chord.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Transform Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/transform.png" alt="transform" width="20" height="21" />
+			<span><a name="transform"></a>Transform &lt;T&gt;</span>
+			</dt>
+
+			<dd>
+				<p><a href="../section/glossary.html#Transpose" class="gloss">Transpose</a>
+				and <a href="../section/glossary.html#Harmonize" class="gloss">Harmonize</a>
+				the Current Chord to a new key and scale function that you click
+				on.</p>
+
+				<p>When you click the Transform Button the pointer changes into
+				an arrow with a key alongside it.</p>
+
+				<p>You can then click a tone in the Scale Palette, Guitar
+				Palette, Circle Palette, or Keyboard Palette to transform the
+				Current Chord. In the Scale Palette the chord will be
+				appropriately transposed and harmonized. In the other palettes
+				the chord is harmonized but not transposed.</p>
+
+				<p>Note that you can hold down the mouse button (in most places)
+				to continuously transform the chord. Useful when you want to try
+				various transformations without repeatedly clicking the
+				Transform button.</p>
+				<ul>
+					<li>⌥ click for Transform Once, which does one
+					transformation then stops.</li>
+					<li>You can also use the <span class="menu">Chord →
+					Transform Mode</span> command.</li>
+				</ul>
+			</dd>
+
+			<!--
+
+				Hear Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/hear.png" alt="hear" width="20" height="21" />
+			<span><a name="hear"></a>Hear</span>
+			</dt>
+
+			<dd>
+				<p>Click Hear to listen to the Current Chord. This button acts
+				differently depending on the status of the Current Chord. There are 3
+				possibilities:</p>
+				<ul>
+					<li>Click to Strum Downward from low notes to high. This is
+					the same as <span class="menu">Sequencer → Strum
+					Downward</span>.</li>
+					<li>⌥ click to Strum Upward from high notes to low. This is
+					the same as <span class="menu">Sequencer → Strum
+					Upward</span>.</li>
+					<li>⇧ click to Strike the chord. This is the same
+					as <span class="menu">Sequencer → Strike
+					Chord</span>.</li>
+					<li>In all cases if the Fret Bracket is disabled an arpeggio
+					will play instead.</li>
+					</ul>
+
+				<div class="note">
+					<table><tr>
+					<td><img height="32" width="32" src="../image/fpheyyou.gif" /></td>
+					<td>Hear interrupts anything that is currently playing.</td>
+					</tr></table>
+				</div>
+
+			</dd>
+
+			<!--
+
+				Stop Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/stop.png" alt="stop" width="20" height="21" />
+			<span><a name="stop"></a>Stop &lt;esc&gt;</span>
+			</dt>
+
+			<dd>
+				<p>Click here to stop any sequences that are playing.</p>
+			<ul>
+				<li>You can also use the <span class="menu">Sequencer →
+				Stop</span> command.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Play Button
+
+			-->
+			<dt>
+				<img src="_img/_tool/play.png" alt="play" width="20" height="21"
+				/> <span><a name="play"></a>Play &lt;P&gt;</span>
+			</dt>
+
+			<dd>
+				<p>Start playing the document. If more than one chord is
+				selected then play the selected range. Once play begins you can
+				move around and change the selection without affecting which
+				chords will play. The behavior of Play is affected by the
+				settings of the next three buttons.</p>
+				<ul>
+					<li>You can also use the <span class="menu">Sequencer →
+					Play</span> command.</li>
+				</ul>
+			</dd>
+
+			<!--
+
+				Loop Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/loop.png" alt="loop" width="20" height="21" />
+			<span><a name="loop"></a>Loop &lt;L&gt;</span>
+			</dt>
+
+			<dd>
+			<p>When this button is turned on the play range will repeat indefinitely
+			until you press Stop or until you turn looping off and the sequence
+			reaches its end.</p>
+			<ul>
+				<li>You can also use the <span class="menu">Sequencer →
+				Loop</span> command.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Follow Button
+
+			-->
+			<dt>
+				<img src="_img/_tool/follow.png" alt="follow" width="20"
+				height="21" /> <span><a name="follow"></a>Follow View
+				&lt;F&gt;</span>
+			</dt>
+
+			<dd>
+				<p>This button works in conjunction with the Edit Mode button
+				to change the way the interface behaves while a song is playing.
+				See the chart below for a synopsis of the way Follow View and
+				Edit Mode affect Play behavior.</p>
+
+				<p>When Follow View is enabled the Document Cursor continuously
+				moves to the currently playing chord. In this mode you
+				aren't allowed to interact with the sequencer. (Unless Edit
+				Mode is enabled. See below.)</p>
+
+				<ul>
+					<li>You can also use the <span class="menu">Sequencer →
+					Follow View</span> command.</li>
+				</ul>
+			</dd>
+
+			<!--
+
+				Edit Mode Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/edit.png" alt="edit" width="20" height="21" />
+			<span><a name="free"></a>Edit Mode &lt;E&gt;</span>
+			</dt>
+
+			<dd>
+				<p>This button gives you complete control over the Document
+				Cursor during playback. With Edit Mode enabled playback is
+				limited to the selected range of chords. You gain complete
+				control over the playback of your song, and you can make any
+				changes you want.</p>
+
+				<ul>
+					<li>You can also use the <span class="menu">Sequencer →
+					Edit Mode</span> command.</li>
+				</ul>
+
+			<div class="lhead">
+			<table>
+				<caption>Effects of Follow View + Edit Mode on Play Behavior</caption>
+				<tr>
+					<th><img src="_img/_tool/follow.png" alt="follow" width="20" height="21" />
+					<img src="_img/_tool/edit.png" alt="edit" width="20" height="21" /></th>
+					<td>
+						<ul>
+							<li>Play begins with the selected range.</li>
+							<li>You can move the Document Cursor.</li>
+							<li>You can make selections.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th><img src="_img/_tool/follow-on.png" alt="follow on" width="20" height="21" />
+					<img src="_img/_tool/edit.png" alt="edit" width="20" height="21" /></th>
+					<td>
+						<ul>
+							<li>Play begins with the selected range.</li>
+							<li>As Play begins the selection is turned off.</li>
+							<li>The Document Cursor advances automatically.</li>
+							<li>Interactivity in the Document is disabled.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th><img src="_img/_tool/follow.png" alt="follow" width="20" height="21" />
+					<img src="_img/_tool/edit-on.png" alt="edit" width="20" height="21" /></th>
+					<td>
+						<ul>
+							<li>Play begins with the selected range.</li>
+							<li>You control the playback location.</li>
+							<li>You control the playback range.</li>
+						</ul>
+					</td>
+				</tr>
+				<tr>
+					<th><img src="_img/_tool/follow-on.png" alt="follow on" width="20" height="21" />
+					<img src="_img/_tool/edit-on.png" alt="edit" width="20" height="21" /></th>
+					<td>
+						<ul>
+							<li>Play begins with the Current Chord.</li>
+							<li>You control the playback location.</li>
+							<li>Selections are disabled during play.</li>
+						</ul>
+					</td>
+				</tr>
+			</table>
+			</div>
+			</dd>
+
+			<!--
+
+				Solo Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/solo.png" alt="solo" width="20" height="21" />
+			<span><a name="solo"></a>Solo &lt; ' &gt;</span>
+			</dt>
+
+			<dd>
+				<p>Enable solo mode to hear a single Part isolated from the
+				rest. With Solo Mode enabled the current part number will appear
+				in red and it will blink during Play. Use Solo Mode to examine
+				the Demo Sequences. After playing with Solo Mode you'll
+				appreciate how much of a difference even a little harmony
+				makes!</p>
+				<p>(The button image is meant to be a soloist.)</p>
+		<ul>
+				<li>You can also use the <span class="menu">Sequencer →
+				Solo</span> command.</li>
+			</ul>
+			</dd>
+
+			<!--
+
+				Tone Order Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/order.png" alt="tone order" width="37" height="23" />
+			<span><a name="order"></a>Tone Order</span>
+			</dt>
+
+			<dd>
+				<p>FretPet can display tones and keys in two different orders.
+				In 5ths Order tones are arranged according to harmonic
+				consonance, so each tone is a perfect Fifth from its neighbor.
+				In Halfsteps Order tones are arranged chromatically, so each
+				tone is a halfstep away from its neighbor. This setting affects
+				the Chord Palette, the Scale Palette, the Circle Palette, and
+				the Document window.</p>
+			</dd>
+
+			<!--
+
+				Roman Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/roman.png" alt="roman" width="20" height="20" />
+			<span><a name="roman"></a>Roman Notation</span>
+			</dt>
+
+			<dd>
+				<p>Chord Tones and Chord Names can appear in two different
+				forms. Normally you'll view tones as letter names.
+				Sometimes it's useful to see Chord Tones and Chord Names in
+				the context of the key. To do this enable Roman Notation. This
+				setting affects the Chord Palette, the Circle Palette, and the
+				Document window.</p>
+			</dd>
+
+			<!--
+
+				Add Chord Button
+
+			-->
+			<dt>
+			<img src="_img/_tool/add.png" alt="add" width="20" height="21" />
+			<span><a name="addchord"></a>Add Chord &lt;A&gt;</span>
+			</dt>
+
+			<dd>
+				<p>Insert the Current Chord into the document. If no document is
+				open then one will be created for you. Note that for a chord
+				stored in a document this button effectively duplicates the
+				chord.</p>
+				<ul>
+					<li>You can also use the <span class="menu">Sequencer → Add
+					Chord</span> command.</li>
+				</ul>
+			</dd>
+
+		</dl>
+
+  </div>
+</div>
+
+</div></body>
+</html>

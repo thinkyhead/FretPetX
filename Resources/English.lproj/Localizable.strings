@@ -1,0 +1,164 @@
+/* general */
+"Yes" = "Yes";
+"No" = "No";
+"untitled" = "untitled";
+"Cancel" = "Cancel";
+"Discard" = "Discard";
+"Clear Menu" = "Clear Menu";
+
+/* beta warning */
+"Beta Version Expired" = "Beta Version Expired";
+"This beta version of FretPet X has expired. Visit www.thinkyhead.com to get the latest version." = "This beta version of FretPet X has expired. Visit www.thinkyhead.com to get the latest version.";
+
+/* save picking pattern */
+"Set Default Pattern?" = "Set Default Pattern?";
+"Do you want to save the current picking pattern as the default from now on?" = "Do you want to save the current picking pattern as the default from now on?";
+"Save As Default" = "Save As Default";
+
+/* scale palette */
+"1 Ionian (Major)" = "1 Ionian (Major)";
+"2 Dorian Minor" = "2 Dorian Minor";
+"3 Phrygian Minor" = "3 Phrygian Minor";
+"4 Lydian Major" = "4 Lydian Major";
+"5 Mixolydian Major" = "5 Mixolydian Major";
+"6 Aeolian Minor" = "6 Aeolian Minor";
+"7 Locrian Diminished" = "7 Locrian Diminished";
+"Harmonic Minor" = "Harmonic Minor";
+"Fixed Melodic Minor" = "Fixed Melodic Minor";
+"Oriental Scale" = "Oriental Scale";
+
+/* about box */
+"*** UNREGISTERED ***" = "*** UNREGISTERED ***";
+"Registered to %@" = "Registered to %@";
+
+/* nag dialog */
+"Welcome To FretPet X" = "Welcome To FretPet X";
+"If you find this program useful, educational, or entertaining you can support Thinkyhead by purchasing a license key from Kagi's secure online store. Save will be disabled during the evaluation period." = "If you find this program useful, educational, or entertaining you can support Thinkyhead by purchasing a license key from Kagi's secure online store. Save will be disabled during the evaluation period.";
+"Register Now" = "Register Now";
+"Register Later" = "Register Later";
+"Enter Serial Number" = "Enter Serial Number";
+
+"Are you sure you want to discard this document?" = "Are you sure you want to discard this document?";
+"If you close this document all your work will be lost. Register now to remove all restrictions from FretPet X and help support quality shareware." = "If you close this document all your work will be lost. Register now to remove all restrictions from FretPet X and help support quality shareware.";
+
+/* authorization */
+"Authorization Successful!" = "Authorization Successful!";
+"Thank you for registering FretPet X. All restrictions have been removed from the program." = "Thank you for registering FretPet X. All restrictions have been removed from the program.";
+
+/* Success message for the KRM */
+"I hope you've enjoyed Kagi's new registration process." = "I hope you've enjoyed Kagi's new registration process.";
+
+/* nav dialogs */
+"Export as a Standard MIDI Format (SMF) file" = "Export as a Standard MIDI Format (SMF) file";
+"Export as a QuickTime Music Movie file" = "Export as a QuickTime Music Movie file";
+
+/* error messages */
+"The document could not be saved because the file \"%@\" is currently open in FretPet. Choose another name or close the document you are trying to replace." = "The document could not be saved because the file \"%@\" is currently open in FretPet. Choose another name or close the document you are trying to replace.";
+"The file could not be overwritten because it is in use." = "The file could not be overwritten because it is in use.";
+"The file could not be saved due to an error." = "The file could not be saved due to an error.";
+"This is not a file that FretPet recognizes." = "This is not a file that FretPet recognizes.";
+"To install a guitar bundle copy it to the 'Application Support/FretPet' folder." = "To install a guitar bundle copy it to the 'Application Support/FretPet' folder.";
+"An unspecified error occurred." = "An unspecified error occurred.";
+"Error %d" = "Error %d";
+"The file \"%@\" could not be saved." = "The file \"%@\" could not be saved.";
+"QuickTime Note Player is conflicting with an unknown component in your system. Please use the Thinkyhead contact form to help us track down this issue." = "QuickTime Note Player is conflicting with an unknown component in your system. Please use the Thinkyhead contact form to help us track down this issue.";
+
+/* Ask Review Changes */
+"You have %d FretPet documents with unsaved changes. Do you want to review these changes before closing all?" = "You have %d FretPet documents with unsaved changes. Do you want to review these changes before closing all?";
+"If you don't review your documents, all your changes will be lost." = "If you don't review your documents, all your changes will be lost.";
+"Review Changes..." = "Review Changes...";
+"Discard Changes" = "Discard Changes";
+
+/* Menu Strings */
+"Play" = "Play";
+"Play All" = "Play All";
+"Play %d" = "Play %d";
+"Play %d to %d" = "Play %d to %d";
+"Stop" = "Stop";
+"Strum" = "Strum";
+"Undo " = "Undo ";
+"Redo " = "Redo ";
+"Lock Root" = "Lock Root";
+"Unlock Root" = "Unlock Root";
+"Anchor Toolbar" = "Anchor Toolbar";
+"Unanchor Toolbar" = "Unanchor Toolbar";
+"Filter Part %@" = "Filter Part %@";
+"Filter Parts %@" = "Filter Parts %@";
+"(No Parts)" = "(No Parts)";
+
+/* Tuning Items */
+"untitled tuning" = "untitled tuning";
+"Tuning Change" = "Tuning Change";
+"Changing the tuning will cause all chord fingerings in the document to be recalculated. Are you sure you want to proceed?" = "Changing the tuning will cause all chord fingerings in the document to be recalculated. Are you sure you want to proceed?";
+"Change Tuning" = "Change Tuning";
+
+/* Help Menu */
+"FretPet Manual" = "FretPet Manual";
+"Release Notes" = "Release Notes";
+"FretPet Web Site" = "FretPet Web Site";
+"Deauthorize" = "Deauthorize";
+"Register FretPet..." = "Register FretPet...";
+"Enter Serial Number..." = "Enter Serial Number...";
+
+/* Undo Strings */
+"Add Chord" = "Add Chord";
+"Add Guitar Triad" = "Add Guitar Triad";
+"Add Scale" = "Add Scale";
+"Add Scale Tone" = "Add Scale Tone";
+"Add Scale Triad" = "Add Scale Triad";
+"Add Triad" = "Add Triad";
+"Bracket Change" = "Bracket Change";
+"Change Chord Name" = "Change Chord Name";
+"Change Fingering" = "Change Fingering";
+"Change Instrument" = "Change Instrument";
+"Change MIDI Channel" = "Change MIDI Channel";
+"Change Tuning" = "Change Tuning";
+"Clear Tones" = "Clear Tones";
+"Clear Pattern" = "Clear Pattern";
+"Clear Tones & Pattern" = "Clear Tones & Pattern";
+"Cut Chords" = "Cut Chords";
+"Delete Chords" = "Delete Chords";
+"Direct Transform" = "Direct Transform";
+"Disable Fret Bracket" = "Disable Fret Bracket";
+"Edit Chord" = "Edit Chord";
+"Enable Fret Bracket" = "Enable Fret Bracket";
+"Flatten Tone" = "Flatten Tone";
+"Harmonize Chord" = "Harmonize Chord";
+"Invert Tones" = "Invert Tones";
+"Lock Root" = "Lock Root";
+"Move Fret Bracket" = "Move Fret Bracket";
+"Natural Tone" = "Natural Tone";
+"Paste Chords" = "Paste Chords";
+"Root Change" = "Root Change";
+"Set Tempo 1X" = "Set Tempo 1X";
+"Set Tempo 2X" = "Set Tempo 2X";
+"Sharpen Tone" = "Sharpen Tone";
+"Subtract Scale Triad" = "Subtract Scale Triad";
+"Sustain Change" = "Sustain Change";
+"Tempo Change" = "Tempo Change";
+"Toggle Guitar Tone" = "Toggle Guitar Tone";
+"Toggle Scale Tone" = "Toggle Scale Tone";
+"Toggle Tone" = "Toggle Tone";
+"Transpose Chord" = "Transpose Chord";
+"Unlock Root" = "Unlock Root";
+"Velocity Change" = "Velocity Change";
+
+/* Filter Undo Strings */
+"Clone Filter" = "Clone Filter";
+"Consolidate Filter" = "Consolidate Filter";
+"Double Filter" = "Double Filter";
+"Harmonize Filter" = "Harmonize Filter";
+"Lock Roots Filter" = "Lock Roots Filter";
+"Pattern:Clear Filter" = "Pattern:Clear Filter";
+"Pattern:Flip Filter" = "Pattern:Flip Filter";
+"Pattern:Random 1 Filter" = "Pattern:Random 1 Filter";
+"Pattern:Random 2 Filter" = "Pattern:Random 2 Filter";
+"Pattern:Reverse Filter" = "Pattern:Reverse Filter";
+"Reverse Chords Filter" = "Reverse Chords Filter";
+"Reverse Melody Filter" = "Reverse Melody Filter";
+"Scramble Filter" = "Scramble Filter";
+"Splay Filter" = "Splay Filter";
+"Tones:Clear Filter" = "Tones:Clear Filter";
+"Tones:Invert Filter" = "Tones:Invert Filter";
+"Transpose Filter" = "Transpose Filter";
+"Unlock Roots Filter" = "Unlock Roots Filter";
